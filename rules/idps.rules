@@ -31,7 +31,7 @@ reject http any any -> any any (msg:"Ransomware BAD URL"; lua:ransomware_urls.lu
 reject http any any -> any any (msg:"Malicious URL"; lua:malicious_urls.lua; flow:stateless; priority:1; sid:1010041; rev:1;)
 
 # self-signed-cert
-reject tls any any -> any any (msg:"TLS Self Signed Certificate"; flow:established; lua:self-signed-cert.lua; tls.store; classtype:protocol-command-decode; sid:1010050; rev:1;)
+#reject tls any any -> any any (msg:"TLS Self Signed Certificate"; flow:established; lua:self-signed-cert.lua; tls.store; classtype:protocol-command-decode; sid:1010050; rev:1;)
 
 # BeEF Hooking
 reject http any any -> any any (msg:"BeEF Hooking (hook.js)"; flow: stateless; content: "GET"; http_method; content: "?BEEFHOOK="; nocase; http_raw_uri; priority:1; sid: 1010060; rev:1;)
