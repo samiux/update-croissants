@@ -27,10 +27,10 @@ reject ip $HOME_NET any -> any any (msg:"IP Reputation - Blacklisted"; iprep:any
 drop ip $EXTERNAL_NET any -> $HOME_NET any (msg:"TOR Exit Nodes - Blacklisted"; iprep:src,torexitnode,>,9; priority:1; sid:1010031; rev:1;)
 
 # malicious URL
-reject http any any -> any any (msg:"Ransomware BAD URL"; lua:ransomware_urls.lua; flow:stateless; priority:1; sid:1010040; rev:1;)
-reject http any any -> any any (msg:"Malicious URL"; lua:malicious_urls.lua; flow:stateless; priority:1; sid:1010041; rev:1;)
-reject http any any -> any any (msg:"Phishing URL"; lua:phishing_urls.lua; flow:stateless; priority:1; sid:1010042; rev:1;)
-reject http any any -> any any (msg:"Hacked Domains URL"; lua:hacked-domains_urls.lua; flow:stateless; priority:1; sid:1010043; rev:1;)
+#reject http any any -> any any (msg:"Ransomware BAD URL"; lua:ransomware_urls.lua; flow:stateless; priority:1; sid:1010040; rev:1;)
+#reject http any any -> any any (msg:"Malicious URL"; lua:malicious_urls.lua; flow:stateless; priority:1; sid:1010041; rev:1;)
+#reject http any any -> any any (msg:"Phishing URL"; lua:phishing_urls.lua; flow:stateless; priority:1; sid:1010042; rev:1;)
+#reject http any any -> any any (msg:"Hacked Domains URL"; lua:hacked-domains_urls.lua; flow:stateless; priority:1; sid:1010043; rev:1;)
 
 # self-signed-cert
 reject tls any any -> any any (msg:"TLS Self Signed Certificate"; flow:established; lua:self-signed-cert.lua; tls.store; classtype:protocol-command-decode; sid:1010050; rev:1;)
