@@ -4978,3 +4978,7 @@ reject dns any any -> any any (msg: "DNS www.dedko.xyz"; dns.query; content:"www
 reject http any any -> any any (msg: "HTTP www.dedko.xyz"; http.uri; content:"www.dedko.xyz"; nocase; pcre:"/www.dedko.xyz$/"; classtype:policy-violation; sid: 100004977; rev:2;)
 reject tls any any -> any any (msg: "SNI www.dedko.xyz"; tls.sni; content:"www.dedko.xyz"; nocase; pcre:"/www.dedko.xyz$/"; classtype:policy-violation; sid: 100004978; rev:2;)
 reject tls any any -> any any (msg: "SSL www.dedko.xyz"; tls.cert_subject; content:"www.dedko.xyz"; nocase; pcre:"/www.dedko.xyz$/"; classtype:policy-violation; sid: 100004979; rev:2;)
+reject dns any any -> any any (msg: "DNS www.blecntime.xyz"; dns.query; content:"www.blecntime.xyz"; nocase; pcre:"/www.blecntime.xyz$/"; classtype:policy-violation; sid: 100004980; rev:2;)
+reject http any any -> any any (msg: "HTTP www.blecntime.xyz"; http.uri; content:"www.blecntime.xyz"; nocase; pcre:"/www.blecntime.xyz$/"; classtype:policy-violation; sid: 100004981; rev:2;)
+reject tls any any -> any any (msg: "SNI www.blecntime.xyz"; tls.sni; content:"www.blecntime.xyz"; nocase; pcre:"/www.blecntime.xyz$/"; classtype:policy-violation; sid: 100004982; rev:2;)
+reject tls any any -> any any (msg: "SSL www.blecntime.xyz"; tls.cert_subject; content:"www.blecntime.xyz"; nocase; pcre:"/www.blecntime.xyz$/"; classtype:policy-violation; sid: 100004983; rev:2;)
