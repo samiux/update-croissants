@@ -94,4 +94,19 @@ drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extra
 
 # next sid:1010300
 
-
+#
+# Protocol detection
+#
+drop tcp any any -> any 22 (msg:"Port 22 but not SSH traffic"; app-layer-protocol:!ssh; priority:1; sid:1020000; rev:1;)
+drop ssh any any -> any 22 (msg:"Port 22 but not DNS traffic"; app-layer-protocol:!ssh; priority:1; sid:1020001; rev:1;)
+drop tcp any any -> any 443 (msg:"Port 443 but not TLS traffic"; app-layer-protocol:!tls; priority:1; sid:1020002; rev:1;)
+drop tls any any -> any 443 (msg:"Port 443 but not TLS traffic"; app-layer-protocol:!tls; priority:1; sid:1020003; rev:1;)
+drop tcp any any -> any 53 (msg:"Port 53 but not DNS traffic"; app-layer-protocol:!dns; priority:1; sid:1020004; rev:1;)
+drop dns any any -> any 53 (msg:"Port 53 but not DNS traffic"; app-layer-protocol:!dns; priority:1; sid:1020005; rev:1;)
+drop tcp any any -> any 80 (msg:"Port 80 but not HTTP traffic"; app-layer-protocol:!http; priority:1; sid:1020006; rev:1;)
+drop http any any -> any 80 (msg:"Port 80 but not HTTP traffic"; app-layer-protocol:!http; priority:1; sid:1020007; rev:1;)
+drop tcp any any -> any [67,68] (msg:"Port 67/68 but not DHCP traffic"; app-layer-protocol:!dhcp; priority:1; sid:1020008; rev:1;)
+drop tcp any any -> any 3389 (msg:"Port 3389 but not RDP traffic"; app-layer-protocol:!rdp; priority:1; sid:1020009; rev:1;)
+drop udp any any -> any 3389 (msg:"Port 3389 but not RDP traffic"; app-layer-protocol:!rdp; priority:1; sid:1020010; rev:1;)
+drop tcp any any -> any 123 (msg:"Port 123 but not NTP traffic"; app-layer-protocol:!ntp; priority:1; sid:1020011; rev:1;)
+drop udp any any -> any 123 (msg:"Port 123 but not NTP traffic"; app-layer-protocol:!ntp; priority:1; sid:1020012; rev:1;)
