@@ -98,7 +98,7 @@ drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extra
 # Protocol detection
 #
 drop tcp any any -> any 22 (msg:"Port 22 but not SSH traffic"; app-layer-protocol:!ssh; priority:1; sid:1020000; rev:1;)
-drop ssh any any -> any 22 (msg:"Port 22 but not DNS traffic"; app-layer-protocol:!ssh; priority:1; sid:1020001; rev:1;)
+drop ssh any any -> any 22 (msg:"Port 22 but not SSH traffic"; app-layer-protocol:!ssh; priority:1; sid:1020001; rev:1;)
 drop tcp any any -> any 443 (msg:"Port 443 but not TLS traffic"; app-layer-protocol:!tls; priority:1; sid:1020002; rev:1;)
 drop tls any any -> any 443 (msg:"Port 443 but not TLS traffic"; app-layer-protocol:!tls; priority:1; sid:1020003; rev:1;)
 drop tcp any any -> any 53 (msg:"Port 53 but not DNS traffic"; app-layer-protocol:!dns; priority:1; sid:1020004; rev:1;)
