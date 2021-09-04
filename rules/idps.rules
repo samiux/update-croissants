@@ -41,19 +41,19 @@ drop http any any -> any any (msg:"BeEF Hooking (hook.js)"; flow: stateless; con
 # reserved for 1010100-1010199
 # rules for file extraction
 # this rule drop all the file that matches the malware_md5/sha1/256 and clamav_md5
-# http
-drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010100; rev:3;)
-drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010101; rev:3;)
-drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010102; rev:3;)
-drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010103; rev:3;)
-drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010104; rev:3;)
+# http (not jpg)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; fileext:!jpg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010100; rev:4;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; fileext:!jpg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010101; rev:4;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; fileext:!jpg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010102; rev:4;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; fileext:!jpg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010103; rev:4;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; fileext:!jpg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010104; rev:4;)
 
-# http2
-drop http2 $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010110; rev:3;)
-drop http2 $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010111; rev:3;)
-drop http2 $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010112; rev:3;)
-drop http2 $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010113; rev:3;)
-drop http2 $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010114; rev:3;)
+# http (not jpeg)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; fileext:!jpeg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010110; rev:4;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; fileext:!jpeg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010111; rev:4;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; fileext:!jpeg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010112; rev:4;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; fileext:!jpeg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010113; rev:4;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; fileext:!jpeg; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010114; rev:4;)
 
 # smtp
 drop smtp $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010120; rev:3;)
@@ -85,7 +85,7 @@ drop smb $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extra
 
 # tcp
 drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010160; rev:3;)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Mahttps://en.wikipedia.org/wiki/Remote_Desktop_Protocollicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010161; rev:3;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010161; rev:3;)
 drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010156; rev:3;)
 drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010163; rev:3;)
 drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010164; rev:3;)
