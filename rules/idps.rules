@@ -139,7 +139,14 @@ drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extr
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; fileext:!"webm"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010233; rev:5;)
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; fileext:!"webm"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010234; rev:5;)
 
-# reserved for 1010240-1010299
+# http (not mkv)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; fileext:!"mkv"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010240; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; fileext:!"mkv"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010241; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; fileext:!"mkv"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010242; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; fileext:!"mkv"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010243; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; fileext:!"mkv"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010244; rev:5;)
+
+# reserved for 1010250-1010299
 
 # next sid:1010300
 
