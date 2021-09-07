@@ -118,7 +118,28 @@ drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extr
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; fileext:!"html"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010203; rev:5;)
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; fileext:!"html"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010204; rev:5;)
 
-# reserved for 1010210-1010299
+# http (not mp4)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; fileext:!"mp4"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010210; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; fileext:!"mp4"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010211; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; fileext:!"mp4"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010212; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; fileext:!"mp4"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010213; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; fileext:!"mp4"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010214; rev:5;)
+
+# http (not xhr)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; fileext:!"xhr"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010220; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; fileext:!"xhr"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010221; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; fileext:!"xhr"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010222; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; fileext:!"xhr"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010223; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; fileext:!"xhr"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010224; rev:5;)
+
+# http (not webm)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract ClamAV MD5"; filestore; filemd5:clamav_md5; fileext:!"webm"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010230; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware MD5"; filestore; filemd5:malware_md5; fileext:!"webm"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010231; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA1"; filestore; filesha1:malware_sha1; fileext:!"webm"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010232; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Malware SHA256"; filestore; filesha256:malware_sha256; fileext:!"webm"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010233; rev:5;)
+drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Malicious file match and extract Linux Malware MD5"; filestore; filemd5:lmd_md5; fileext:!"webm"; filesize: <10MB; classtype: suspicious-filename-detect; priority:1; sid:1010234; rev:5;)
+
+# reserved for 1010240-1010299
 
 # next sid:1010300
 
