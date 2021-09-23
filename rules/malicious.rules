@@ -5158,3 +5158,7 @@ drop dns any any -> any any (msg: "DNS publiquilla.linkpc.net"; dns.query; conte
 drop http any any -> any any (msg: "HTTP publiquilla.linkpc.net"; http.uri; content:"publiquilla.linkpc.net"; nocase; pcre:"/publiquilla.linkpc.net$/"; classtype:policy-violation; sid: 100005157; rev:3;)
 drop tls any any -> any any (msg: "SNI publiquilla.linkpc.net"; tls.sni; content:"publiquilla.linkpc.net"; nocase; pcre:"/publiquilla.linkpc.net$/"; classtype:policy-violation; sid: 100005158; rev:3;)
 drop tls any any -> any any (msg: "SSL publiquilla.linkpc.net"; tls.cert_subject; content:"publiquilla.linkpc.net"; nocase; pcre:"/publiquilla.linkpc.net$/"; classtype:policy-violation; sid: 100005159; rev:3;)
+drop dns any any -> any any (msg: "DNS hm2.yrnykx.com"; dns.query; content:"hm2.yrnykx.com"; nocase; pcre:"/hm2.yrnykx.com$/"; classtype:policy-violation; sid: 100005160; rev:3;)
+drop http any any -> any any (msg: "HTTP hm2.yrnykx.com"; http.uri; content:"hm2.yrnykx.com"; nocase; pcre:"/hm2.yrnykx.com$/"; classtype:policy-violation; sid: 100005161; rev:3;)
+drop tls any any -> any any (msg: "SNI hm2.yrnykx.com"; tls.sni; content:"hm2.yrnykx.com"; nocase; pcre:"/hm2.yrnykx.com$/"; classtype:policy-violation; sid: 100005162; rev:3;)
+drop tls any any -> any any (msg: "SSL hm2.yrnykx.com"; tls.cert_subject; content:"hm2.yrnykx.com"; nocase; pcre:"/hm2.yrnykx.com$/"; classtype:policy-violation; sid: 100005163; rev:3;)
