@@ -5162,3 +5162,7 @@ drop dns any any -> any any (msg: "DNS hm2.yrnykx.com"; dns.query; content:"hm2.
 drop http any any -> any any (msg: "HTTP hm2.yrnykx.com"; http.uri; content:"hm2.yrnykx.com"; nocase; pcre:"/hm2.yrnykx.com$/"; classtype:policy-violation; sid: 100005161; rev:3;)
 drop tls any any -> any any (msg: "SNI hm2.yrnykx.com"; tls.sni; content:"hm2.yrnykx.com"; nocase; pcre:"/hm2.yrnykx.com$/"; classtype:policy-violation; sid: 100005162; rev:3;)
 drop tls any any -> any any (msg: "SSL hm2.yrnykx.com"; tls.cert_subject; content:"hm2.yrnykx.com"; nocase; pcre:"/hm2.yrnykx.com$/"; classtype:policy-violation; sid: 100005163; rev:3;)
+drop dns any any -> any any (msg: "DNS shit-around.com"; dns.query; content:"shit-around.com"; nocase; pcre:"/shit-around.com$/"; classtype:policy-violation; sid: 100005164; rev:3;)
+drop http any any -> any any (msg: "HTTP shit-around.com"; http.uri; content:"shit-around.com"; nocase; pcre:"/shit-around.com$/"; classtype:policy-violation; sid: 100005165; rev:3;)
+drop tls any any -> any any (msg: "SNI shit-around.com"; tls.sni; content:"shit-around.com"; nocase; pcre:"/shit-around.com$/"; classtype:policy-violation; sid: 100005166; rev:3;)
+drop tls any any -> any any (msg: "SSL shit-around.com"; tls.cert_subject; content:"shit-around.com"; nocase; pcre:"/shit-around.com$/"; classtype:policy-violation; sid: 100005167; rev:3;)
