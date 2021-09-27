@@ -5166,3 +5166,7 @@ drop dns any any -> any any (msg: "DNS shit-around.com"; dns.query; content:"shi
 drop http any any -> any any (msg: "HTTP shit-around.com"; http.uri; content:"shit-around.com"; nocase; pcre:"/shit-around.com$/"; classtype:policy-violation; sid: 100005165; rev:3;)
 drop tls any any -> any any (msg: "SNI shit-around.com"; tls.sni; content:"shit-around.com"; nocase; pcre:"/shit-around.com$/"; classtype:policy-violation; sid: 100005166; rev:3;)
 drop tls any any -> any any (msg: "SSL shit-around.com"; tls.cert_subject; content:"shit-around.com"; nocase; pcre:"/shit-around.com$/"; classtype:policy-violation; sid: 100005167; rev:3;)
+drop dns any any -> any any (msg: "DNS vincentolife.com"; dns.query; content:"vincentolife.com"; nocase; pcre:"/vincentolife.com$/"; classtype:policy-violation; sid: 100005168; rev:3;)
+drop http any any -> any any (msg: "HTTP vincentolife.com"; http.uri; content:"vincentolife.com"; nocase; pcre:"/vincentolife.com$/"; classtype:policy-violation; sid: 100005169; rev:3;)
+drop tls any any -> any any (msg: "SNI vincentolife.com"; tls.sni; content:"vincentolife.com"; nocase; pcre:"/vincentolife.com$/"; classtype:policy-violation; sid: 100005170; rev:3;)
+drop tls any any -> any any (msg: "SSL vincentolife.com"; tls.cert_subject; content:"vincentolife.com"; nocase; pcre:"/vincentolife.com$/"; classtype:policy-violation; sid: 100005171; rev:3;)
