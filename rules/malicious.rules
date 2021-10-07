@@ -6114,3 +6114,7 @@ drop dns any any -> any any (msg: "DNS ns.mircosoftdoc.com"; dns.query; content:
 drop http any any -> any any (msg: "HTTP ns.mircosoftdoc.com"; http.uri; content:"ns.mircosoftdoc.com"; nocase; pcre:"/ns.mircosoftdoc.com$/"; classtype:policy-violation; sid: 100006113; rev:3;)
 drop tls any any -> any any (msg: "SNI ns.mircosoftdoc.com"; tls.sni; content:"ns.mircosoftdoc.com"; nocase; pcre:"/ns.mircosoftdoc.com$/"; classtype:policy-violation; sid: 100006114; rev:3;)
 drop tls any any -> any any (msg: "SSL ns.mircosoftdoc.com"; tls.cert_subject; content:"ns.mircosoftdoc.com"; nocase; pcre:"/ns.mircosoftdoc.com$/"; classtype:policy-violation; sid: 100006115; rev:3;)
+drop dns any any -> any any (msg: "DNS omnatuor.com"; dns.query; content:"omnatuor.com"; nocase; pcre:"/omnatuor.com$/"; classtype:policy-violation; sid: 100006116; rev:3;)
+drop http any any -> any any (msg: "HTTP omnatuor.com"; http.uri; content:"omnatuor.com"; nocase; pcre:"/omnatuor.com$/"; classtype:policy-violation; sid: 100006117; rev:3;)
+drop tls any any -> any any (msg: "SNI omnatuor.com"; tls.sni; content:"omnatuor.com"; nocase; pcre:"/omnatuor.com$/"; classtype:policy-violation; sid: 100006118; rev:3;)
+drop tls any any -> any any (msg: "SSL omnatuor.com"; tls.cert_subject; content:"omnatuor.com"; nocase; pcre:"/omnatuor.com$/"; classtype:policy-violation; sid: 100006119; rev:3;)
