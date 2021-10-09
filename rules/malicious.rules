@@ -6122,3 +6122,7 @@ drop dns any any -> any any (msg: "DNS ekubhtlgnjndrmjbsqitdvvewcgzpacy.name"; d
 drop http any any -> any any (msg: "HTTP ekubhtlgnjndrmjbsqitdvvewcgzpacy.name"; http.uri; content:"ekubhtlgnjndrmjbsqitdvvewcgzpacy.name"; nocase; pcre:"/ekubhtlgnjndrmjbsqitdvvewcgzpacy.name$/"; classtype:policy-violation; sid: 100006121; rev:4;)
 drop tls any any -> any any (msg: "SNI ekubhtlgnjndrmjbsqitdvvewcgzpacy.name"; tls.sni; content:"ekubhtlgnjndrmjbsqitdvvewcgzpacy.name"; nocase; pcre:"/ekubhtlgnjndrmjbsqitdvvewcgzpacy.name$/"; classtype:policy-violation; sid: 100006122; rev:4;)
 drop tls any any -> any any (msg: "SSL ekubhtlgnjndrmjbsqitdvvewcgzpacy.name"; tls.cert_subject; content:"ekubhtlgnjndrmjbsqitdvvewcgzpacy.name"; nocase; pcre:"/ekubhtlgnjndrmjbsqitdvvewcgzpacy.name$/"; classtype:policy-violation; sid: 100006123; rev:4;)
+drop dns any any -> any any (msg: "DNS adc.kiwihk.net"; dns.query; content:"adc.kiwihk.net"; nocase; pcre:"/adc.kiwihk.net$/"; classtype:policy-violation; sid: 100006124; rev:4;)
+drop http any any -> any any (msg: "HTTP adc.kiwihk.net"; http.uri; content:"adc.kiwihk.net"; nocase; pcre:"/adc.kiwihk.net$/"; classtype:policy-violation; sid: 100006125; rev:4;)
+drop tls any any -> any any (msg: "SNI adc.kiwihk.net"; tls.sni; content:"adc.kiwihk.net"; nocase; pcre:"/adc.kiwihk.net$/"; classtype:policy-violation; sid: 100006126; rev:4;)
+drop tls any any -> any any (msg: "SSL adc.kiwihk.net"; tls.cert_subject; content:"adc.kiwihk.net"; nocase; pcre:"/adc.kiwihk.net$/"; classtype:policy-violation; sid: 100006127; rev:4;)
