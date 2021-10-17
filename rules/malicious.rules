@@ -6134,3 +6134,7 @@ drop dns any any -> any any (msg: "DNS nowautomation.com"; dns.query; content:"n
 drop http any any -> any any (msg: "HTTP nowautomation.com"; http.uri; content:"nowautomation.com"; nocase; pcre:"/nowautomation.com$/"; classtype:policy-violation; sid: 100006133; rev:4;)
 drop tls any any -> any any (msg: "SNI nowautomation.com"; tls.sni; content:"nowautomation.com"; nocase; pcre:"/nowautomation.com$/"; classtype:policy-violation; sid: 100006134; rev:4;)
 drop tls any any -> any any (msg: "SSL nowautomation.com"; tls.cert_subject; content:"nowautomation.com"; nocase; pcre:"/nowautomation.com$/"; classtype:policy-violation; sid: 100006135; rev:4;)
+drop dns any any -> any any (msg: "DNS updaterweb.com"; dns.query; content:"updaterweb.com"; nocase; pcre:"/updaterweb.com$/"; classtype:policy-violation; sid: 100006136; rev:4;)
+drop http any any -> any any (msg: "HTTP updaterweb.com"; http.uri; content:"updaterweb.com"; nocase; pcre:"/updaterweb.com$/"; classtype:policy-violation; sid: 100006137; rev:4;)
+drop tls any any -> any any (msg: "SNI updaterweb.com"; tls.sni; content:"updaterweb.com"; nocase; pcre:"/updaterweb.com$/"; classtype:policy-violation; sid: 100006138; rev:4;)
+drop tls any any -> any any (msg: "SSL updaterweb.com"; tls.cert_subject; content:"updaterweb.com"; nocase; pcre:"/updaterweb.com$/"; classtype:policy-violation; sid: 100006139; rev:4;)
