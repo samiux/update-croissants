@@ -6138,3 +6138,7 @@ drop dns any any -> any any (msg: "DNS updaterweb.com"; dns.query; content:"upda
 drop http any any -> any any (msg: "HTTP updaterweb.com"; http.uri; content:"updaterweb.com"; nocase; pcre:"/updaterweb.com$/"; classtype:policy-violation; sid: 100006137; rev:4;)
 drop tls any any -> any any (msg: "SNI updaterweb.com"; tls.sni; content:"updaterweb.com"; nocase; pcre:"/updaterweb.com$/"; classtype:policy-violation; sid: 100006138; rev:4;)
 drop tls any any -> any any (msg: "SSL updaterweb.com"; tls.cert_subject; content:"updaterweb.com"; nocase; pcre:"/updaterweb.com$/"; classtype:policy-violation; sid: 100006139; rev:4;)
+drop dns any any -> any any (msg: "DNS teenpornvideo.fun"; dns.query; content:"teenpornvideo.fun"; nocase; pcre:"/teenpornvideo.fun$/"; classtype:policy-violation; sid: 100006140; rev:4;)
+drop http any any -> any any (msg: "HTTP teenpornvideo.fun"; http.uri; content:"teenpornvideo.fun"; nocase; pcre:"/teenpornvideo.fun$/"; classtype:policy-violation; sid: 100006141; rev:4;)
+drop tls any any -> any any (msg: "SNI teenpornvideo.fun"; tls.sni; content:"teenpornvideo.fun"; nocase; pcre:"/teenpornvideo.fun$/"; classtype:policy-violation; sid: 100006142; rev:4;)
+drop tls any any -> any any (msg: "SSL teenpornvideo.fun"; tls.cert_subject; content:"teenpornvideo.fun"; nocase; pcre:"/teenpornvideo.fun$/"; classtype:policy-violation; sid: 100006143; rev:4;)
