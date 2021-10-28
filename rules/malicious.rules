@@ -8154,3 +8154,7 @@ drop dns any any -> any any (msg: "DNS zinggr.com"; dns.query; content:"zinggr.c
 drop http any any -> any any (msg: "HTTP zinggr.com"; http.uri; content:"zinggr.com"; nocase; pcre:"/zinggr.com$/"; classtype:policy-violation; sid: 100008153; rev:4;)
 drop tls any any -> any any (msg: "SNI zinggr.com"; tls.sni; content:"zinggr.com"; nocase; pcre:"/zinggr.com$/"; classtype:policy-violation; sid: 100008154; rev:4;)
 drop tls any any -> any any (msg: "SSL zinggr.com"; tls.cert_subject; content:"zinggr.com"; nocase; pcre:"/zinggr.com$/"; classtype:policy-violation; sid: 100008155; rev:4;)
+drop dns any any -> any any (msg: "DNS itroublvehacker.gq"; dns.query; content:"itroublvehacker.gq"; nocase; pcre:"/itroublvehacker.gq$/"; classtype:policy-violation; sid: 100008156; rev:4;)
+drop http any any -> any any (msg: "HTTP itroublvehacker.gq"; http.uri; content:"itroublvehacker.gq"; nocase; pcre:"/itroublvehacker.gq$/"; classtype:policy-violation; sid: 100008157; rev:4;)
+drop tls any any -> any any (msg: "SNI itroublvehacker.gq"; tls.sni; content:"itroublvehacker.gq"; nocase; pcre:"/itroublvehacker.gq$/"; classtype:policy-violation; sid: 100008158; rev:4;)
+drop tls any any -> any any (msg: "SSL itroublvehacker.gq"; tls.cert_subject; content:"itroublvehacker.gq"; nocase; pcre:"/itroublvehacker.gq$/"; classtype:policy-violation; sid: 100008159; rev:4;)
