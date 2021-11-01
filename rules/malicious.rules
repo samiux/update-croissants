@@ -8190,3 +8190,7 @@ drop dns any any -> any any (msg: "DNS color.joarteauxelb.com"; dns.query; conte
 drop http any any -> any any (msg: "HTTP color.joarteauxelb.com"; http.uri; content:"color.joarteauxelb.com"; nocase; pcre:"/color.joarteauxelb.com$/"; classtype:policy-violation; sid: 100008189; rev:5;)
 drop tls any any -> any any (msg: "SNI color.joarteauxelb.com"; tls.sni; content:"color.joarteauxelb.com"; nocase; pcre:"/color.joarteauxelb.com$/"; classtype:policy-violation; sid: 100008190; rev:5;)
 drop tls any any -> any any (msg: "SSL color.joarteauxelb.com"; tls.cert_subject; content:"color.joarteauxelb.com"; nocase; pcre:"/color.joarteauxelb.com$/"; classtype:policy-violation; sid: 100008191; rev:5;)
+drop dns any any -> any any (msg: "DNS cnc.pinklander.com"; dns.query; content:"cnc.pinklander.com"; nocase; pcre:"/cnc.pinklander.com$/"; classtype:policy-violation; sid: 100008192; rev:5;)
+drop http any any -> any any (msg: "HTTP cnc.pinklander.com"; http.uri; content:"cnc.pinklander.com"; nocase; pcre:"/cnc.pinklander.com$/"; classtype:policy-violation; sid: 100008193; rev:5;)
+drop tls any any -> any any (msg: "SNI cnc.pinklander.com"; tls.sni; content:"cnc.pinklander.com"; nocase; pcre:"/cnc.pinklander.com$/"; classtype:policy-violation; sid: 100008194; rev:5;)
+drop tls any any -> any any (msg: "SSL cnc.pinklander.com"; tls.cert_subject; content:"cnc.pinklander.com"; nocase; pcre:"/cnc.pinklander.com$/"; classtype:policy-violation; sid: 100008195; rev:5;)
