@@ -8194,3 +8194,7 @@ drop dns any any -> any any (msg: "DNS cnc.pinklander.com"; dns.query; content:"
 drop http any any -> any any (msg: "HTTP cnc.pinklander.com"; http.uri; content:"cnc.pinklander.com"; nocase; pcre:"/cnc.pinklander.com$/"; classtype:policy-violation; sid: 100008193; rev:5;)
 drop tls any any -> any any (msg: "SNI cnc.pinklander.com"; tls.sni; content:"cnc.pinklander.com"; nocase; pcre:"/cnc.pinklander.com$/"; classtype:policy-violation; sid: 100008194; rev:5;)
 drop tls any any -> any any (msg: "SSL cnc.pinklander.com"; tls.cert_subject; content:"cnc.pinklander.com"; nocase; pcre:"/cnc.pinklander.com$/"; classtype:policy-violation; sid: 100008195; rev:5;)
+drop dns any any -> any any (msg: "DNS cadastramentoltau.com"; dns.query; content:"cadastramentoltau.com"; nocase; pcre:"/cadastramentoltau.com$/"; classtype:policy-violation; sid: 100008196; rev:5;)
+drop http any any -> any any (msg: "HTTP cadastramentoltau.com"; http.uri; content:"cadastramentoltau.com"; nocase; pcre:"/cadastramentoltau.com$/"; classtype:policy-violation; sid: 100008197; rev:5;)
+drop tls any any -> any any (msg: "SNI cadastramentoltau.com"; tls.sni; content:"cadastramentoltau.com"; nocase; pcre:"/cadastramentoltau.com$/"; classtype:policy-violation; sid: 100008198; rev:5;)
+drop tls any any -> any any (msg: "SSL cadastramentoltau.com"; tls.cert_subject; content:"cadastramentoltau.com"; nocase; pcre:"/cadastramentoltau.com$/"; classtype:policy-violation; sid: 100008199; rev:5;)
