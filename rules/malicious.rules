@@ -8226,3 +8226,7 @@ drop dns any any -> any any (msg: "DNS api.2ip.ua"; dns.query; content:"api.2ip.
 drop http any any -> any any (msg: "HTTP api.2ip.ua"; http.uri; content:"api.2ip.ua"; nocase; pcre:"/api.2ip.ua$/"; classtype:policy-violation; sid: 100008225; rev:5;)
 drop tls any any -> any any (msg: "SNI api.2ip.ua"; tls.sni; content:"api.2ip.ua"; nocase; pcre:"/api.2ip.ua$/"; classtype:policy-violation; sid: 100008226; rev:5;)
 drop tls any any -> any any (msg: "SSL api.2ip.ua"; tls.cert_subject; content:"api.2ip.ua"; nocase; pcre:"/api.2ip.ua$/"; classtype:policy-violation; sid: 100008227; rev:5;)
+drop dns any any -> any any (msg: "DNS acd.kcpro.ga"; dns.query; content:"acd.kcpro.ga"; nocase; pcre:"/acd.kcpro.ga$/"; classtype:policy-violation; sid: 100008228; rev:5;)
+drop http any any -> any any (msg: "HTTP acd.kcpro.ga"; http.uri; content:"acd.kcpro.ga"; nocase; pcre:"/acd.kcpro.ga$/"; classtype:policy-violation; sid: 100008229; rev:5;)
+drop tls any any -> any any (msg: "SNI acd.kcpro.ga"; tls.sni; content:"acd.kcpro.ga"; nocase; pcre:"/acd.kcpro.ga$/"; classtype:policy-violation; sid: 100008230; rev:5;)
+drop tls any any -> any any (msg: "SSL acd.kcpro.ga"; tls.cert_subject; content:"acd.kcpro.ga"; nocase; pcre:"/acd.kcpro.ga$/"; classtype:policy-violation; sid: 100008231; rev:5;)
