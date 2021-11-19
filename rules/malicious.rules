@@ -8350,7 +8350,3 @@ drop dns any any -> any any (msg: "DNS sharkedtestuk.xyz"; dns.query; content:"s
 drop http any any -> any any (msg: "HTTP sharkedtestuk.xyz"; http.uri; content:"sharkedtestuk.xyz"; nocase; pcre:"/sharkedtestuk.xyz$/"; classtype:policy-violation; sid: 100008349; rev:5;)
 drop tls any any -> any any (msg: "SNI sharkedtestuk.xyz"; tls.sni; content:"sharkedtestuk.xyz"; nocase; pcre:"/sharkedtestuk.xyz$/"; classtype:policy-violation; sid: 100008350; rev:5;)
 drop tls any any -> any any (msg: "SSL sharkedtestuk.xyz"; tls.cert_subject; content:"sharkedtestuk.xyz"; nocase; pcre:"/sharkedtestuk.xyz$/"; classtype:policy-violation; sid: 100008351; rev:5;)
-drop dns any any -> any any (msg: "DNS ad.unimhk.com"; dns.query; content:"ad.unimhk.com"; nocase; pcre:"/ad.unimhk.com$/"; classtype:policy-violation; sid: 100008352; rev:5;)
-drop http any any -> any any (msg: "HTTP ad.unimhk.com"; http.uri; content:"ad.unimhk.com"; nocase; pcre:"/ad.unimhk.com$/"; classtype:policy-violation; sid: 100008353; rev:5;)
-drop tls any any -> any any (msg: "SNI ad.unimhk.com"; tls.sni; content:"ad.unimhk.com"; nocase; pcre:"/ad.unimhk.com$/"; classtype:policy-violation; sid: 100008354; rev:5;)
-drop tls any any -> any any (msg: "SSL ad.unimhk.com"; tls.cert_subject; content:"ad.unimhk.com"; nocase; pcre:"/ad.unimhk.com$/"; classtype:policy-violation; sid: 100008355; rev:5;)
