@@ -8510,3 +8510,7 @@ drop dns any any -> any any (msg: "DNS www8.advb9fyxlf2v.com"; dns.query; conten
 drop http any any -> any any (msg: "HTTP www8.advb9fyxlf2v.com"; http.uri; content:"www8.advb9fyxlf2v.com"; nocase; pcre:"/www8.advb9fyxlf2v.com$/"; classtype:policy-violation; sid: 100008509; rev:5;)
 drop tls any any -> any any (msg: "SNI www8.advb9fyxlf2v.com"; tls.sni; content:"www8.advb9fyxlf2v.com"; nocase; pcre:"/www8.advb9fyxlf2v.com$/"; classtype:policy-violation; sid: 100008510; rev:5;)
 drop tls any any -> any any (msg: "SSL www8.advb9fyxlf2v.com"; tls.cert_subject; content:"www8.advb9fyxlf2v.com"; nocase; pcre:"/www8.advb9fyxlf2v.com$/"; classtype:policy-violation; sid: 100008511; rev:5;)
+drop dns any any -> any any (msg: "DNS cdn-imgcloud.com"; dns.query; content:"cdn-imgcloud.com"; nocase; pcre:"/cdn-imgcloud.com$/"; classtype:policy-violation; sid: 100008512; rev:5;)
+drop http any any -> any any (msg: "HTTP cdn-imgcloud.com"; http.uri; content:"cdn-imgcloud.com"; nocase; pcre:"/cdn-imgcloud.com$/"; classtype:policy-violation; sid: 100008513; rev:5;)
+drop tls any any -> any any (msg: "SNI cdn-imgcloud.com"; tls.sni; content:"cdn-imgcloud.com"; nocase; pcre:"/cdn-imgcloud.com$/"; classtype:policy-violation; sid: 100008514; rev:5;)
+drop tls any any -> any any (msg: "SSL cdn-imgcloud.com"; tls.cert_subject; content:"cdn-imgcloud.com"; nocase; pcre:"/cdn-imgcloud.com$/"; classtype:policy-violation; sid: 100008515; rev:5;)
