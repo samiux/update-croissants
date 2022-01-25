@@ -8598,3 +8598,7 @@ drop dns any any -> any any (msg: "DNS zx98.cc"; dns.query; content:"zx98.cc"; n
 drop http any any -> any any (msg: "HTTP zx98.cc"; http.uri; content:"zx98.cc"; nocase; pcre:"/zx98.cc$/"; classtype:policy-violation; sid: 100008597; rev:5;)
 drop tls any any -> any any (msg: "SNI zx98.cc"; tls.sni; content:"zx98.cc"; nocase; pcre:"/zx98.cc$/"; classtype:policy-violation; sid: 100008598; rev:5;)
 drop tls any any -> any any (msg: "SSL zx98.cc"; tls.cert_subject; content:"zx98.cc"; nocase; pcre:"/zx98.cc$/"; classtype:policy-violation; sid: 100008599; rev:5;)
+drop dns any any -> any any (msg: "DNS bpweb-passadore.com"; dns.query; content:"bpweb-passadore.com"; nocase; pcre:"/bpweb-passadore.com$/"; classtype:policy-violation; sid: 100008600; rev:5;)
+drop http any any -> any any (msg: "HTTP bpweb-passadore.com"; http.uri; content:"bpweb-passadore.com"; nocase; pcre:"/bpweb-passadore.com$/"; classtype:policy-violation; sid: 100008601; rev:5;)
+drop tls any any -> any any (msg: "SNI bpweb-passadore.com"; tls.sni; content:"bpweb-passadore.com"; nocase; pcre:"/bpweb-passadore.com$/"; classtype:policy-violation; sid: 100008602; rev:5;)
+drop tls any any -> any any (msg: "SSL bpweb-passadore.com"; tls.cert_subject; content:"bpweb-passadore.com"; nocase; pcre:"/bpweb-passadore.com$/"; classtype:policy-violation; sid: 100008603; rev:5;)
