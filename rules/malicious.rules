@@ -8610,3 +8610,7 @@ drop dns any any -> any any (msg: "DNS apiujquery.com"; dns.query; content:"apiu
 drop http any any -> any any (msg: "HTTP apiujquery.com"; http.uri; content:"apiujquery.com"; nocase; pcre:"/apiujquery.com$/"; classtype:policy-violation; sid: 100008609; rev:5;)
 drop tls any any -> any any (msg: "SNI apiujquery.com"; tls.sni; content:"apiujquery.com"; nocase; pcre:"/apiujquery.com$/"; classtype:policy-violation; sid: 100008610; rev:5;)
 drop tls any any -> any any (msg: "SSL apiujquery.com"; tls.cert_subject; content:"apiujquery.com"; nocase; pcre:"/apiujquery.com$/"; classtype:policy-violation; sid: 100008611; rev:5;)
+drop dns any any -> any any (msg: "DNS bochk-invest.com"; dns.query; content:"bochk-invest.com"; nocase; pcre:"/bochk-invest.com$/"; classtype:policy-violation; sid: 100008612; rev:5;)
+drop http any any -> any any (msg: "HTTP bochk-invest.com"; http.uri; content:"bochk-invest.com"; nocase; pcre:"/bochk-invest.com$/"; classtype:policy-violation; sid: 100008613; rev:5;)
+drop tls any any -> any any (msg: "SNI bochk-invest.com"; tls.sni; content:"bochk-invest.com"; nocase; pcre:"/bochk-invest.com$/"; classtype:policy-violation; sid: 100008614; rev:5;)
+drop tls any any -> any any (msg: "SSL bochk-invest.com"; tls.cert_subject; content:"bochk-invest.com"; nocase; pcre:"/bochk-invest.com$/"; classtype:policy-violation; sid: 100008615; rev:5;)
