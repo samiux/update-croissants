@@ -8614,3 +8614,7 @@ drop dns any any -> any any (msg: "DNS bochk-invest.com"; dns.query; content:"bo
 drop http any any -> any any (msg: "HTTP bochk-invest.com"; http.uri; content:"bochk-invest.com"; nocase; pcre:"/bochk-invest.com$/"; classtype:policy-violation; sid: 100008613; rev:5;)
 drop tls any any -> any any (msg: "SNI bochk-invest.com"; tls.sni; content:"bochk-invest.com"; nocase; pcre:"/bochk-invest.com$/"; classtype:policy-violation; sid: 100008614; rev:5;)
 drop tls any any -> any any (msg: "SSL bochk-invest.com"; tls.cert_subject; content:"bochk-invest.com"; nocase; pcre:"/bochk-invest.com$/"; classtype:policy-violation; sid: 100008615; rev:5;)
+drop dns any any -> any any (msg: "DNS fliphassmanhou.info"; dns.query; content:"fliphassmanhou.info"; nocase; pcre:"/fliphassmanhou.info$/"; classtype:policy-violation; sid: 100008616; rev:5;)
+drop http any any -> any any (msg: "HTTP fliphassmanhou.info"; http.uri; content:"fliphassmanhou.info"; nocase; pcre:"/fliphassmanhou.info$/"; classtype:policy-violation; sid: 100008617; rev:5;)
+drop tls any any -> any any (msg: "SNI fliphassmanhou.info"; tls.sni; content:"fliphassmanhou.info"; nocase; pcre:"/fliphassmanhou.info$/"; classtype:policy-violation; sid: 100008618; rev:5;)
+drop tls any any -> any any (msg: "SSL fliphassmanhou.info"; tls.cert_subject; content:"fliphassmanhou.info"; nocase; pcre:"/fliphassmanhou.info$/"; classtype:policy-violation; sid: 100008619; rev:5;)
