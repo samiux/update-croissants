@@ -8618,3 +8618,7 @@ drop dns any any -> any any (msg: "DNS fliphassmanhou.info"; dns.query; content:
 drop http any any -> any any (msg: "HTTP fliphassmanhou.info"; http.uri; content:"fliphassmanhou.info"; nocase; pcre:"/fliphassmanhou.info$/"; classtype:policy-violation; sid: 100008617; rev:5;)
 drop tls any any -> any any (msg: "SNI fliphassmanhou.info"; tls.sni; content:"fliphassmanhou.info"; nocase; pcre:"/fliphassmanhou.info$/"; classtype:policy-violation; sid: 100008618; rev:5;)
 drop tls any any -> any any (msg: "SSL fliphassmanhou.info"; tls.cert_subject; content:"fliphassmanhou.info"; nocase; pcre:"/fliphassmanhou.info$/"; classtype:policy-violation; sid: 100008619; rev:5;)
+drop dns any any -> any any (msg: "DNS coolsaid.com"; dns.query; content:"coolsaid.com"; nocase; pcre:"/coolsaid.com$/"; classtype:policy-violation; sid: 100008620; rev:5;)
+drop http any any -> any any (msg: "HTTP coolsaid.com"; http.uri; content:"coolsaid.com"; nocase; pcre:"/coolsaid.com$/"; classtype:policy-violation; sid: 100008621; rev:5;)
+drop tls any any -> any any (msg: "SNI coolsaid.com"; tls.sni; content:"coolsaid.com"; nocase; pcre:"/coolsaid.com$/"; classtype:policy-violation; sid: 100008622; rev:5;)
+drop tls any any -> any any (msg: "SSL coolsaid.com"; tls.cert_subject; content:"coolsaid.com"; nocase; pcre:"/coolsaid.com$/"; classtype:policy-violation; sid: 100008623; rev:5;)
