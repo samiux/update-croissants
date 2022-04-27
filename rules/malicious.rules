@@ -8758,3 +8758,7 @@ drop dns any any -> any any (msg: "DNS jane-chapman.com"; dns.query; content:"ja
 drop http any any -> any any (msg: "HTTP jane-chapman.com"; http.uri; content:"jane-chapman.com"; nocase; pcre:"/jane-chapman.com$/"; classtype:policy-violation; sid: 100008757; rev:5;)
 drop tls any any -> any any (msg: "SNI jane-chapman.com"; tls.sni; content:"jane-chapman.com"; nocase; pcre:"/jane-chapman.com$/"; classtype:policy-violation; sid: 100008758; rev:5;)
 drop tls any any -> any any (msg: "SSL jane-chapman.com"; tls.cert_subject; content:"jane-chapman.com"; nocase; pcre:"/jane-chapman.com$/"; classtype:policy-violation; sid: 100008759; rev:5;)
+drop dns any any -> any any (msg: "DNS irdgovhk.com"; dns.query; content:"irdgovhk.com"; nocase; pcre:"/irdgovhk.com$/"; classtype:policy-violation; sid: 100008760; rev:5;)
+drop http any any -> any any (msg: "HTTP irdgovhk.com"; http.uri; content:"irdgovhk.com"; nocase; pcre:"/irdgovhk.com$/"; classtype:policy-violation; sid: 100008761; rev:5;)
+drop tls any any -> any any (msg: "SNI irdgovhk.com"; tls.sni; content:"irdgovhk.com"; nocase; pcre:"/irdgovhk.com$/"; classtype:policy-violation; sid: 100008762; rev:5;)
+drop tls any any -> any any (msg: "SSL irdgovhk.com"; tls.cert_subject; content:"irdgovhk.com"; nocase; pcre:"/irdgovhk.com$/"; classtype:policy-violation; sid: 100008763; rev:5;)
