@@ -8762,3 +8762,7 @@ drop dns any any -> any any (msg: "DNS irdgovhk.com"; dns.query; content:"irdgov
 drop http any any -> any any (msg: "HTTP irdgovhk.com"; http.uri; content:"irdgovhk.com"; nocase; pcre:"/irdgovhk.com$/"; classtype:policy-violation; sid: 100008761; rev:5;)
 drop tls any any -> any any (msg: "SNI irdgovhk.com"; tls.sni; content:"irdgovhk.com"; nocase; pcre:"/irdgovhk.com$/"; classtype:policy-violation; sid: 100008762; rev:5;)
 drop tls any any -> any any (msg: "SSL irdgovhk.com"; tls.cert_subject; content:"irdgovhk.com"; nocase; pcre:"/irdgovhk.com$/"; classtype:policy-violation; sid: 100008763; rev:5;)
+drop dns any any -> any any (msg: "DNS baochk.com"; dns.query; content:"baochk.com"; nocase; pcre:"/baochk.com$/"; classtype:policy-violation; sid: 100008764; rev:5;)
+drop http any any -> any any (msg: "HTTP baochk.com"; http.uri; content:"baochk.com"; nocase; pcre:"/baochk.com$/"; classtype:policy-violation; sid: 100008765; rev:5;)
+drop tls any any -> any any (msg: "SNI baochk.com"; tls.sni; content:"baochk.com"; nocase; pcre:"/baochk.com$/"; classtype:policy-violation; sid: 100008766; rev:5;)
+drop tls any any -> any any (msg: "SSL baochk.com"; tls.cert_subject; content:"baochk.com"; nocase; pcre:"/baochk.com$/"; classtype:policy-violation; sid: 100008767; rev:5;)
