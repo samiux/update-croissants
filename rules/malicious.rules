@@ -8774,3 +8774,7 @@ drop dns any any -> any any (msg: "DNS file-coin-coin-10.com"; dns.query; conten
 drop http any any -> any any (msg: "HTTP file-coin-coin-10.com"; http.uri; content:"file-coin-coin-10.com"; nocase; pcre:"/file-coin-coin-10.com$/"; classtype:policy-violation; sid: 100008773; rev:5;)
 drop tls any any -> any any (msg: "SNI file-coin-coin-10.com"; tls.sni; content:"file-coin-coin-10.com"; nocase; pcre:"/file-coin-coin-10.com$/"; classtype:policy-violation; sid: 100008774; rev:5;)
 drop tls any any -> any any (msg: "SSL file-coin-coin-10.com"; tls.cert_subject; content:"file-coin-coin-10.com"; nocase; pcre:"/file-coin-coin-10.com$/"; classtype:policy-violation; sid: 100008775; rev:5;)
+drop dns any any -> any any (msg: "DNS txxx.com"; dns.query; content:"txxx.com"; nocase; pcre:"/txxx.com$/"; classtype:policy-violation; sid: 100008776; rev:5;)
+drop http any any -> any any (msg: "HTTP txxx.com"; http.uri; content:"txxx.com"; nocase; pcre:"/txxx.com$/"; classtype:policy-violation; sid: 100008777; rev:5;)
+drop tls any any -> any any (msg: "SNI txxx.com"; tls.sni; content:"txxx.com"; nocase; pcre:"/txxx.com$/"; classtype:policy-violation; sid: 100008778; rev:5;)
+drop tls any any -> any any (msg: "SSL txxx.com"; tls.cert_subject; content:"txxx.com"; nocase; pcre:"/txxx.com$/"; classtype:policy-violation; sid: 100008779; rev:5;)
