@@ -8818,3 +8818,7 @@ drop dns any any -> any any (msg: "DNS dev21.bancodobrasil.dev"; dns.query; cont
 drop http any any -> any any (msg: "HTTP dev21.bancodobrasil.dev"; http.uri; content:"dev21.bancodobrasil.dev"; nocase; pcre:"/dev21.bancodobrasil.dev$/"; classtype:policy-violation; sid: 100008817; rev:5;)
 drop tls any any -> any any (msg: "SNI dev21.bancodobrasil.dev"; tls.sni; content:"dev21.bancodobrasil.dev"; nocase; pcre:"/dev21.bancodobrasil.dev$/"; classtype:policy-violation; sid: 100008818; rev:5;)
 drop tls any any -> any any (msg: "SSL dev21.bancodobrasil.dev"; tls.cert_subject; content:"dev21.bancodobrasil.dev"; nocase; pcre:"/dev21.bancodobrasil.dev$/"; classtype:policy-violation; sid: 100008819; rev:5;)
+drop dns any any -> any any (msg: "DNS ad.vidverto.io"; dns.query; content:"ad.vidverto.io"; nocase; pcre:"/ad.vidverto.io$/"; classtype:policy-violation; sid: 100008820; rev:5;)
+drop http any any -> any any (msg: "HTTP ad.vidverto.io"; http.uri; content:"ad.vidverto.io"; nocase; pcre:"/ad.vidverto.io$/"; classtype:policy-violation; sid: 100008821; rev:5;)
+drop tls any any -> any any (msg: "SNI ad.vidverto.io"; tls.sni; content:"ad.vidverto.io"; nocase; pcre:"/ad.vidverto.io$/"; classtype:policy-violation; sid: 100008822; rev:5;)
+drop tls any any -> any any (msg: "SSL ad.vidverto.io"; tls.cert_subject; content:"ad.vidverto.io"; nocase; pcre:"/ad.vidverto.io$/"; classtype:policy-violation; sid: 100008823; rev:5;)
