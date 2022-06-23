@@ -8822,3 +8822,7 @@ drop dns any any -> any any (msg: "DNS ad.vidverto.io"; dns.query; content:"ad.v
 drop http any any -> any any (msg: "HTTP ad.vidverto.io"; http.uri; content:"ad.vidverto.io"; nocase; pcre:"/ad.vidverto.io$/"; classtype:policy-violation; sid: 100008821; rev:5;)
 drop tls any any -> any any (msg: "SNI ad.vidverto.io"; tls.sni; content:"ad.vidverto.io"; nocase; pcre:"/ad.vidverto.io$/"; classtype:policy-violation; sid: 100008822; rev:5;)
 drop tls any any -> any any (msg: "SSL ad.vidverto.io"; tls.cert_subject; content:"ad.vidverto.io"; nocase; pcre:"/ad.vidverto.io$/"; classtype:policy-violation; sid: 100008823; rev:5;)
+drop dns any any -> any any (msg: "DNS jizzbunker.com"; dns.query; content:"jizzbunker.com"; nocase; pcre:"/jizzbunker.com$/"; classtype:policy-violation; sid: 100008824; rev:5;)
+drop http any any -> any any (msg: "HTTP jizzbunker.com"; http.uri; content:"jizzbunker.com"; nocase; pcre:"/jizzbunker.com$/"; classtype:policy-violation; sid: 100008825; rev:5;)
+drop tls any any -> any any (msg: "SNI jizzbunker.com"; tls.sni; content:"jizzbunker.com"; nocase; pcre:"/jizzbunker.com$/"; classtype:policy-violation; sid: 100008826; rev:5;)
+drop tls any any -> any any (msg: "SSL jizzbunker.com"; tls.cert_subject; content:"jizzbunker.com"; nocase; pcre:"/jizzbunker.com$/"; classtype:policy-violation; sid: 100008827; rev:5;)
