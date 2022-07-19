@@ -8894,3 +8894,7 @@ drop dns any any -> any any (msg: "DNS wind-h3g.info"; dns.query; content:"wind-
 drop http any any -> any any (msg: "HTTP wind-h3g.info"; http.uri; content:"wind-h3g.info"; nocase; pcre:"/wind-h3g.info$/"; classtype:policy-violation; sid: 100008893; rev:5;)
 drop tls any any -> any any (msg: "SNI wind-h3g.info"; tls.sni; content:"wind-h3g.info"; nocase; pcre:"/wind-h3g.info$/"; classtype:policy-violation; sid: 100008894; rev:5;)
 drop tls any any -> any any (msg: "SSL wind-h3g.info"; tls.cert_subject; content:"wind-h3g.info"; nocase; pcre:"/wind-h3g.info$/"; classtype:policy-violation; sid: 100008895; rev:5;)
+drop dns any any -> any any (msg: "DNS hdzog.com"; dns.query; content:"hdzog.com"; nocase; pcre:"/hdzog.com$/"; classtype:policy-violation; sid: 100008896; rev:5;)
+drop http any any -> any any (msg: "HTTP hdzog.com"; http.uri; content:"hdzog.com"; nocase; pcre:"/hdzog.com$/"; classtype:policy-violation; sid: 100008897; rev:5;)
+drop tls any any -> any any (msg: "SNI hdzog.com"; tls.sni; content:"hdzog.com"; nocase; pcre:"/hdzog.com$/"; classtype:policy-violation; sid: 100008898; rev:5;)
+drop tls any any -> any any (msg: "SSL hdzog.com"; tls.cert_subject; content:"hdzog.com"; nocase; pcre:"/hdzog.com$/"; classtype:policy-violation; sid: 100008899; rev:5;)
