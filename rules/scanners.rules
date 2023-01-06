@@ -39,7 +39,7 @@ drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"crawler Vulnerability scanner
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"NetShelter Vulnerability scanner"; content:"NetShelter"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060032; rev:1;)
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Application Vulnerability scanner"; content:"Application"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060033; rev:1;)
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Validator.nu/LV Vulnerability scanner"; content:"Validator.nu/LV"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060034; rev:1;)
-drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"ssdp Vulnerability scanner"; content:"ssdp"; nocase; http_header; classtype:web-application-attack; priority:1; sid:1060035; rev:1;)
+alert http $EXTERNAL_NET any -> $HOME_NET any (msg:"ssdp Vulnerability scanner"; content:"ssdp"; nocase; http_header; classtype:web-application-attack; priority:1; sid:1060035; rev:2;)
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Arachni Vulnerability scanner"; content:"Arachni"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060036; rev:1;)
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"Spider-Pig Vulnerability scanner"; content:"Spider-Pig"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060037; rev:1;)
 drop http $EXTERNAL_NET any -> $HOME_NET any (msg:"tinfoilsecurity Vulnerability scanner"; content:"tinfoilsecurity"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060038; rev:1;)
