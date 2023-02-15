@@ -8,19 +8,19 @@
 drop icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classtype: network-scan; priority:1; sid:1010000; rev:1;)
 
 # Potential Ports Scan
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan"; flow:to_server; flags:S,12; window: 1024; classtype:attempted-recon; priority:1; sid:1010020; rev:1;)
-# general or -sS (SYN scan) as well as -sC (Kali Linux host only) (filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Kali host)"; flow:to_server; flags:S,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010021; rev:1;)
+#drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
+# general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
+drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Kali host)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010021; rev:2;)
 # -sF (FIN scan) (open|filtered)) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sF (FIN scan)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010022; rev:1;)
+drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sF (FIN scan)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010022; rev:2;)
 # -sN (Null scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sN (Null scan)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010023; rev:1;)
+drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sN (Null scan)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010023; rev:2;)
 # -sX (XMas scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sX (XMas scan)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010024; rev:1;)
+drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sX (XMas scan)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010024; rev:2;)
 # -sM (Maimon scan) (open|filtered) | VM (closed)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sM (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:1;)
+drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sM (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:2;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:1;)
+drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:2;)
 
 # IP Reputation - Blacklisted Hosts
 drop ip $HOME_NET any -> any any (msg:"IP Reputation - Blacklisted"; iprep:any,blacklist,>,9; priority:1; sid:1010030; rev:2;)
