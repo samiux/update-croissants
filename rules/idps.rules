@@ -8,7 +8,7 @@
 drop icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classtype: network-scan; priority:1; sid:1010000; rev:1;)
 
 # Potential Ports Scan -sVC?
-drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
+##drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
 # general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
 drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Kali host)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010021; rev:2;)
 # -sF (FIN scan) (open|filtered)) | VM (open|filtered)
