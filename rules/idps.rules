@@ -23,8 +23,8 @@ drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sM (Maimon sc
 alert tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:3;)
 
 # IP Reputation - Blacklisted Hosts
-drop ip $HOME_NET any -> any any (msg:"IP Reputation - Blacklisted"; iprep:any,blacklist,>,9; priority:1; sid:1010030; rev:2;)
-drop ip $EXTERNAL_NET any -> $HOME_NET any (msg:"TOR Exit Nodes - Blacklisted"; iprep:src,torexitnode,>,9; priority:1; sid:1010031; rev:2;)
+drop ip $HOME_NET any -> any any (msg:"IP Reputation - Blacklisted"; iprep:any,blacklist,>,9; priority:1; classtype:policy-violation; sid:1010030; rev:3;)
+drop ip $EXTERNAL_NET any -> $HOME_NET any (msg:"TOR Exit Nodes - Blacklisted"; iprep:src,torexitnode,>,9; priority:1; classtype:policy-violation; sid:1010031; rev:3;)
 
 # malicious URL
 ##drop http any any -> any any (msg:"Ransomware BAD URL"; lua:ransomware_urls.lua; flow:stateless; priority:1; sid:1010040; rev:1;)
