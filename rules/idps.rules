@@ -20,7 +20,7 @@ drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sX (XMas scan
 # -sM (Maimon scan) (open|filtered) | VM (closed)
 drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sM (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:2;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
-alert tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:3;)
+drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:4;)
 
 # IP Reputation - Blacklisted Hosts
 drop ip $HOME_NET any -> any any (msg:"IP Reputation - Blacklisted"; iprep:any,blacklist,>,9; priority:1; classtype:policy-violation; sid:1010030; rev:3;)
