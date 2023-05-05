@@ -4,9 +4,9 @@ alepscoking.com
 aliyunduncdn.com
 alkolsuz.top
 arkseven7002.ddns.net
+arkseven7003.ddns.net
 aurorawenters.com
 bamukal.top
-checkping.ddns.us
 cs.frnetua.buzz
 cs.svchostok.pro
 cyberghostvpn.live
@@ -26,7 +26,6 @@ giyelido.xyz
 guongelasenne.shop
 hghfe.cf
 jahayakoj.info
-kala007.duckdns.org
 lib.driverunning.buzz
 microsocks.org
 mypcs.myvnc.com
@@ -35,15 +34,12 @@ ns1.speech-microsoft.com
 ns2.speech-microsoft.com
 peiploersea.com
 richa-sharma.ddns.net
-service-2r21z5dz-1258209792.bj.apigw.tencentcs.com
 service-4b1hpuo9-1305604765.sh.apigw.tencentcs.com
 service-78ohk44l-1305604765.sh.apigw.tencentcs.com
 service-elsvu1ds-1308206226.gz.apigw.tencentcs.com
 service-jjmi43bc-1252551592.gz.apigw.tencentcs.com
 service-kqjz2v9d-1252551592.bj.apigw.tencentcs.com
 service-mewxt0rn-1251826339.sh.apigw.tencentcs.com
-service-ml46wp70-1300972060.gz.apigw.tencentcs.com
-service-pvg8218j-1259498982.sh.apigw.tencentcs.com
 sewokip.biz
 silent-heart-ab0e.whatistheufo9567.workers.dev
 sparkling-cell-c257.baidu-backup-cdn-xinjiang-wulumuqi.workers.dev
@@ -61,3 +57,4 @@ www.khjw.gov.cn
 www.lanzouw.com
 www.strategigears.com
 yewopeuropaus.com
+zekoyofugu.network
