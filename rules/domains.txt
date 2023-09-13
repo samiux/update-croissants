@@ -101,7 +101,6 @@
 741qu.bounceme.net
 75372712.duckdns.org
 7593352b2g.imdo.co
-7689.ddns.net
 76t7hh-51153.portmap.host
 79.134.225.92
 7980.duckdns.org
@@ -142,6 +141,7 @@ abujafirms1.duckdns.org
 abujafirms.com
 accessgranted.crabdance.com
 accessgranted.ydns.eu
+access.samp-loader.ru
 acexoss.xyz
 achimumuazi.hopto.org
 acronispandora.ddns.net
@@ -155,7 +155,6 @@ adan993e8.duckdns.org
 adanmsi92.duckdns.org
 adavefrees.xyz
 adawdas-33789.portmap.io
-adb007.top
 addimq.duckdns.org
 adequatelicensing.at
 adgjmptw2.kro.kr
@@ -250,7 +249,6 @@ amz-worm.ddns.net
 an6969.duckdns.org
 ana1.con-ip.com
 ana.con-ip.com
-analytics-google-x91.com
 anasalgadodu921.con-ip.com
 ancesucess.chickenkiller.com
 andojan.ddns.net
@@ -292,9 +290,9 @@ apartmentdue.camdvr.org
 apdfhost.online
 apenasumcarasozinho.hopto.org
 apexcv.ddns.net
-api.adb007.top
 api.flawcra.cc
 api.google-analytics.cloud
+api.samp-loader.ru
 apk.theworkpc.com
 apleegod12345.ddns.net
 apostleremcos77.ddns.net
@@ -342,7 +340,6 @@ asmarany.ddns.me
 asmodeus666.ddns.net
 asnyc2020.ddns.net
 asscend-41247.portmap.host
-as.svchostsreg.com
 asy1543.duckdns.org
 asy33.duckdns.org
 asycoctubre20212021.duckdns.org
@@ -419,6 +416,7 @@ bakup.superbanifabused2.xyz
 balancebordrt.xyz
 balancelag.xyz
 balasid-48598.portmap.host
+baldu.wiki
 baloto1.duckdns.org
 bambam.hopto.org
 banananaiop.kozow.com
@@ -574,6 +572,7 @@ bossraw.ddns.net
 bot.banker-info.org
 botellita3434-46423.portmap.host
 botnetps.ddns.net
+bot.samp-loader.ru
 box-byte.at.ply.gg
 boxhappines.xyz
 boyflourish.myq-see.com
@@ -670,7 +669,6 @@ carmensantanate62.con-ip.com
 carmnesarmienthasbfa.duckdns.org
 carolina-electro.at.ply.gg
 carreor.ddns.net
-carsruitkan.com
 cars-sys.at.ply.gg
 cartextranss.duckdns.org
 casa777.con-ip.com
@@ -688,6 +686,7 @@ casillas.libfoobar.so
 casillasmx.chickenkiller.com
 cassa.hopto.org
 castomdroms.xyz
+casualscorner.com
 catash.ddns.net
 cathodlectr223.zapto.org
 cato.fingusti.club
@@ -701,6 +700,7 @@ cc23c237.thaieasydns.com
 cch2dw3sdsmcs.hopto.org
 cch2dw8oisnxss.hopto.org
 CCleaner.hopto.org
+cdn.jscriptstore.com
 cdn-new-dwnl.site
 cdnoss.sec.cm
 cdt2021.zapto.org
@@ -794,6 +794,7 @@ clonecloud-my.xyz
 cloud014.cisconode.com
 CloudFrameHost.ddnsgeek.com
 cloudserv.ddns.net
+clouds.localhost-microsoft.com
 Cluluvsu-34807.portmap.host
 cmid1s1zeiu.life
 cmwuchisaa.con-ip.com
@@ -815,6 +816,7 @@ colinmdu78.freemyip.com
 collector1.duckdns.org
 collector2.duckdns.org
 collector3.duckdns.org
+collins.solariseng.icu
 colombiabus72.duckdns.org
 colombiahos.hopto.org
 colombiamaleta.duckdns.org
@@ -898,6 +900,7 @@ creativity.kinchcorp.com
 creditdept01.myq-see.com
 credomched.ru
 cRIMIFY-41189.portmap.host
+criminalaffair.com
 criss23-27414.portmap.io
 cristinaamaro.com
 crossfire17.ddns.net
@@ -1045,10 +1048,12 @@ desastre.con-ip.com
 description-lease.at.ply.gg
 design-utilize.craft.ply.gg
 destallesinformaciones12.duckdns.org
+detectportalupdate.ru
 deviatefromnorm.com
 devilkahika-35580.portmap.host
 devils.shacknet.us
 devnodes.duckdns.org
+devopszone.org
 dfareterg.duckdns.org
 dfdagreyt.duckdns.org
 dfdgsfgfg.duckdns.org
@@ -1092,7 +1097,6 @@ diosesfiel.con-ip.com
 diosestaconmiugo.duckdns.org
 dios.westus2.cloudapp.azure.com
 disabel.hopto.org
-discojockeylight.duckdns.org
 discord-gg.duckdns.org
 discordid-55700.portmap.host
 discordmod.duckdns.org
@@ -1189,7 +1193,6 @@ downloadfiles-my.xyz
 dox2022.homeip.net
 dozrem.duckdns.org
 dpqw-avira.bot.nu
-draggedline.org
 drec123-39864.portmap.host
 drfcjug.duckdns.org
 drgeraldvanluven12.zapto.org
@@ -1441,7 +1444,6 @@ febrem.ddns.net
 febreroynoesvisiesto20222022.duckdns.org
 fedeloperome09.duckdns.org
 fee-harmful.gl.at.ply.gg
-feekstokandy.com
 feel-herbal.at.ply.gg
 feeltravelstok.com
 fejong.duckdns.org
@@ -1602,7 +1604,6 @@ fullppc.xyz
 fusion71050500-40756.portmap.io
 fusion71050500.ddns.net
 fusioncore32023.hopto.org
-fustindor.com
 futerty.mooo.com
 futy6674.ga
 futy676.com
@@ -2176,7 +2177,6 @@ julygoals.hopto.org
 june248.ddns.net
 junio1ok.duckdns.org
 juniormanco.duckdns.org
-justdoitboy.xyz
 justicia.con-ip.com
 juzgado832182.duckdns.org
 jvofviubedvbev.con-ip.com
@@ -2421,7 +2421,6 @@ lostermas.duckdns.org
 lot0s.ddns.net
 loufuelscom.fun
 loufuelscom.xyz
-love4u.space
 lovedaysde.duckdns.org
 lovelead.ydns.eu
 love.nsupdate.info
@@ -3402,7 +3401,6 @@ que.hopto.org
 quinto.con-ip.com
 quotamoney.xyz
 qweerreww.duckdns.org
-qw.svchostsreg.com
 qz.dyndns.org
 r00tz-36170.portmap.io
 r0nj.ooguy.com
@@ -3549,6 +3547,7 @@ resener.duckdns.org
 resereved12.nerdpol.ovh
 resereved.nerdpol.ovh
 reserverem.duckdns.org
+restohalto.site
 resulttoday2.duckdns.org
 retorickjeremiah-25604.portmap.host
 retregdsgzbz.duckdns.org
@@ -3647,7 +3646,6 @@ royal0001.hopto.org
 rpower2021.duckdns.org
 rromaniitalfoodsinc.zapto.org
 rsaupdatr.jumpingcrab.com
-rstp.adb007.top
 rtergsdfs.duckdns.org
 ruffella1122.myddns.me
 runadp-mcos.duckdns.org
@@ -3772,8 +3770,6 @@ sepatico.duckdns.org
 sept24stri.con-ip.com
 sept4em.tuktuk.ug
 sept5ama.tuktuk.ug
-sept5amd.tuktuk.ug
-sept5rcn.tuktuk.ug
 sept6amd.tuktuk.ug
 sept7ama.tuktuk.ug
 sept7amd.tuktuk.ug
@@ -3797,6 +3793,7 @@ service-59k52o32-1313164119.gz.apigw.tencentcs.com
 service-6xtzl44u-1252551592.gz.apigw.tencentcs.com
 service-a83yg9pg-1307556005.gz.apigw.tencentcs.com
 service-c3p2vbb6-1313164119.gz.apigw.tencentcs.com
+service-lqymkqhs-1306655841.gz.apigw.tencentcs.com
 service-oshdwnr7-1306743016.bj.apigw.tencentcs.com
 services11.accesscam.org
 servicess.dynip.org
@@ -3863,6 +3860,7 @@ sibepoc.duckdns.org
 sientosmilter.duckdns.org
 sieratools.xyz
 signal.fastestmaking.com
+silentlegion.duckdns.org
 silent-rain-87337.pktriot.net
 silktoupinarina.sytes.net
 siltoncurl.de
@@ -3886,6 +3884,7 @@ sinzu5.giize.com
 sinzu6.camdvr.org
 sinzu7.camdvr.org
 sipex2021.ddns.net
+sirr.tiscali.buzz
 siuw83.duckdns.org
 sivhisvishiuhdsfhuhf.con-ip.com
 sivwbviw.duckdns.org
@@ -3927,7 +3926,6 @@ snrpappy.duckdns.org
 soaremic123-35420.portmap.host
 society-painted.at.ply.gg
 sockartek.icu
-socket.adb007.top
 sodviodnvsjivosnvd.con-ip.com
 sofi90.con-ip.com
 sofiavergarate72.con-ip.com
@@ -4287,6 +4285,7 @@ trucker5.ddns.net
 trump89238.duckdns.org
 trustdwnl.site
 trust.meldrez5x.xyz
+t.takaelot.com
 tu90to3b4q4uqze.info
 tugastealer.ddns.net
 tulicknewfavour.ddns.net
@@ -4578,7 +4577,6 @@ WNIKO1-39869.portmap.host
 woodcat.xyz
 word.is-a-rockstar.com
 words-cells.at.ply.gg
-words-cells.joinmc.link
 work114.ddns.net
 workbox100.ignorelist.com
 workbox100.linkpc.net
@@ -4606,6 +4604,7 @@ www.binccoco.com
 www.celikklczet.com
 www.christopherferr.com
 www.cl-powar.com
+www.criminalaffair.com
 www.dapsan.biz
 www.deltatradings-eg.com
 www.drgarerd.eu
@@ -4618,7 +4617,6 @@ www.forcertx.com
 www.hemidiindia.com
 www.inovacaptab.com
 www.kesaihk.com
-www.leakeddata.site
 www.maneediem.com
 www.mescot-metal.com
 www.mixz.shop
@@ -4630,7 +4628,6 @@ www.rmagent.biz
 www.seagloballogistic.in
 www.serapey.xyz
 www.simsekaluminyurn.com
-www.sitennews.com
 www.stahlcran.com
 www.stellionlab.com
 www.suchfamily.eu
@@ -4660,6 +4657,7 @@ xcorpitx.ddns.net
 xcosgate.ddns.net
 xcrew1991.kozow.com
 xcv87xcv7xc7sd5f67s5dxc67vxdsfwe342.publicvm.com
+xdanetnow.duckdns.org
 xdjnibkfm366vswudhfwb5gaihqxkxvov7q6gv3fqcm3bw46b5rydsqd.onion
 xe3x1.ath.cx
 xegefi6666-30878.portmap.host
@@ -4795,7 +4793,6 @@ zulo1709.ddns.net
 zumanmelden.hopto.org
 zwlknt25w6fs6ffnkllvutcepgp7mz6dsndkbki4l2fr27rnk7o4b7yd.onion
 zxc123598.e2.luyouxia.net
-zx.svchostsreg.com
 zxyqx.ydns.eu
 zykk5es6go3izsb.club
 zyt2.dvrlists.com
