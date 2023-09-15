@@ -1,1 +1,1 @@
-drop http any any -> any any (msg: "Malicious URL ebill-hk.com"; http.header; content:"ebill-hk.com"; http.uri; content:""; nocase; priority:1; classtype:policy-violation; sid: 100000000; rev:197;)
+drop http any any -> any any (msg: "Malicious URL ebill-hk.com"; http.header; content:"ebill-hk.com"; nocase; priority:1; classtype:policy-violation; sid: 100000000; rev:197;)
