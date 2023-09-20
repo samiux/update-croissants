@@ -55,6 +55,9 @@ fulmo.co.jp
 futubit.com
 futu-pro.com
 glogistic.es
+gov.hk.etoll.cloud
+gov.hk.etolli.co
+gov.police.etoll.ink
 grapecreekisd.net
 gsoft.co.jp
 gymnasium-essen-werden.de
@@ -174,6 +177,7 @@ topgarden.co.jp
 toyojoshi.ac.jp
 tsx-com.co.jp
 twmoomoo.com
+u6v.cn
 uhasxym.com
 usd405.com
 viofactor.com
