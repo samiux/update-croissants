@@ -66,7 +66,6 @@ archivos.homelinux.net
 arezo.click
 arl.jkub.com
 asheepa.sytes.net
-as.regsvrsvc.com
 attachdaum.servecounterstrike.com
 attachmaildaum.serveblog.net
 attachmaildaum.servecounterstrike.com
@@ -90,6 +89,7 @@ biquaurall.site
 bizmeka.viewdns.net
 block.descriptionscripts.com
 blog.sellygg.tk
+blue.theinternetsupply.com
 bucketnec.bounceme.net
 bul.fishboa.top
 burimak.click
@@ -126,10 +126,12 @@ comcdn.statisticline.com
 come.clickandanalytics.com
 come.scriptsplatform.com
 come.sortyellowapples.com
+comprobante20234.isa-geek.com
 comtrack.violetlovelines.com
 cpp.fastde.top
 cripts.dofollowgreenline.com
 cs.sangfor911.top
+ctbtest.azureedge.net
 cunnate.click
 curizpa.click
 dacazara.click
@@ -137,14 +139,15 @@ daecheol.myvnc.com
 danfe.is-certified.com
 dangerahead.city
 dasautoco.top
-dejiwive.org
 deluxe-mall.info
 descriptionscripts.com
-devopspdx.com
+dfgy.shop
+dfvzfvd.help
 diagnostics.microsoftapi.net
 directdefense.consulting
 dns1.noreply-alert.cloud
 dns.firstblackphase.com
+dns.zonstdns.xyz
 dob.boggy.top
 dofollowgreenline.com
 down.threatest.com
@@ -189,6 +192,7 @@ formsgle.freedynamicdns.org
 for.sortyellowapples.com
 fresh.servepics.com
 fusagov.xyz
+galiso.top
 gate.getmygateway.com
 get.clickandanalytics.com
 get.firstblackphase.com
@@ -223,7 +227,9 @@ hairouni.serveblog.net
 hamonsoft.serveblog.net
 hanseo1.hopto.org
 harvest.my-homeip.net
+hello.zlc.ir
 hertanza.click
+hey.galiso.top
 high.ehealthnutrition.com
 hiro.nulling.to
 hncelectric.cf
@@ -293,6 +299,10 @@ lleven11vt.top
 lnein9pn.top
 lnein9sr.top
 lnein9vt.top
+log.1.4fun.wiki
+log.2.4fun.wiki
+log.3.4fun.wiki
+log.4.4fun.wiki
 logindaums.ddnsking.com
 loginsdaum.viewdns.net
 lone1pn.top
@@ -316,8 +326,10 @@ machinetext.org
 mafolog.serveminecraft.net
 mailplug.ddnsking.com
 main.weatherplllatform.com
+market.x10.bz
 maxpatrol.net
 mbvcmv-qfsbndl4da-tl.a.run.app
+medtechgroups.com
 megamalll.info
 mexico.jalisco.is-a-socialist.com
 microsoftapi.net
@@ -326,7 +338,6 @@ minjoo2.servehttp.com
 mintaek.bounceme.net
 mobile.static.apiproxy.cloud.360.net.cdn.dnsv1.com
 mode.encagil.com
-mortgagetf.com
 mous.midlandpaper.icu
 mrkorosh.site
 mseven7vs.top
@@ -371,6 +382,7 @@ nulling.to
 nuzzar.click
 oiuugyfytvgb22h.com
 onlysportsfitnessam.com
+opewu.homes
 parrotorsk.fun
 pattern.webhop.me
 pik96.ru
@@ -386,6 +398,7 @@ posngoapps.com
 posngoappu.com
 posngoappx.com
 posngovipappa.com
+pqahzam.ink
 proeso.servehttp.com
 proxy.cdninternal.cloud
 prparty.webhop.me
@@ -393,7 +406,6 @@ ptzbubble.shop
 puacgo1.servemp3.com
 put.clickandanalytics.com
 qocmkassa.store
-qw.regsvrsvc.com
 rack.violetlovelines.com
 ramzartey.click
 rcmsf100.net
@@ -412,6 +424,7 @@ sa-cx.itsaol.com
 saevit.servebeer.com
 safety.viewdns.net
 saham.dns05.com
+sahamedalat.whi.ir
 saha-m.fartit.com
 saham-ir.fartit.com
 saham-ir.https443.org
@@ -467,8 +480,10 @@ sec-flare.com
 sejonglog.hopto.org
 select.sortyellowapples.com
 sellygg.tk
+servgameslupi.hopto.org
 service-2rm5s5ep-1304892907.bj.apigw.tencentcs.com
 service-9wkno0fh-1304892907.bj.apigw.tencentcs.com
+servicedesk-solutions.net
 service-kvmc8be7-1304892907.bj.apigw.tencentcs.com
 service-npr00e01-1300810596.sh.apigw.tencentcs.com
 service-oocpa72a-1305610678.gz.apigw.tencentcs.com
@@ -532,7 +547,6 @@ throatpills.org
 top.scriptsplatform.com
 torhamisa.click
 tornoturn01.supplier.est-le-patron.com
-tourist.healthgradespro.com
 trace.stratosbody.com
 track.firstblackphase.com
 track.violetlovelines.com
@@ -554,6 +568,7 @@ upload.flash-update.info
 uploads.dachhost.top
 utilityupdate.com
 verifyurl.me
+video.baiduu.online
 violetlovelines.com
 viplive.win
 visdpaka.servemp3.com
@@ -571,17 +586,18 @@ web.whatssapp.co
 whatspp.wa-info.com
 whatssapp.co
 whatssap.whatssapp.co
+whi.ir
 whitedrill.org
-windowsupdate.viewdns.net
 witheveryregistration.click
 wts-app.info
 wwl1764.ddnsking.com
 www.gdstictk.buzz
+www.jtitraining.com
 www.mylinkedln.com
 xfirecovery.pro
 zang2.areen.top
 zer0-dust.com
+zlc.ir
 zochao.com
 zoppara.click
 zsin2.ebnsina.top
-zx.regsvrsvc.com
