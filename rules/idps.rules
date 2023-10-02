@@ -5,8 +5,8 @@
 
 # reserved for 1010000-1010099
 # disallow ping from internet
-drop icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classtype: network-scan; priority:1; sid:1010000; rev:5;)
-drop icmp $EXTERNAL_NET any -> any any (msg:"ICMP PING (2)"; itype: 8; classtype: network-scan; priority:1; sid:1010001; rev:5;)
+drop icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classtype: network-scan; priority:1; sid:1010000; rev:6;)
+alert icmp $EXTERNAL_NET any -> any any (msg:"ICMP PING (2)"; itype: 8; classtype: network-scan; priority:1; sid:1010001; rev:6;)
 
 ############################
 Designed for IDPS is placed behind of router
