@@ -6,6 +6,7 @@
 # reserved for 1010000-1010099
 # disallow ping from internet
 drop icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classtype: network-scan; priority:1; sid:1010000; rev:5;)
+drop icmp $EXTERNAL_NET any -> any any (msg:"ICMP PING (2)"; itype: 8; classtype: network-scan; priority:1; sid:1010001; rev:5;)
 
 ############################
 Designed for IDPS is placed behind of router
@@ -13,17 +14,17 @@ Designed for IDPS is placed behind of router
 # Potential Ports Scan -sVC?
 ##drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
 # general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Kali host)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010021; rev:7;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential NMAP Ports Scan -sS (SYN scan)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010021; rev:8;)
 # -sF (FIN scan) (open|filtered)) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sF (FIN scan)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010022; rev:7;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential NMAP Ports Scan -sF (FIN scan)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010022; rev:8;)
 # -sN (Null scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sN (Null scan)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010023; rev:7;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential NMAP Ports Scan -sN (Null scan)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010023; rev:8;)
 # -sX (XMas scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sX (XMas scan)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010024; rev:7;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential NMAP Ports Scan -sX (XMas scan)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010024; rev:8;)
 # -sM (Maimon scan) (open|filtered) | VM (closed)
-#drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sM (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:7;)
+##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sM (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:8;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
-#drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:11;)
+##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:8;)
 
 #################
 
@@ -31,6 +32,7 @@ drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sX 
 drop ip any any -> any any (msg:"IP Reputation - IOCs or Bruteforcers"; iprep:any,blacklist,>,9; priority:1; classtype:policy-violation; sid:1010030; rev:5;)
 drop ip any any -> any any (msg:"TOR Exit Nodes - Blacklisted"; iprep:any,torexitnode,>,9; priority:1; classtype:policy-violation; sid:1010031; rev:4;)
 drop ip $EXTERNAL_NET any -> $HOME_NET any (msg:"VPN Exit Nodes - Blacklisted"; iprep:any,vpnexitnode,>,9; priority:1; classtype:policy-violation; sid:1010032; rev:2;)
+drop ip $EXTERNAL_NET any -> any any (msg:"VPN Exit Nodes - Blacklisted 2"; iprep:any,vpnexitnode,>,9; priority:1; classtype:policy-violation; sid:1010033; rev:2;)
 
 # malicious URL
 ##drop http any any -> any any (msg:"Ransomware BAD URL"; lua:ransomware_urls.lua; flow:stateless; priority:1; sid:1010040; rev:1;)
@@ -58,17 +60,17 @@ Designed for IDPS is placed in front of router
 # Potential Ports Scan -sVC?
 ##drop tcp $EXTERNAL_NET any -> $EXTERNAL_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010070; rev:2;)
 # general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
-drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan (Kali Linux)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010071; rev:3;)
+drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential NMAP Ports Scan -sS (SYN scan) (2)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010071; rev:4;)
 # -sF (FIN scan) (open|filtered)) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sF (FIN scan 2)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010072; rev:3;)
+drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential NMAP Ports Scan -sF (FIN scan) (2)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010072; rev:4;)
 # -sN (Null scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sN (Null scan 2)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010073; rev:3;)
+drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential NMAP Scan -sN (Null scan) (2)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010073; rev:4;)
 # -sX (XMas scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sX (XMas scan 2)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010074; rev:3;)
+drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential NMAP Scan -sX (XMas scan) (2)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010074; rev:4;)
 # -sM (Maimon scan) (open|filtered) | VM (closed)
-#drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sM (Maimon scan 2)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010075; rev:3;)
+##drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sM (Maimon scan 2)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010075; rev:4;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
-#drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan 2)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010076; rev:3;)
+##drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan 2)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010076; rev:4;)
 
 ############
 
