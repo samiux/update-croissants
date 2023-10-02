@@ -56,7 +56,7 @@ drop http any any -> any any (msg:"BeEF Hooking (hook.js)"; flow: stateless; con
 Designed for IDPS is placed in front of router
 
 # Potential Ports Scan -sVC?
-##drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010070; rev:1;)
+##drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010070; rev:1;)
 # general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
 drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan (Kali host)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010071; rev:1;)
 # -sF (FIN scan) (open|filtered)) | VM (open|filtered)
@@ -69,6 +69,23 @@ drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sX (XMas 
 drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sM (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010075; rev:1;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
 drop tcp $EXTERNAL_NET any -> any any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010076; rev:1;)
+
+############
+
+# Potential Ports Scan -sVC?
+##drop tcp any any -> any any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010080; rev:1;)
+# general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
+drop tcp any any -> any any (msg:"SCAN Potential Ports Scan (Kali host)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010081; rev:1;)
+# -sF (FIN scan) (open|filtered)) | VM (open|filtered)
+drop tcp any any -> any any (msg:"SCAN Potential Ports Scan -sF (FIN scan)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010082; rev:1;)
+# -sN (Null scan) (open|filtered) | VM (open|filtered)
+drop tcp any any -> any any (msg:"SCAN Potential Ports Scan -sN (Null scan)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010083; rev:1;)
+# -sX (XMas scan) (open|filtered) | VM (open|filtered)
+drop tcp any any -> any any (msg:"SCAN Potential Ports Scan -sX (XMas scan)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010084; rev:1;)
+# -sM (Maimon scan) (open|filtered) | VM (closed)
+drop tcp any any -> any any (msg:"SCAN Potential Ports Scan -sM (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010085; rev:1;)
+# -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
+drop tcp any any -> any any (msg:"SCAN Potential Ports Scan -sA/-sW (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010086; rev:1;)
 
 #############
 
