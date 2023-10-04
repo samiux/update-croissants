@@ -35,7 +35,6 @@
 12edqwsad123sd1.ddns.net
 12mh.ddns.net
 1337r4t.duckdns.org
-1368.vnh.wtf
 147258369.no-ip.biz
 14services.hopto.org
 153ishak.best
@@ -338,13 +337,11 @@ adikaremix.linkpc.net
 adilo.no-ip.biz
 adl-1.faqserv.com
 adl-a.mynetav.org
-adl-bn.itsaol.com
 adl-bnx.faqserv.com
 adl.camdvr.org
 adl-c.mrbasic.com
 adl-c.mrbonus.com
 adl-c.my03.com
-adl-cv.my03.com
 adl.duia.ro
 a-dld.vizvaz.com
 adleh.mrface.com
@@ -380,9 +377,6 @@ adlkj.vizvaz.com
 adll.camdvr.org
 adl-l.fartit.com
 adl-lo.fartit.com
-adl-mn.jkub.com
-adl-mn.my03.com
-adl-nm.faqserv.com
 ad-lo.faqserv.com
 adl-q.camdvr.org
 adl-q.faqserv.com
@@ -392,15 +386,11 @@ adl-saham.faqserv.com
 adl-sahm.faqserv.com
 adl-sahm.vizvaz.com
 adl-sd.fartit.com
-adl-vb.vizvaz.com
 adl-v.faqserv.com
 adl.vizvaz.com
-adl-vm.instanthq.com
 adl-v.mrbasic.com
 adl-v.mrbonus.com
 adl-v.my03.com
-adl-xc.faqserv.com
-adl-zx.fartit.com
 adm01010.ddns.net
 admadm.no-ip.biz
 adm.cutmedic.com
@@ -2019,7 +2009,6 @@ dbest2021.ddns.net
 dboy.duckdns.org
 dccgroup.duckdns.org
 dcom11.no-ip.org
-dcrat.vnh.wtf
 dcsacrevc-46676.portmap.host
 dcserv.noip.me
 dcz35percy.top
@@ -2900,7 +2889,6 @@ fungame2.mooo.com
 fungame.duckdns.org
 funkymalware.zapto.org
 funnypic.dyndns-remote.com
-funpet.uk
 funsecond.ddns.net
 fuq-gg0313.no-ip.biz
 fur1a.duckdns.org
@@ -6981,7 +6969,6 @@ rigorichbroker.com
 rikpoman.mywire.org
 rimx.zapto.org
 ririroro123.ddns.net
-r-ir.jkub.com
 rivax01.no-ip.biz
 riyad213.sytes.net
 riz0.no-ip.biz
@@ -8470,7 +8457,6 @@ vlc.servehttp.com
 vmm.hopto.org
 vmood-963.no-ip.biz
 vndjtu968488.ru
-vnh.wtf
 vodahelp.myvnc.com
 vodostocksstand.uno
 voip19.ddns.net
