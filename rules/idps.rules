@@ -33,6 +33,7 @@ drop ip any any -> any any (msg:"IP Reputation - IOCs or Bruteforcers"; iprep:an
 drop ip any any -> any any (msg:"TOR Exit Nodes - Blacklisted"; iprep:any,torexitnode,>,9; priority:1; classtype:policy-violation; sid:1010031; rev:4;)
 drop ip $EXTERNAL_NET any -> $HOME_NET any (msg:"VPN Exit Nodes - Blacklisted"; iprep:any,vpnexitnode,>,9; priority:1; classtype:policy-violation; sid:1010032; rev:2;)
 drop ip $EXTERNAL_NET any -> any any (msg:"VPN Exit Nodes - Blacklisted 2"; iprep:any,vpnexitnode,>,9; priority:1; classtype:policy-violation; sid:1010033; rev:2;)
+drop ip any any -> any any (msg:"IP Reputation - Fake Googlebots"; iprep:any,blocklist,>,9; priority:1; classtype:policy-violation; sid:1010034; rev:1;)
 
 # malicious URL
 ##drop http any any -> any any (msg:"Ransomware BAD URL"; lua:ransomware_urls.lua; flow:stateless; priority:1; sid:1010040; rev:1;)
@@ -48,6 +49,8 @@ drop http any any -> any any (msg:"ThreatIntel: Malicious File Downloaded over H
 
 drop tcp any any -> any any (msg:"ThreatIntel: Malicious File Downloaded over TCP"; flow: established; filesha256:/var/lib/suricata/rules/sha256_iocs.list; classtype: trojan-activity; priority:1; sid:1010047; rev:1;)
 
+drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; dns.query; dataset:isset, bad-referrers, type string, load /var/lib/suricata/rules/bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010048; rev:1;)
+
 # self-signed-cert
 drop tls any any -> any any (msg:"TLS Self Signed Certificate"; flow:established; lua:self-signed-cert.lua; tls.store; classtype:protocol-command-decode; sid:1010050; rev:2;)
 
@@ -55,7 +58,7 @@ drop tls any any -> any any (msg:"TLS Self Signed Certificate"; flow:established
 drop http any any -> any any (msg:"BeEF Hooking (hook.js)"; flow: stateless; content: "GET"; http_method; content: "?BEEFHOOK="; nocase; http_raw_uri; priority:1; sid: 1010060; rev:2;)
 
 ############
-Designed for IDPS is placed in front of router
+# Designed for IDPS is placed in front of router
 
 # Potential Ports Scan -sVC?
 ##drop tcp $EXTERNAL_NET any -> $EXTERNAL_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010070; rev:2;)
