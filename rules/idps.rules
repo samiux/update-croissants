@@ -9,7 +9,7 @@ drop icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classty
 alert icmp $EXTERNAL_NET any -> any any (msg:"ICMP PING (2)"; itype: 8; classtype: network-scan; priority:1; sid:1010001; rev:6;)
 
 ############################
-Designed for IDPS is placed behind of router
+# Designed for IDPS is placed behind of router
 
 # Potential Ports Scan -sVC?
 ##drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
