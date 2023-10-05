@@ -29,7 +29,7 @@ drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential NMAP Ports Scan
 #################
 
 # IP Reputation - Blacklisted Hosts
-drop ip any any -> any any (msg:"IP Reputation - IOCs, Bruteforcers or Fake Googlebots"; iprep:any,blacklist,>,9; priority:1; classtype:policy-violation; sid:1010030; rev:6;)
+drop ip any any -> any any (msg:"IP Reputation - IOCs, Bruteforcers, Fake Googlebots or Web Attackers"; iprep:any,blacklist,>,9; priority:1; classtype:policy-violation; sid:1010030; rev:7;)
 drop ip any any -> any any (msg:"TOR Exit Nodes - Blacklisted"; iprep:any,torexitnode,>,9; priority:1; classtype:policy-violation; sid:1010031; rev:4;)
 drop ip $EXTERNAL_NET any -> $HOME_NET any (msg:"VPN Exit Nodes - Blacklisted"; iprep:any,vpnexitnode,>,9; priority:1; classtype:policy-violation; sid:1010032; rev:2;)
 drop ip $EXTERNAL_NET any -> any any (msg:"VPN Exit Nodes - Blacklisted 2"; iprep:any,vpnexitnode,>,9; priority:1; classtype:policy-violation; sid:1010033; rev:2;)
