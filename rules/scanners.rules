@@ -103,7 +103,7 @@ drop http $EXTERNAL_NET any -> any any (msg:"CyberPatrol User-Agent"; content:"C
 drop http $EXTERNAL_NET any -> any any (msg:"CyberSpyder User-Agent"; content:"CyberSpyder"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060093; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"Daumoa User-Agent"; content:"Daumoa"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060094; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"Deweb User-Agent"; content:"Deweb"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060095; rev:2;)
-drop http $EXTERNAL_NET any -> any any (msg:"DISCo User-Agent"; content:"DISCo"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060096; rev:2;)
+drop http $EXTERNAL_NET any -> any any (msg:"DISCo User-Agent"; content:"DISCo "; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060096; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"DittoSpyder User-Agent"; content:"DittoSpyder"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060097; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"Download Demon User-Agent"; content:"Download Demon"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060098; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"dumbot User-Agent"; content:"dumbot"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060099; rev:2;)
