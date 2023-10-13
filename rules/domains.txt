@@ -16,6 +16,7 @@
 174.226.194.35.bc.googleusercontent.com
 179527.com
 188-166-191-209.cprapid.com
+192-53-171-76.ip.linodeusercontent.com
 194.33.127.8.static.hostiran.name
 221.ip-164-132-229.eu
 23-29-115-179.static.hvvc.us
@@ -34,11 +35,11 @@
 aaaaa.sbs
 aadcdn.the-admiralty.co.uk
 aadcdn.ukho.org
+aaronestebancoaching.com
 abcxzy.com
 acad.bmcybersecurity.net
 acadtr.bmcybersecurity.net
 access.londonpandl.com
-acornservices.org
 addressverification.support-par8o.com
 adir.faqserv.com
 adk-iran.mrface.com
@@ -79,7 +80,6 @@ adl-sa.fartit.com
 adl-sahml.fartit.com
 adl-ur.itsaol.com
 adl-vb.mrbasic.com
-adl-vq.vizvaz.com
 adl-wh.faqserv.com
 adl-xxc.vizvaz.com
 adl-zi.vizvaz.com
@@ -127,11 +127,13 @@ bytecloudasa.website
 cache.thorjane.com
 calamity9.ddns.net
 caldwellmedical.org
+cambiardinero.com
 cameponceowa.site
 carepassmedservices.com
 cc.cert-ex.net
 cdn-ext.net
 cenaa3.viverindia.com.br
+chromiumtxt.space
 chuangshiclub.com
 cl.gosecure.red
 cmakeapp.com
@@ -158,8 +160,6 @@ crm.banochotelgh.com
 cs.h1ll0.cs.in
 cv.wavework.net
 cystnovor.fun
-d2cpd93ebiah9g.cloudfront.net
-d2d756ulnohqjs.cloudfront.net
 darkie.org
 decorhighsa.pw
 deimosc2.com
@@ -168,6 +168,7 @@ demblog575.xyz
 destroyevensusp.fun
 dhlmissed.com
 directdefense.consulting
+drententech.net
 e2e-dbaas-mongodb-xsc6d-be1f65a1.mongo.ondigitalocean.com
 eblag.faqserv.com
 eblagh.my03.com
@@ -214,6 +215,7 @@ eliyahost.ir
 enc.cdnjscripts.com
 enc.jsdel1vr.com
 encyclopedia83.samiseto.ru
+en.voice-ai.store
 erci.banochotelgh.com
 etapi.ydzh.ltd
 etcs.ydzh.ltd
@@ -251,12 +253,11 @@ got.selectchoise.com
 gracefoundme.top
 great.playerofsunshine.com
 gromograd.ru
-gta-fportal.com
 hamyar-mahak.site
 harudake.com
 hawsteamjoak.fun
-helloone.accountants.monster
 here.selectofmychoices.com
+hgfdytrywq.com
 hjh365.com
 horse4horse.ddns.net
 host-5.180.106.151.saga.net.tr
@@ -315,10 +316,9 @@ mqtt.s1.maitianshanglv.cn
 m.s1.maitianshanglv.cn
 msktk.ru
 myalectra.com
+mycomeone.net
 mynameisbasil.site
-mynameisking.site
 mynameislusi.site
-mynameisnull.site
 mynameiszeus.site
 ncpanel.xyz
 neat-skunk-3.telebit.io
@@ -326,7 +326,6 @@ nebularemote.ydzh.ltd
 newyorkerblog.co.kr
 nf1.jasa-installl.xyz
 nginx-rev-prox-rj33nb72rsqni.westeurope.cloudapp.azure.com
-nmbvcxzasedrt.com
 nodef2.ragzstore.biz.id
 noo.egogol.top
 normal.playerofsunshine.com
@@ -344,11 +343,9 @@ oxygendwelli.fun
 paintpeasmou.fun
 paratositologis.fun
 pay1.ptsecurity.net
-pbfenergy.azurewebsites.net
 pedigreeprotone.fun
 peersneaps.fun
 piret-wismann.com
-plawers.com
 pmdresearch.com
 pointsdomer.com
 prestige-castom.com
@@ -361,7 +358,6 @@ qwerty.ddnsking.com
 rakishevkenes.com
 rand.ptsecurity.net
 raybanhost.org
-remote.mynameisking.site
 remote.mynameislusi.site
 remote.mynameiszeus.site
 reward.itipit.com
@@ -379,7 +375,6 @@ sahama.faqserv.com
 saham-b.skcarriages.com
 saham-cs.skcarriages.com
 saham-d.skcarriages.com
-sahame.symen.ir
 saham-g.itsaol.com
 saham-h.itsaol.com
 sahamiru.hair
@@ -417,7 +412,6 @@ selectchoise.com
 serene-leakey.193-149-129-7.plesk.page
 servermlogs27.xyz
 service-lmc8vqi0-1321023074.gz.apigw.tencentcs.com
-service-n0tf95ic-1305872204.gz.apigw.tencentcs.com
 service-q79zqijz-1259125056.bj.apigw.tencentcs.com
 service-qsbfdyq7-1318430534.sh.apigw.tencentcs.com
 servkitchin.fun
@@ -450,7 +444,6 @@ support.encorecapital.app
 support.it-cabotfinancial.com
 support-par8o.com
 suse.space
-symen.ir
 tak.soydet.top
 talesofpirates.net
 team.wedo-lnt.com
@@ -474,7 +467,6 @@ try.selectofmychoices.com
 tur.klaris-sub.online
 tysers-evadc4f2eaa4a5fs.z01.azurefd.net
 uiurbur.guieoer.pserver.ru
-upcls.online
 update.google-service.workers.dev
 update.netsecgroup.com
 uran-adl.fartit.com
@@ -488,6 +480,7 @@ vip22gr.ru
 vkcob.b0t.me
 vn.abcxzy.com
 vntricker.abcxzy.com
+voiceai.aaronestebancoaching.com
 vpn366710782.softether.net
 vps683982.ovh.net
 vps-6eee5c8d.vps.ovh.net
@@ -506,6 +499,7 @@ west.statisticplatform.com
 whereisyoursnewtoporder.com
 whereisyours-toporder.com
 where.selectofmychoices.com
+whoernet.co.com
 wiinvestmentsmart.com
 wilenters.com
 wilsoncallert.com
@@ -544,6 +538,7 @@ www.the-admiralty.co.uk
 www.txj818.xyz
 www.vr.svdesign.com.my
 www.wlndows.net
+www.xss.mba
 www.ye0kr1n.top
 wxd5cxqklilifh0m4pv8tg.dekma-gay.ru
 wxs.s1.maitianshanglv.cn
