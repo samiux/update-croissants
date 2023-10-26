@@ -108,6 +108,7 @@ asd.isasecret.com
 asger.oobtest.org
 aspasht.com
 asq.dns05.com
+atisgst.fit
 autoconfig.qualifiedpartslist.com
 autodiscover.qualifiedpartslist.com
 automationyesterday.com
@@ -851,6 +852,7 @@ ch6dar5lr46qj0btcc1gprhpb1s5uth3r.oast.pro
 ch7al941hm4e32800010e84uu537r8ff4.oast.site
 ch82u11n1jsf2jen5270shwf848pdo191.oast.fun
 ch8g9f7qr704gmdfdhr0jacuzezpzdotc.oast.pro
+ch97jc4esnial34gvgeggndubmfswjmhc.oast.online
 ch9mo6q69ja81gqpahcgtx9177tm5ygzw.oast.fun
 ch9ngvuroj6c5a0a9j8gn5wghtz39rrj6.oast.fun
 ch9ngvuroj6c5a0a9j8gscxcji8cjr6wt.oast.fun
@@ -1196,6 +1198,7 @@ colb.keke.rs
 collab-hacklab.adobe.com
 collab.theodonal.com
 col.ysosober.com
+connect.servrweb.com
 creepybadger.com
 crystal.app-updates.me
 cs1.accountsync.net
@@ -1228,7 +1231,7 @@ dot.healthtricks101.com
 downl.ir
 download.osoro.zip
 doyou.pwnwith.me
-drignyaffk.com
+drive-myaccount.com
 dsa.itsaol.com
 dsm.faqserv.com
 dsm.mrbasic.com
@@ -1302,6 +1305,8 @@ entrymapoob.hylastix.net
 envio20.imagenseaventuras.com
 eoob.site
 erp.derico.de
+estafetagoappa.cyou
+estafetagoappb.cyou
 et.h4.vc
 eu.collab.tr4t.io
 excellent.playerofsunshine.com
@@ -1327,6 +1332,7 @@ goldmineonline.co.uk
 google-inc.ltd
 google.luccycatch.tech
 govcnn.co
+gpt-use.com
 gr4c.cc
 gullittreshoppermainmoll.com
 h144.org
@@ -1425,11 +1431,11 @@ ks1.in
 ksane.cn
 kscupdate.com
 kzeri.com
-lazirusairnaf.com
 lidnslog.cn
 lifeceii.cam
 linuxbugs.online
 log-fuzz.top
+login.msonline-security.com
 login.r.connectback.io
 login.rexel-login.r.connectback.io
 login.rexel.r.connectback.io
@@ -1438,6 +1444,7 @@ lol.ks1.in
 louiesodonnell.xyz
 lovim.isec.pw
 mail.abaadoffice.net
+mail.desarrolloycrecimiento.com
 mail.dstrbnc.com
 mail.hackwithautomation.com
 mail.kurumsal-yanhaklar.com
@@ -1501,9 +1508,9 @@ mejor.playerofsunshine.com
 m.hackade.org
 mhnam.com
 micorrsoft.com
-mistulinno.com
 mlqggc.com
 mociyijame.us
+monitor.theodonal.me
 moon.oast.cyobs.com
 mooo-ng.com
 msonline-security.com
@@ -1535,6 +1542,7 @@ oast.karakoa.me
 oastly.com
 oast.qa.commissions.dev.sap
 oastqa.prancer.cloud
+ombi.theodonal.me
 onlyfor.pro
 oob.a.lex.fo
 oob.buzz
@@ -1697,6 +1705,7 @@ vps-4adb31ad.vps.ovh.net
 vps-6238212b.vps.ovh.net
 vps-9bb5ff86.vps.ovh.ca
 vps.hyperhost.pro
+wapprod.stellantis-invite.com
 wc-int-ecs-nlb.digital.ncsc.dev
 webdisk.psd2.info.87-121-52-23.cprapid.com
 webmail.psd2.info.87-121-52-23.cprapid.com
@@ -1704,10 +1713,13 @@ windows-sns2.dns-microsoft.com
 winedoscom.stag.tempweb.dev
 wordst7512.net
 wqek.top
+wuxay.top
 ww12.ecorp.asia
 www.159-203-95-49.cprapid.com
+www.alexis-dasilva.com
 www.alphabravokilo.com
 www.a-white.vn
+www.bisongdamall.com
 www.erp.derico.de
 www.goldmineonline.co.uk
 www.goocoinorg.com
