@@ -2,7 +2,6 @@
 0.exf.red
 110.55.83.34.bc.googleusercontent.com
 11go.gocatgo.top
-120.19.188.35.bc.googleusercontent.com
 120.223.64.34.bc.googleusercontent.com
 121.58.209.35.bc.googleusercontent.com
 12.177.233.35.bc.googleusercontent.com
@@ -60,7 +59,6 @@ a-azon.com
 abaadoffice.net
 academy.marketing4ecommerce.net
 actalos.net
-adf.faqserv.com
 adfs.ecorp.asia
 adfs.rexel.r.connectback.io
 adla.faqserv.com
@@ -71,7 +69,6 @@ adls.vizvaz.com
 adl-vv.mrface.com
 adoob.fr
 adq.dns05.com
-adq.fartit.com
 ads.fartit.com
 affectionate-gagarin.207-154-202-241.plesk.page
 agendominoqq.com
@@ -79,7 +76,6 @@ agent-download.com
 alexis-dasilva.pro
 alfie.kiwi
 alphabravokilo.com
-als.mrbasic.com
 ama23.amlbot.ug
 americafirst3d.com
 analytics.prfectr.xyz
@@ -94,13 +90,11 @@ app.hackwithautomation.com
 app-updates.me
 app.vidadworld.com
 ap.ronappig.xyz
+apuyhh.xyz
 arst.top
-asc.itsaol.com
-asd.isasecret.com
 asger.oobtest.org
 aspasht.com
 aspidaprotection.com
-asq.dns05.com
 atisgst.fit
 autoconfig.qualifiedpartslist.com
 autodiscover.qualifiedpartslist.com
@@ -1216,7 +1210,6 @@ dgokmertli23q.com
 divd.it
 dl.agent-download.com
 dmns.itsaol.com
-dms.mrface.com
 dnetspi.sh
 dns.aliyuncs-inc.xyz
 dns.ninja.ovh
@@ -1232,8 +1225,6 @@ download.osoro.zip
 doyou.pwnwith.me
 drive-myaccount.com
 dsa.itsaol.com
-dsm.faqserv.com
-dsm.mrbasic.com
 dstrbnc.com
 d.zv.lex.fo
 eba.faqserv.com
@@ -1291,11 +1282,9 @@ ec2-54-81-164-170.compute-1.amazonaws.com
 ec2-54-83-16-102.compute-1.amazonaws.com
 econd.gybritanalytsesystem.com
 ecorp.asia
-ecs-114-115-185-41.compute.hwclouds-dns.com
 ecs-114-115-210-125.compute.hwclouds-dns.com
 ecs-116-204-77-75.compute.hwclouds-dns.com
 ecs-119-3-253-250.compute.hwclouds-dns.com
-ecs-122-112-252-8.compute.hwclouds-dns.com
 ecs-123-249-101-92.compute.hwclouds-dns.com
 ecs-80-158-45-55.reverse.open-telekom-cloud.com
 ecs-80-158-62-19.reverse.open-telekom-cloud.com
@@ -1413,9 +1402,7 @@ ip231.ip-51-68-219.eu
 ip4.ip-149-56-203.net
 ipy.pw
 i.qw.lc
-iran-sh.fartit.com
 i.ratato.sk
-irhg.fartit.com
 irhs.faqserv.com
 isec.pw
 i-sh.detectors-cycognito.com
@@ -1533,6 +1520,7 @@ monitor.theodonal.me
 moodelstore.tel
 moon.oast.cyobs.com
 mooo-ng.com
+mrcomishere.site
 msonline-security.com
 mta-sts.qualifiedpartslist.com
 mx.carrent.business
@@ -1607,6 +1595,7 @@ qualifiedpartslist.com
 quit.industrybankingllc.com
 qwer.gybritanalytsesystem.com
 r3.linuxtool.top
+rahaishere.site
 rbabamrgysmanmaskriserdfnstezya.space
 r.connectback.io
 rebinding.net
@@ -1642,7 +1631,6 @@ sac8.leticiabarriquello.com
 safe.fogreir.fun
 sagro.b0t.me
 sah.faqserv.com
-sahmn.fartit.com
 salam.monster
 sales.ks1.in
 salp.cc
@@ -1725,7 +1713,6 @@ superstagy.com
 support-api.vidadworld.com
 support.vidadworld.com
 swap5.mxcf.top
-sxsigami2021.cf
 synalabs.xyz
 systemcheck.top
 szp.prbly.win
@@ -1738,7 +1725,6 @@ taochinashowwers.com
 tbs.faqserv.com
 tdm.faqserv.com
 tech.liveonlin.com
-tedalat.hair
 tes.faqserv.com
 test2mail.online
 test.amaximmo.info
@@ -1771,6 +1757,7 @@ v2-dev-4971.second.ninja
 v2r-cn2.lifeisff.fun
 vip.cesig8.online
 vip-h5.aa51688.com
+vmd119000.contaboserver.net
 voip.jlsecurity.org
 vpn500541278.softether.net
 vpn-v2rynge-ir.tk
@@ -1796,7 +1783,6 @@ www.a-white.vn
 www.bisongdamall.com
 www.erp.derico.de
 www.goldmineonline.co.uk
-www.goocoinorg.com
 www.great-merkle.68-183-220-248.plesk.page
 www.hlsloading.xyz
 www.isec.pw
