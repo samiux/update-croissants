@@ -27,6 +27,7 @@
 174.226.83.34.bc.googleusercontent.com
 178-79-185-106.ip.linodeusercontent.com
 194-233-172-215.ip.linodeusercontent.com
+1.jangholi.info
 1zx.me
 206.210.212.35.bc.googleusercontent.com
 213-219-36-36.ip.linodeusercontent.com
@@ -70,6 +71,7 @@ adl-vv.mrface.com
 adoob.fr
 adq.dns05.com
 ads.fartit.com
+adsh.vizvaz.com
 affectionate-gagarin.207-154-202-241.plesk.page
 agendominoqq.com
 agent-download.com
@@ -114,7 +116,6 @@ basechromium.space
 b.bd.gy
 bbountydomain.com
 bd.gy
-beatifulllhistory.com
 billyekent.icu
 bitwarden-server.payloads.online
 blaaa.xyz
@@ -239,6 +240,7 @@ cceqmnj73ifia0fok8bgqnxecer768ij7.oast.me
 cck6ejrs6n69r83mfsmgf7afm98j4nj5w.oast.live
 cctv.liveonlin.com
 cdjdo7t9d4lglulrrmhgcae3hy4efmo9c.oast.live
+cdm.faqserv.com
 cdn.amazon-shopping.nl
 cdn.imango.ink
 cdn-img.io
@@ -273,6 +275,7 @@ cf4u6dmgibbdbnl9qv4g9e1yj86mamnhd.oast.fun
 cf6h1ggu6upsgkg00010ykpygsnj68h3c.oast.site
 cf861fbffvm46k0vjpsgi3fx4mbj1s58x.oast.site
 cf8kufduut8s6o9vuu4g81rp4w6wp674u.oast.live
+cfb.faqserv.com
 cfdgu56gibb50i26astg5bipkd4s6rp3j.oast.site
 cfesra1ufkgrr7g00010k67xfcoakwhib.oast.online
 cfm1q28i0vv453rqtf4gf57kajd11rrbe.oast.online
@@ -1280,6 +1283,7 @@ ec2-54-242-139-194.compute-1.amazonaws.com
 ec2-54-244-66-155.us-west-2.compute.amazonaws.com
 ec2-54-81-164-170.compute-1.amazonaws.com
 ec2-54-83-16-102.compute-1.amazonaws.com
+ec2-54-94-98-53.sa-east-1.compute.amazonaws.com
 econd.gybritanalytsesystem.com
 ecorp.asia
 ecs-114-115-210-125.compute.hwclouds-dns.com
@@ -1302,6 +1306,8 @@ engagesh.nexploit.app
 entropy-api.kaizenflow.xyz
 entrymapoob.hylastix.net
 envio20.imagenseaventuras.com
+en.voiceaipro.com
+en.voice-ai.store
 eoob.site
 erp.derico.de
 esb.faqserv.com
@@ -1328,6 +1334,7 @@ fridayoast.net
 fsa.faqserv.com
 ftw.pwn.bar
 galistens.com
+gamesstartf.xyz
 gatewall.net
 gb.hackade.org
 gerimisc.com
@@ -1342,7 +1349,6 @@ govcnn.co
 gpt-use.com
 gr4c.cc
 gruposermesa.com
-gullittreshoppermainmoll.com
 h144.org
 h-155-4-245-3.na.cust.bahnhof.se
 h2997371.stratoserver.net
@@ -1352,6 +1358,7 @@ hack0xchet-oob.com
 hackwithautomation.com
 halock.jlsecurity.org
 hasbulla.su
+havoc.riggcorp.com
 heatpipe.entrymap.cloud
 hello-response.com
 hfastt.com
@@ -1523,7 +1530,6 @@ mooo-ng.com
 mrcomishere.site
 msonline-security.com
 mta-sts.qualifiedpartslist.com
-mx.carrent.business
 myfrontmannysix.ddns.net
 nalgysmanurmaskmikluhasya.website
 netspi.sh
@@ -1545,6 +1551,8 @@ ns.365ub.cn
 ns4.luccycatch.tech
 ns5.luccycatch.tech
 nsish.com
+nuevo2gameslop.xyz
+nuevoconceti.xyz
 oast.cloud
 oastdev.prancer.cloud
 oast.ir
@@ -1597,6 +1605,7 @@ qwer.gybritanalytsesystem.com
 r3.linuxtool.top
 rahaishere.site
 rbabamrgysmanmaskriserdfnstezya.space
+rbm.faqserv.com
 r.connectback.io
 rebinding.net
 receiver.outbound.watchtowr.com
@@ -1605,7 +1614,7 @@ redteam.tandemcyberops.co
 ref.oobtest.org
 reksaidnslog.security.mihoyo.com
 remcoss2023.duckdns.org
-renew-certificate.azureedge.net
+repicdominic.xyz
 res.faqserv.com
 r.hackade.org
 rkovkagysmanmasksemyanastezya.adygeya.su
@@ -1641,6 +1650,7 @@ sba.faqserv.com
 scanner01.ams1.synalabs.hosting
 sda.faqserv.com
 sde.faqserv.com
+sdl.faqserv.com
 sdm.faqserv.com
 sds.faqserv.com
 seb.faqserv.com
@@ -1653,8 +1663,8 @@ sem.faqserv.com
 sendqrid.net
 senpaireek.fun
 server1.ecorp.asia
-service-8d9lr7ah-1318291330.sh.apigw.tencentcs.com
-service-e699j3k6-1259689902.gz.apigw.tencentcs.com
+service-cia1auek-1314775489.gz.apigw.tencentcs.com
+service-m2easdvn-1303971391.bj.apigw.tencentcs.com
 service-oa25iv4d-1306428399.bj.apigw.tencentcs.com
 sev.faqserv.com
 sexb.faqserv.com
@@ -1671,7 +1681,6 @@ smt.faqserv.com
 snakeoil.nl
 solnft-api.freedmtools.com
 soojibeoast.xyz
-special.beatifulllhistory.com
 spencerfoneill.icu
 sql.oobtest.org
 sra.faqserv.com
@@ -1751,13 +1760,13 @@ tu.trainlove.monster
 ugopounds.ironoreprod.top
 u.oobtest.org
 updalo-1942638394.cos.ap-hongkong.tencent.lat
-update-services.azureedge.net
 update.windows-push.com
 v2-dev-4971.second.ninja
 v2r-cn2.lifeisff.fun
 vip.cesig8.online
 vip-h5.aa51688.com
 vmd119000.contaboserver.net
+voice.2005thavenue.com
 voip.jlsecurity.org
 vpn500541278.softether.net
 vpn-v2rynge-ir.tk
@@ -1781,6 +1790,7 @@ www.alkiuwu.one
 www.alphabravokilo.com
 www.a-white.vn
 www.bisongdamall.com
+www.buesem2021.com
 www.erp.derico.de
 www.goldmineonline.co.uk
 www.great-merkle.68-183-220-248.plesk.page
