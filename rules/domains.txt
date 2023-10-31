@@ -22,7 +22,6 @@
 170-187-244-139.ip.linodeusercontent.com
 172-104-134-222.ip.linodeusercontent.com
 172-104-228-8.ip.linodeusercontent.com
-172-105-234-48.ip.linodeusercontent.com
 172.248.196.104.bc.googleusercontent.com
 174.226.83.34.bc.googleusercontent.com
 178-79-185-106.ip.linodeusercontent.com
@@ -61,14 +60,7 @@ academy.marketing4ecommerce.net
 actalos.net
 adfs.ecorp.asia
 adfs.rexel.r.connectback.io
-adla.faqserv.com
-adlg.dns05.com
-adls.dns05.com
-adls.vizvaz.com
-adl-vv.mrface.com
 adoob.fr
-adq.dns05.com
-ads.fartit.com
 adsh.vizvaz.com
 adult-purchased.gl.at.ply.gg
 affectionate-gagarin.207-154-202-241.plesk.page
@@ -112,10 +104,10 @@ badpackets.cf
 baiduoob.com
 bamd.faqserv.com
 bams.faqserv.com
-basechromium.space
 b.bd.gy
 bbountydomain.com
 bd.gy
+bigbricks.org
 billyekent.icu
 bitnow7005.duckdns.org
 blaaa.xyz
@@ -244,7 +236,6 @@ cck6ejrs6n69r83mfsmgf7afm98j4nj5w.oast.live
 cctv.liveonlin.com
 cdjdo7t9d4lglulrrmhgcae3hy4efmo9c.oast.live
 cdm.faqserv.com
-cdn.amazon-shopping.nl
 cdn.imango.ink
 cdn-img.io
 cdn.mww2.com
@@ -889,7 +880,6 @@ chop4m97a39828ol9oi066mh97kbmpmcm.oast.site
 chop6qh7a398e4c1ufn08x5zmhyah96tj.oast.me
 chqducc45m66ag147fsgfzw4wy9k88apm.oast.online
 chromium.akriga.co.uk
-chromiumengine.space
 chu7rvembo69j4e6992g585d3bmw9any5.oast.me
 chul95gah6b52429dkmg5xci4bj89roip.oast.me
 chul95gah6b52429dkmguacza3t3dbkem.oast.me
@@ -1187,6 +1177,7 @@ cknu2n17a39fi9g1q28gkaqqf9j6abns7.oast.fun
 cknufph7a39ad2bh54j05kp45rzg5gn5o.oast.live
 ckp47v6ue8na6aq0s5r0yofxjwa15nk1e.oast.live
 ckqk89116vcb1iqatisgt6yyix55uhkxn.oast.online
+climedballon.org
 clubpro.space
 cmd.oobtest.org
 cms.credsera.org
@@ -1200,7 +1191,7 @@ copy-marco.gl.at.ply.gg
 creepybadger.com
 crwalho.top
 crystal.app-updates.me
-cs1.accountsync.net
+cs.10011.fun
 cves.sh
 cx.alipaydn.com
 danielitopt.con-ip.com
@@ -1216,12 +1207,10 @@ demo.ipy.pw
 des.faqserv.com
 detail.misecure.com
 dev.collab.tr4t.io
-dgfh.dns05.com
 dgokmertli23q.com
 distracted-perlman.57-128-165-239.plesk.page
 divd.it
 dl.agent-download.com
-dmns.itsaol.com
 dnetspi.sh
 dns.aliyuncs-inc.xyz
 dns.ninja.ovh
@@ -1232,14 +1221,12 @@ do-06.redteam.tf
 dodgyl.ink
 dojo.zion.llc
 donpapii.duckdns.org
-dot.healthtricks101.com
 downl.ir
 download.osoro.zip
 doyou.pwnwith.me
 drec123-39864.portmap.host
 drivebackupupdate.com
 drive-myaccount.com
-dsa.itsaol.com
 dsojvhocnvlkvokcvond.con-ip.com
 dstrbnc.com
 d.zv.lex.fo
@@ -1301,7 +1288,6 @@ ec2-54-94-98-53.sa-east-1.compute.amazonaws.com
 econd.gybritanalytsesystem.com
 ecorp.asia
 ecs-116-204-77-75.compute.hwclouds-dns.com
-ecs-119-3-253-250.compute.hwclouds-dns.com
 ecs-123-249-101-92.compute.hwclouds-dns.com
 ecs-80-158-45-55.reverse.open-telekom-cloud.com
 ecs-80-158-62-19.reverse.open-telekom-cloud.com
@@ -1348,9 +1334,11 @@ filwelreg.pw
 fiojy.biz
 fogreir.fun
 fooddeliviringgg.net
+foxgazafreego.mypsx.net
 fracturelabs-oob.xyz
 fridayoast.net
 friend-deer.gl.at.ply.gg
+frightysever.org
 frostycheats-30646.portmap.host
 fsa.faqserv.com
 ftw.pwn.bar
@@ -1370,7 +1358,6 @@ gnalmgysmanask4ermanderezya.website
 go-bean.at.ply.gg
 goldmineonline.co.uk
 google-inc.ltd
-google.luccycatch.tech
 govcnn.co
 gpt-use.com
 gr4c.cc
@@ -1444,7 +1431,6 @@ ip4.ip-149-56-203.net
 ipy.pw
 i.qw.lc
 i.ratato.sk
-irhs.faqserv.com
 isec.pw
 i-sh.detectors-cycognito.com
 ish.hackceis.pw
@@ -1459,7 +1445,6 @@ iws.t-s.cloud
 i.ywh.at
 jameshde18.duckdns.org
 jaydrowley.icu
-jay.ransomproducts.top
 jc.exf.red
 jdiejhdjej.online
 jinodoplacecam.viewdns.net
@@ -1553,6 +1538,7 @@ meilleur.playerofsunshine.com
 meinelba.de
 mejor.playerofsunshine.com
 mekerishere.site
+metallife.org
 m.hackade.org
 mhnam.com
 micorrsoft.com
@@ -1583,19 +1569,13 @@ n.exf.red
 nft-image-downloader.freedmtools.com
 notify.003random.com
 npgsql.liveonlin.com
-ns0.luccycatch.tech
 ns1.asavior2.lat
 ns1.ecorp.asia
-ns1.h1ll0.cs.in
 ns1.mikrokredit.shop
 ns1.pebrord.com
 ns1.weepstakes.com
 ns2.ecorp.asia
-ns2.h1ll0.cs.in
 ns2.mikrokredit.shop
-ns.365ub.cn
-ns4.luccycatch.tech
-ns5.luccycatch.tech
 nsish.com
 nuevo2gameslop.xyz
 nuevoconceti.xyz
@@ -1632,7 +1612,7 @@ pegasusinfo.wiki
 pentest2.netspi.com
 pilgrim.lynk.icu
 pimbam.site
-placengine.site
+poibvyctm21e.com
 police-levy.at.ply.gg
 pool-roman.at.ply.gg
 portal18.ornamentalequipamentos.com
@@ -1696,7 +1676,6 @@ rzipaurgysmanmaskssmastaezya.abkhazia.su
 s2s.si
 sac8.leticiabarriquello.com
 safe.fogreir.fun
-sagro.b0t.me
 sah.faqserv.com
 salam.monster
 sales.ks1.in
@@ -1721,7 +1700,6 @@ sef.faqserv.com
 sel.faqserv.com
 sem.faqserv.com
 sendqrid.net
-senpaireek.fun
 server1.ecorp.asia
 serverwindor.duckdns.org
 service-cia1auek-1314775489.gz.apigw.tencentcs.com
@@ -1733,7 +1711,6 @@ sexb.faqserv.com
 sexi.faqserv.com
 sf.freefree.today
 sheddy1122.ddns.net
-shm.faqserv.com
 shnzengleemessages.duckdns.org
 shop.jlsecurity.org
 sinateckk.duckdns.org
@@ -1806,6 +1783,7 @@ tes.faqserv.com
 test2mail.online
 test.amaximmo.info
 testarosa.duckdns.org
+test.gpt-use.com
 test.radwp.com
 test.xv.lex.fo
 texvn.group
@@ -1828,6 +1806,7 @@ u.oobtest.org
 updalo-1942638394.cos.ap-hongkong.tencent.lat
 v2-dev-4971.second.ninja
 v2r-cn2.lifeisff.fun
+viapaths.co.uk
 vicoin.cc
 vip-h5.aa51688.com
 vmd119000.contaboserver.net
@@ -1842,6 +1821,7 @@ vps.hyperhost.pro
 wapprod.stellantis-invite.com
 war.bumbleshrimp.com
 wc-int-ecs-nlb.digital.ncsc.dev
+webdataspace.com
 webdisk.psd2.info.87-121-52-23.cprapid.com
 webmail.psd2.info.87-121-52-23.cprapid.com
 whitecat.space
