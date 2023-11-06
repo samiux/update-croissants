@@ -150,7 +150,7 @@ drop http $EXTERNAL_NET any -> any any (msg:"HTTrack User-Agent"; content:"HTTra
 drop http $EXTERNAL_NET any -> any any (msg:"Huaweisymantecspider User-Agent"; content:"Huaweisymantecspider"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060140; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"humanlinks User-Agent"; content:"humanlinks"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060141; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"Hâ€°mâ€°hâ€°kki User-Agent"; content:"Hâ€°mâ€°hâ€°kki"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060142; rev:2;)
-drop http $EXTERNAL_NET any -> any any (msg:"Image User-Agent"; content:"Image"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060143; rev:2;)
+alert http $EXTERNAL_NET any -> any any (msg:"Image User-Agent"; content:"Image"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060143; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"Stripper User-Agent"; content:"Stripper"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060144; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"Sucker User-Agent"; content:"Sucker"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060145; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"inagist.com User-Agent"; content:"inagist.com"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060146; rev:2;)
