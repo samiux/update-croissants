@@ -40,15 +40,15 @@ drop ip $EXTERNAL_NET any -> any any (msg:"VPN Exit Nodes - Blacklisted 2"; ipre
 ##drop http any any -> any any (msg:"Phishing URL"; lua:phishing_urls.lua; flow:stateless; priority:1; sid:1010042; rev:1;)
 ##drop http any any -> any any (msg:"Hacked Domains URL"; lua:hacked-domains_urls.lua; flow:stateless; priority:1; sid:1010043; rev:1;)
 
-drop dns any any -> any any (msg:"DNS Query to Malicious FQDN"; dns.query; dataset:isset, domains_iocs, type string, load /var/lib/suricata/rules/domains_iocs.list, memcap 800mb, hashsize 3000000; classtype: trojan-activity; priority:1; sid:1010044; rev:3;)
+drop dns any any -> any any (msg:"DNS Query to Malicious FQDN"; dns.query; dataset:isset, domains_iocs, type string, load /var/lib/suricata/rules/domains_iocs.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010044; rev:4;)
 
-drop dns any any -> any any (msg:"DNS Query to Phishing FQDN"; dns.query; dataset:isset, domains_phishing, type string, load /var/lib/suricata/rules/domains_phishing.list, memcap 800mb, hashsize 3000000; classtype: trojan-activity; priority:1; sid:1010045; rev:3;)
+drop dns any any -> any any (msg:"DNS Query to Phishing FQDN"; dns.query; dataset:isset, domains_phishing, type string, load /var/lib/suricata/rules/domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010045; rev:4;)
 
 drop http any any -> any any (msg:"ThreatIntel: Malicious File Downloaded over HTTP"; flow: established; filesha256:/var/lib/suricata/rules/sha256_iocs.list; classtype: trojan-activity; priority:1; sid:1010046; rev:1;)
 
 drop tcp any any -> any any (msg:"ThreatIntel: Malicious File Downloaded over TCP"; flow: established; filesha256:/var/lib/suricata/rules/sha256_iocs.list; classtype: trojan-activity; priority:1; sid:1010047; rev:1;)
 
-drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; dns.query; dataset:isset, bad-referrers, type string, load /var/lib/suricata/rules/bad-referrers.list, memcap 800mb, hashsize 3000000; classtype: trojan-activity; priority:1; sid:1010048; rev:2;)
+drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; dns.query; dataset:isset, bad-referrers, type string, load /var/lib/suricata/rules/bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010048; rev:3;)
 
 # self-signed-cert
 drop tls any any -> any any (msg:"TLS Self Signed Certificate"; flow:established; lua:self-signed-cert.lua; tls.store; classtype:protocol-command-decode; sid:1010050; rev:2;)
