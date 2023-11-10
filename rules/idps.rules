@@ -213,3 +213,10 @@ drop udp any any -> any 123 (msg:"Port 123 but not NTP traffic"; app-layer-proto
 drop http $HOME_NET any -> $EXTERNAL_NET 80 ( msg:"BitSight MALWARE PrivateLoader"; flow:established,to_server; content:"POST";http_method; content:"/base/api/getData.php";http_uri; content:"data=";http_client_body; content:"application/x-www-form-urlencoded";http_header; content:"Mozilla/5.0 (Windows NT 10.0|3B| Win64|3B| x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/";http_user_agent; reference:url,www.bitsight.com/blog/tracking-privateloader-malware-distribution-service; sid:1030000; rev:1;)
 
 # next sid:1030001
+
+#################
+# NRD Phishing 30
+#################
+drop dns $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range domain"; flow:established,to_server; dns.query; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 20mb,hashsize 100000; classtype:unknown; flowbits:set, stamus.nrd.phishing; sid:3115016; rev:2; metadata:nrd_period 30_days, nrd_key dns.query.rrname, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
+drop http $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range HTTP server hosts"; flow:established,to_server; http.host; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 20mb,hashsize 100000; classtype:unknown; flowbits:set, stamus.nrd.phishing; sid:3115017; rev:2; metadata:nrd_period 30_days, nrd_key http.hostname, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
+drop tls $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range TLS SNI servers"; flow:established,to_server; tls.sni; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 20mb,hashsize 100000; classtype:unknown; flowbits:set, stamus.nrd.phishing; sid:3115018; rev:2; metadata:nrd_period 30_days, nrd_key tls.sni, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
