@@ -33,10 +33,11 @@ americcorp.net
 amm.mine.nu
 ANTILOL2113-61842.portmap.host
 an-volunteer.gl.at.ply.gg
-api.dynabot.top
+api.officeserviced.com
 applications-tri.at.ply.gg
 arb.dns05.com
 arc.fartit.com
+archiefilmco.com
 arm.dns05.com
 arm.fartit.com
 around-lite.gl.at.ply.gg
@@ -68,6 +69,7 @@ case-defines.gl.at.ply.gg
 cbm.adenz.top
 cedricklegends.ddns.net
 centurygift.myq-see.com
+ceo-reputation.ru
 cfc.dns05.com
 cfr.eur-import.com
 check.mis.charitykp.info
@@ -83,7 +85,6 @@ conflictt.almostmy.com
 consciousnessauto.com
 copperpeace.optumshadow.info
 copy-marco.gl.at.ply.gg
-ctic.azureedge.net
 ctvnews.eastus.cloudapp.azure.com
 d50-99-8-5.abhsia.telus.net
 daddygarages.org
@@ -97,14 +98,13 @@ DizzyWizzy-61490.portmap.host
 dkteamfix.webhop.net
 dng05vpn.v4.softether.net
 dng.dns05.com
-dns31.starbucksvip.com
-dns32.starbucksvip.com
 DonBaguette-43001.portmap.io
 donpapajay.ddns.net
 dool.ddns.net
 dotnet-outlawz.xyz
 douzi.my-wan.de
 download.adaklab.ir
+do.wtsserv.com
 drec123-39864.portmap.host
 drippmedsot.mywire.org
 dxxxxza.dynamic-dns.net
@@ -143,8 +143,6 @@ exrobotos.duckdns.org
 extra-hack.ddns.net
 f8terat.ddns.net
 fastis.xyz
-fbc.dns05.com
-fca.dns05.com
 federal-true.gl.at.ply.gg
 fertikalossf.com
 fgfdsnvisdnvijnsdvdssdsd.con-ip.com
@@ -175,6 +173,7 @@ graphics-absorption.at.ply.gg
 Graxe239-61522.portmap.host
 gzh.qijingonline.com
 having-nevertheless.gl.at.ply.gg
+hawkish.eu
 helpfulsteepyi.pw
 hmza.con-ip.com
 hongtong502.cn
@@ -224,7 +223,6 @@ language-partnership.gl.at.ply.gg
 laportgroup.com
 LaraLoveU-44526.portmap.host
 large-sox.gl.at.ply.gg
-lastimaners.ug
 launchpad.pusd.fi
 lead-selections.gl.at.ply.gg
 lesson.webredirect.org
@@ -282,7 +280,6 @@ ns2.scalaganai.buzz
 ns2.vip404.eu.org
 ns3.vip404.eu.org
 nsairoet.kozow.com
-ns.controlcavi.com
 nsff.aallianz.com.tw
 ns.grp.jpn.com
 oak-d5fmc3bzezh2dwhk.z01.azurefd.net
@@ -295,6 +292,7 @@ owo-whats-this.duckdns.org
 p2.is-by.us
 pacman.dontexist.org
 painelbs22.lbss23.website
+panel.ceo-reputation.ru
 partner-infoservice.online
 partner-juice.gl.at.ply.gg
 plasmans.online
@@ -315,7 +313,6 @@ qoone1sr.top
 quasardeez.ddns.net
 rat.i-stole-your.pw
 raven123.ddnsgeek.com
-rdc.dns05.com
 reference-tokyo.at.ply.gg
 registered-dt.at.ply.gg
 releases-photos.at.ply.gg
@@ -330,6 +327,7 @@ rob-135.mailempower.com
 robolorunerushe.pw
 rooms-kw.gl.at.ply.gg
 rough-night-92806.pktriot.net
+rufflesrefined.com
 rvc.fartit.com
 rwoodrowyioay.com
 rxrr.duckdns.org
@@ -339,12 +337,9 @@ Sanael-62946.portmap.host
 saofidubixo4r.top
 scambaiting2022.ddns.net
 schools-softball.gl.at.ply.gg
-scm.dns05.com
-scv.fartit.com
 sd-50950.dedibox.fr
 sdhisdviudsibdsibedas.con-ip.com
 sdhvvy7vbysuxnvjdr6gtd64.com
-sdt.fartit.com
 sdvsiudhvisdhvodshv.con-ip.com
 segun.ddns.net
 sembe.duckdns.org
@@ -356,16 +351,12 @@ service-aizhwq2o-1255155815.gz.apigw.tencentcs.com
 service-l3k4wvla-1322622051.gz.apigw.tencentcs.com
 service-ndozu6av-1308639534.sh.apigw.tencentcs.com
 shady-mo.duckdns.org
-shc.fartit.com
-shf.fartit.com
 shipperd69.strangled.net
 shohetrc.com
 short-shortly.gl.at.ply.gg
 shows-brussels.gl.at.ply.gg
 size-bills.at.ply.gg
 slava3257.ddns.net
-smc.dns05.com
-smf.dns05.com
 sms-atc.com
 smtp12.smtplab.com
 smtp.yassine-bolard.nl
@@ -377,12 +368,6 @@ sonia777.con-ip.com
 soon-lp.at.ply.gg
 srns.matrika.cn
 srv82054434.ultasrv.net
-ssc.fartit.com
-ssf.fartit.com
-ssj.fartit.com
-ssn.fartit.com
-sst.fartit.com
-ssv.fartit.com
 staging.prfectr.xyz
 static.117.166.109.65.clients.your-server.de
 static.136.152.108.65.clients.your-server.de
@@ -443,6 +428,7 @@ windowis11.com
 windowsignn.theworkpc.com
 without-sure.gl.at.ply.gg
 wss.guoyashuai.top
+wtsserv.com
 www.162-33-179-116.cprapid.com
 www.americanauth0.com
 www.hongtong502.cc
@@ -453,6 +439,7 @@ www.msftonline.org
 www.ptkick.com
 www.pwshrepo.com
 www.yksdemg.top
+wylns.matrika.cn
 wz-patient001.duckdns.org
 xpencildiscussiio.pw
 xxxxza.dynamic-dns.net
