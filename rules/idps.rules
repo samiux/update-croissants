@@ -220,7 +220,7 @@ drop tcp any any -> any any (msg:"InfectedSlurs 0day exploit #1 attempt"; conten
 # Zero-day payload 2 
 drop tcp any any -> any any (msg:"InfectedSlurs 0day exploit #2 attempt"; content:"page_suc="; content:"system.general.datetime="; content:"ntp.general.hostname="; content:"ntp.general.dst="; content:"ntp.general.dst.adjust="; content:"system.general.timezone="; content:"system.general.tzname="; content:"ntp.general.enable="; classtype: trojan-activity; priority:1; sid:1030002; rev:1;)
 # Mirai heartbeat
-drop tcp $HOME_NET any -> $EXTERNAL_NET any ( msg:"mirai heartbeat to c2";  content: "|00 00 00 01|"; classtype: trojan-activity; priority:1; sid: 1030003; rev:2;)
+## drop tcp $HOME_NET any -> $EXTERNAL_NET any ( msg:"mirai heartbeat to c2";  content: "|00 00 00 01|"; classtype: trojan-activity; priority:1; sid: 1030003; rev:2;)
 # -----
 
 # next sid:1030004
