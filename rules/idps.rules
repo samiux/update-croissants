@@ -212,6 +212,17 @@ drop udp any any -> any 123 (msg:"Port 123 but not NTP traffic"; app-layer-proto
 ############################
 drop http $HOME_NET any -> $EXTERNAL_NET 80 ( msg:"BitSight MALWARE PrivateLoader"; flow:established,to_server; content:"POST";http_method; content:"/base/api/getData.php";http_uri; content:"data=";http_client_body; content:"application/x-www-form-urlencoded";http_header; content:"Mozilla/5.0 (Windows NT 10.0|3B| Win64|3B| x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/";http_user_agent; reference:url,www.bitsight.com/blog/tracking-privateloader-malware-distribution-service; sid:1030000; rev:1;)
 
+# -----
+# InfectedSlurs Botnet Spreads Mirai via Zero-Days
+# https://www.akamai.com/blog/security-research/new-rce-botnet-spreads-mirai-via-zero-days
+# Zero-day payload 1
+drop tcp any any -> any any (msg:"InfectedSlurs 0day exploit #1 attempt"; content:"lang="; content:"useNTPServer="; content:"synccheck="; content:"timeserver="; content:"interval="; content:"enableNTPServer="; classtype: trojan-activity; priority:1; sid:1030001; rev:1;)
+# Zero-day payload 2 
+drop tcp any any -> any any (msg:"InfectedSlurs 0day exploit #2 attempt"; content:"page_suc="; content:"system.general.datetime="; content:"ntp.general.hostname="; pcre:"ntp.general.hostname="; content:"ntp.general.dst="; content:"ntp.general.dst.adjust="; content:"system.general.timezone="; content:"system.general.tzname="; content:"ntp.general.enable="; classtype: trojan-activity; priority:1; sid:1030002; rev:1;)
+# Mirai heartbeat
+drop tcp INTERNAL_NET any -> EXTERNAL_NET any ( msg:"mirai heartbeat to c2";  content: "|00 00 00 01|"; classtype: trojan-activity; priority:1; sid: 1030003; rev:1;)
+# -----
+
 # next sid:1030001
 
 #################
