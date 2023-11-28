@@ -40,15 +40,15 @@ drop ip $EXTERNAL_NET any -> any any (msg:"VPN Exit Nodes - Blacklisted 2"; ipre
 ##drop http any any -> any any (msg:"Phishing URL"; lua:phishing_urls.lua; flow:stateless; priority:1; sid:1010042; rev:1;)
 ##drop http any any -> any any (msg:"Hacked Domains URL"; lua:hacked-domains_urls.lua; flow:stateless; priority:1; sid:1010043; rev:1;)
 
-drop dns any any -> any any (msg:"DNS Query to Malicious FQDN"; dns.query; dataset:isset, domains_iocs, type string, load /var/lib/suricata/rules/domains_iocs.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010044; rev:4;)
+##drop dns any any -> any any (msg:"DNS Query to Malicious FQDN"; dns.query; dataset:isset, domains_iocs, type string, load /var/lib/suricata/rules/domains_iocs.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010044; rev:4;)
 
-drop dns any any -> any any (msg:"DNS Query to Phishing FQDN"; dns.query; dataset:isset, domains_phishing, type string, load /var/lib/suricata/rules/domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010045; rev:4;)
+##drop dns any any -> any any (msg:"DNS Query to Phishing FQDN"; dns.query; dataset:isset, domains_phishing, type string, load /var/lib/suricata/rules/domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010045; rev:4;)
 
 drop http any any -> any any (msg:"ThreatIntel: Malicious File Downloaded over HTTP"; flow: established; filesha256:/var/lib/suricata/rules/sha256_iocs.list; classtype: trojan-activity; priority:1; sid:1010046; rev:1;)
 
 drop tcp any any -> any any (msg:"ThreatIntel: Malicious File Downloaded over TCP"; flow: established; filesha256:/var/lib/suricata/rules/sha256_iocs.list; classtype: trojan-activity; priority:1; sid:1010047; rev:1;)
 
-drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; dns.query; dataset:isset, bad-referrers, type string, load /var/lib/suricata/rules/bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010048; rev:3;)
+##drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; dns.query; dataset:isset, bad-referrers, type string, load /var/lib/suricata/rules/bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1010048; rev:3;)
 
 # self-signed-cert
 drop tls any any -> any any (msg:"TLS Self Signed Certificate"; flow:established; lua:self-signed-cert.lua; tls.store; classtype:protocol-command-decode; sid:1010050; rev:2;)
@@ -223,7 +223,22 @@ drop tcp any any -> any any (msg:"InfectedSlurs 0day exploit #2 attempt"; conten
 ## drop tcp $HOME_NET any -> $EXTERNAL_NET any ( msg:"mirai heartbeat to c2";  content: "|00 00 00 01|"; classtype: trojan-activity; priority:1; sid: 1030003; rev:2;)
 # -----
 
-# next sid:1030004
+########################
+# Datasets
+########################
+drop dns any any -> any any (msg:"DNS Query to Malicious FQDN"; dns.query; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030010; rev:1;)
+drop http any any -> any any (msg:"Malicious HTTP server hosts"; http.host; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030011; rev:1;)
+drop tls any any -> any any (msg:"Malicious TLS SNI servers"; tls.sni; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1, sid:1030012; rev:1;)
+
+drop dns any any -> any any (msg:"DNS Query to Phishing FQDN"; dns.query; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030020; rev:1;)
+drop http any any -> any any (msg:"Phishing HTTP server hosts"; http.host; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030021; rev:1;)
+drop tls any any -> any any (msg:"Phishing TLS SNI servers"; tls.sni; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1, sid:1030022; rev:1;)
+
+drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; dns.query; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030030; rev:1;)
+drop http any any -> any any (msg:"Bad Referrers HTTP server hosts"; http.host; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030031; rev:1;)
+drop tls any any -> any any (msg:"Bad Referrers TLS SNI servers"; tls.sni; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1, sid:1030032; rev:1;)
+
+# next sid:1030040
 
 #################
 # NRD Phishing 30
