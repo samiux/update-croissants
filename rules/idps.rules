@@ -14,17 +14,17 @@ alert icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classt
 # Potential Ports Scan -sVC?
 ##drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
 # general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010021; rev:9;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; flowbits:set, weilong.scanning; sid:1010021; rev:10;)
 # -sF (FIN scan) (open|filtered)) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (FIN scan)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010022; rev:9;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (FIN scan)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; flowbits:set, weilong.scanning; sid:1010022; rev:10;)
 # -sN (Null scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Null scan)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010023; rev:9;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Null scan)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; flowbits:set, weilong.scanning; sid:1010023; rev:10;)
 # -sX (XMas scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (XMas scan)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010024; rev:9;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (XMas scan)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; flowbits:set, weilong.scanning; sid:1010024; rev:10;)
 # -sM (Maimon scan) (open|filtered) | VM (closed)
-##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:9;)
+##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; flowbits:set, weilong.scanning; sid:1010025; rev:10;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
-##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:9;)
+##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; flowbits:set, weilong.scanning; sid:1010026; rev:10;)
 
 #################
 
