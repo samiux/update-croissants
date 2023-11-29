@@ -26,8 +26,8 @@ drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (XMa
 ##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:13;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
 ##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:13;)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan - SYN,ACK)"; flow:to_client; flags:SA,12; window: 65160; tcp.mss: 1400; priority:1; classtype:attempted-recon; sid:1010027; rev:13;)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan - RST,ACK) "; flow:to_server; flags:RA,12; window: 64256; priority:1; classtype:attempted-recon; sid:1010028; rev:13;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan - SYN,ACK)"; flags:SA,12; window: 65160; tcp.mss: 1400; priority:1; classtype:attempted-recon; sid:1010027; rev:14;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan - RST,ACK) "; flags:RA,12; window: 64256; priority:1; classtype:attempted-recon; sid:1010028; rev:14;)
 
 #################
 
