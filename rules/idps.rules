@@ -10,6 +10,7 @@ alert icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classt
 
 ############################
 # Designed for IDPS is placed behind of router
+# https://paginas.fe.up.pt/~mgi98020/pgr/writing_snort_rules.htm
 
 # Potential Ports Scan -sVC?
 ##drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
@@ -26,7 +27,7 @@ drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (XMa
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
 ##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:12;)
 drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan - SYN,ACK)"; flow:to_client; flags:SA,12; window: 65160; tcp.mss: 1400; priority:1; classtype:attempted-recon; sid:1010027; rev:12;)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan - RST,ACK) "; flow:to_server; flags:RA,14; window: 64256; priority:1; classtype:attempted-recon; sid:1010028; rev:12;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan - RST,ACK) "; flow:to_server; flags:RA,12; window: 64256; priority:1; classtype:attempted-recon; sid:1010028; rev:12;)
 
 #################
 
