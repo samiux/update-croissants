@@ -15,17 +15,17 @@ alert icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classt
 # Potential Ports Scan -sVC?
 ##drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
 # general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan)"; flow:to_server; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010021; rev:13;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan)"; flags:S,12; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010021; rev:14;)
 # -sF (FIN scan) (open|filtered)) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (FIN scan)"; flow:to_server; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010022; rev:13;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (FIN scan)"; flags:F,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010022; rev:14;)
 # -sN (Null scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Null scan)"; flow:to_server; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010023; rev:13;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Null scan)"; flags:0,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010023; rev:14;)
 # -sX (XMas scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (XMas scan)"; flow:to_server; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010024; rev:13;)
+drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (XMas scan)"; flags:FPU,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010024; rev:14;)
 # -sM (Maimon scan) (open|filtered) | VM (closed)
-##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Maimon scan)"; flow:to_server; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:13;)
+##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Maimon scan)"; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:14;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
-##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (ACK/Window scan)"; flow:to_server; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:13;)
+##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (ACK/Window scan)"; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:14;)
 
 #################
 
@@ -228,17 +228,17 @@ drop tcp any any -> any any (msg:"InfectedSlurs 0day exploit #2 attempt"; conten
 # Datasets
 ########################
 # Malicious
-drop dns any any -> any any (msg:"DNS Query to Malicious FQDN"; flow:to_server; dns.query; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030010; rev:11;)
-drop http any any -> any any (msg:"Malicious HTTP server hosts"; flow:to_server; http.host; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030011; rev:11;)
-drop tls any any -> any any (msg:"Malicious TLS SNI servers"; flow:to_server; tls.sni; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030012; rev:11;)
+drop dns any any -> any any (msg:"DNS Query to Malicious FQDN"; dns.query; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030010; rev:12;)
+drop http any any -> any any (msg:"Malicious HTTP server hosts"; http.host; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030011; rev:12;)
+drop tls any any -> any any (msg:"Malicious TLS SNI servers"; tls.sni; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030012; rev:12;)
 # Phishing
-drop dns any any -> any any (msg:"DNS Query to Phishing FQDN"; flow:to_server; dns.query; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030020; rev:11;)
-drop http any any -> any any (msg:"Phishing HTTP server hosts"; flow:to_server; http.host; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030021; rev:11;)
-drop tls any any -> any any (msg:"Phishing TLS SNI servers"; flow:to_server; tls.sni; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030022; rev:11;)
+drop dns any any -> any any (msg:"DNS Query to Phishing FQDN"; dns.query; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030020; rev:12;)
+drop http any any -> any any (msg:"Phishing HTTP server hosts"; http.host; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030021; rev:12;)
+drop tls any any -> any any (msg:"Phishing TLS SNI servers"; tls.sni; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030022; rev:12;)
 # Bad Referrers
-drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; flow:to_server; dns.query; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030030; rev:11;)
-drop http any any -> any any (msg:"Bad Referrers HTTP server hosts"; flow:to_server; http.host; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030031; rev:11;)
-drop tls any any -> any any (msg:"Bad Referrers TLS SNI servers"; flow:to_server; tls.sni; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 20mb, hashsize 100000; classtype: trojan-activity; priority:1; sid:1030032; rev:11;)
+drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; dns.query; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030030; rev:12;)
+drop http any any -> any any (msg:"Bad Referrers HTTP server hosts"; http.host; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030031; rev:12;)
+drop tls any any -> any any (msg:"Bad Referrers TLS SNI servers"; tls.sni; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030032; rev:12;)
 
 #################
 # NRD Phishing 30
@@ -247,8 +247,8 @@ drop tls any any -> any any (msg:"Bad Referrers TLS SNI servers"; flow:to_server
 #drop http $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range HTTP server hosts"; flow:established,to_server; http.host; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 20mb,hashsize 100000; classtype:unknown; flowbits:set, stamus.nrd.phishing; sid:3115017; rev:2; metadata:nrd_period 30_days, nrd_key http.hostname, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
 #drop tls $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range TLS SNI servers"; flow:established,to_server; tls.sni; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 20mb,hashsize 100000; classtype:unknown; flowbits:set, stamus.nrd.phishing; sid:3115018; rev:2; metadata:nrd_period 30_days, nrd_key tls.sni, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
 #---
-drop dns $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range domain"; flow:to_server; dns.query; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 20mb,hashsize 100000; classtype:unknown; sid:1030040; rev:7; metadata:nrd_period 30_days, nrd_key dns.query.rrname, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
-drop http $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range HTTP server hosts"; flow:to_server; http.host; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 20mb,hashsize 100000; classtype:unknown; sid:1030041; rev:7; metadata:nrd_period 30_days, nrd_key http.hostname, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
-drop tls $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range TLS SNI servers"; flow:to_server; tls.sni; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 20mb,hashsize 100000; classtype:unknown; sid:1030042; rev:7; metadata:nrd_period 30_days, nrd_key tls.sni, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
+drop dns $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range domain"; dns.query; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 10mb,hashsize 1024; classtype:unknown; sid:1030040; rev:8; metadata:nrd_period 30_days, nrd_key dns.query.rrname, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
+drop http $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range HTTP server hosts"; flow:to_server; http.host; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 10mb,hashsize 1024; classtype:unknown; sid:1030041; rev:8; metadata:nrd_period 30_days, nrd_key http.hostname, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
+drop tls $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range TLS SNI servers"; flow:to_server; tls.sni; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 10mb,hashsize 1024; classtype:unknown; sid:1030042; rev:8; metadata:nrd_period 30_days, nrd_key tls.sni, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
 
 # next sid:1030050
