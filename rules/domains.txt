@@ -398,7 +398,6 @@ anything100.no-ip.biz
 aorarmzii.no-ip.biz
 apananco.no-ip.biz
 apiedoe.servebeer.com
-api.speech-microsoft.com
 aploz.preetycoin.work
 apolon.no-ip.biz
 applications-tri.at.ply.gg
