@@ -253,7 +253,7 @@ drop http $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range HTTP serve
 drop tls $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range TLS SNI servers"; tls.sni; dataset:isset,nrd-phishing-30day,type string,load nrd-phishing-30day,memcap 10mb,hashsize 1024; classtype:unknown; sid:1030042; rev:10; metadata:nrd_period 30_days, nrd_key tls.sni, nrd_asset src_ip, stamus_classification nrd_phishing, provider Stamus, created_at 2022_04_29, updated_at 2023_08_16;)
 
 # BurpSuite
-drop tls any any -> any any (msg:"Possible BurpSuite JA3 hash Detected"; ja3.hash; content:"53d67b2a806147a7d1d5df74b54dd049"; priority:1; classtype:attempted-recon; sid:1030050; rev: 1;)
+drop tls any any -> any any (msg:"Possible BurpSuite JA3 hash Detected"; ja3s.hash; content:"53d67b2a806147a7d1d5df74b54dd049"; priority:1; classtype:attempted-recon; sid:1030050; rev: 2;)
 drop http any any -> any any (msg:"Possible BurpSuite Intruder Detected #1"; http.method; content:"POST"; content:"|C2 A7|"; priority:1; classtype:attempted-recon; sid:1030051; rev: 1;)
 drop http any any -> any any (msg:"Possible BurpSuite Intruder Detected #2"; http.method; content:"POST"; content:"|C3 82|"; priority:1; classtype:attempted-recon; sid:1030052; rev: 1;)
 
