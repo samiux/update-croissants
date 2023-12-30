@@ -26,7 +26,7 @@ drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (XMa
 ##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Maimon scan)"; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:14;)
 # -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
 ##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (ACK/Window scan)"; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:14;)
-alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Possibility Port Scan or Normal Connections (just depends)"; flags:S,CE; priority:1; classtype:attempted-recon; sid:1010027; rev:28;)
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Possibility Port Scan or Normal Connections (just depends)"; flags:S,CE; priority:1; classtype:attempted-recon; sid:1010027; rev:29;)
 
 #################
 
