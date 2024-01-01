@@ -6,26 +6,9 @@
 # reserved for 1010000-1010099
 # disallow ping from internet
 alert icmp $EXTERNAL_NET any -> $HOME_NET any (msg:"ICMP PING"; itype: 8; classtype: network-scan; priority:1; sid:1010000; rev:7;)
-#alert icmp $EXTERNAL_NET any -> any any (msg:"ICMP PING (2)"; itype: 8; classtype: network-scan; priority:1; sid:1010001; rev:6;)
 
-############################
-# Designed for IDPS is placed behind of router
-# https://paginas.fe.up.pt/~mgi98020/pgr/writing_snort_rules.htm
-
-# Potential Ports Scan -sVC?
-##drop tcp any any -> $HOME_NET any (msg:"SCAN Potential Ports Scan -sVC?"; flow:to_server; flags:S,12; window: 64240; tcp.mss: 1460; classtype:attempted-recon; priority:1; sid:1010020; rev:2;)
-# general or -sS (SYN scan) as well as -sVC (Kali Linux host only) (filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (SYN scan)"; flags:S,CE; window: 1024; tcp.mss: 1460; priority:1; classtype:attempted-recon; sid:1010021; rev:15;)
-# -sF (FIN scan) (open|filtered)) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (FIN scan)"; flags:F,CE; window: 1024; priority:1; classtype:attempted-recon; sid:1010022; rev:15;)
-# -sN (Null scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Null scan)"; flags:0,CE; window: 1024; priority:1; classtype:attempted-recon; sid:1010023; rev:15;)
-# -sX (XMas scan) (open|filtered) | VM (open|filtered)
-drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (XMas scan)"; flags:FPU,CE; window: 1024; priority:1; classtype:attempted-recon; sid:1010024; rev:15;)
-# -sM (Maimon scan) (open|filtered) | VM (closed)
-##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (Maimon scan)"; flags:FA,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010025; rev:14;)
-# -sA & -sW (ACK & Window scan) (filtered) | VM (-sA unfiltered   -sW open)
-##drop tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"SCAN Potential Ports Scan (ACK/Window scan)"; flags:A,12; window: 1024; priority:1; classtype:attempted-recon; sid:1010026; rev:14;)
+########################
+# 
 alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"Normal Connection or Connection Exceeded Limitation"; flags:S,CE; priority:1; classtype:attempted-recon; sid:1010027; rev:31;)
 
 #################
