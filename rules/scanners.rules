@@ -54,7 +54,7 @@ drop http $EXTERNAL_NET any -> any any (msg:"BOT for JCE Vulnerability scanner";
 
 # bad user-agent and bad host
 # http://www.botreports.com/
-drop http $EXTERNAL_NET any -> any [80,443] (msg:"Null User-Agent"; content:!"User-Agent|3a 20|"; nocase; http_header; classtype:web-application-attack; priority:1; sid:1060047; rev:2;)
+alert http $EXTERNAL_NET any -> any [80,443] (msg:"Null User-Agent"; content:!"User-Agent|3a 20|"; nocase; http_header; classtype:web-application-attack; priority:1; sid:1060047; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"127.0.0.x HTTP Host Header"; content:"127.0.0"; nocase; http_header; classtype:web-application-attack; priority:1; sid:1060048; rev:6;)
 drop http $EXTERNAL_NET any -> any any (msg:"Localhost HTTP Host Header"; content:"localhost"; nocase; http_header; classtype:web-application-attack; priority:1; sid:1060049; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"AITCSRobot User-Agent"; content:"AITCSRobot"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060050; rev:2;)
