@@ -44,6 +44,8 @@ app.vioiwesc.com
 app.xinsgcbhvg.com
 app.yopeis.com
 app.zjjysapps.com
+ap-southeast-2-ds-2008.oss-acc.aliyuncs.com
+ap-southeast-2.oss-acc.aliyuncs.com
 aramexame.com
 aramexgna.com
 aramexio.com
@@ -70,6 +72,14 @@ biclubmicro.com
 bika.wealthred.com
 bika/wealthred.com
 binenec.com
+bitextec.com
+bitiiiiiii.cc
+bitoptdl.com
+bitopt-ex.com
+bit-optiver.com
+bitoptiver.com
+bit-optiver.org
+bitoptiver.org
 bitstorageep.com
 bitstorageomc.com
 bitstorageua.com
@@ -81,6 +91,8 @@ bochk-online.com
 bocom.primarybonds.com
 bonfirecoin.com
 bos-cms.cloudzz.org
+bovexchange.com
+bov-ex.com
 brightfinancialgp.com
 brightfngphk.com
 bright-souzoku.jp
@@ -118,6 +130,7 @@ coinme.mhztt.com
 compass-visa.myfreesites.net
 cooldockmantoo.men
 covid19hc.info
+ctongstock.com
 customerservice-pccw.com
 cvxcde.com
 czbrwa.geek
@@ -164,10 +177,12 @@ ethbtcforex.com
 etopfe.com
 ewumou.com
 exodus.nunad.com
+exv2demo.oss-accelerate.aliyuncs.com
 fairdesksih.com
 familyshopex.com
 fawzpp.indy
 fb-gj.top
+fdgh67ifghw4.xyz
 fht.dthuiyuan.com
 flgvrek.com
 flvxca.com
@@ -315,6 +330,7 @@ mmt4.cn hmt4.com
 mom.vip79037.mom
 mqcgbs.gopher
 mr.gov.ua
+mroxcryptoswap.net
 m.taptap.io
 mtdw.net
 mtr-hk.services
@@ -341,6 +357,8 @@ officiall1.sitey.me
 oncloudmattress.com
 oneco.ne.jp
 opewu.homes
+optiverex.com
+outpacein.xyz
 oy.ottos.fun
 partneer.pt
 pazg-app.com
@@ -357,6 +375,7 @@ pone.iexchange.bz
 pqahzam.ink
 primarybonds.com
 projektpamiec.pl
+public-digital.com
 pulsboc.com
 pztx.link
 qhedye.oss
@@ -416,6 +435,7 @@ sofvleo.com
 sofvpro.com
 sofvril.com
 solshirecap.com
+statiay.oss-accelerate.aliyuncs.com
 stock-hq.com
 stock.jwt-app.com
 stock.piattlicapp.xyz
@@ -476,6 +496,7 @@ uhasxym.com
 ultimamaxfx.com
 usd405.com
 vbfgrw.com
+vbn34gren343.xyz
 vbooeq.com
 vencentser.com
 vencentservice.com
@@ -506,6 +527,7 @@ wh-whatsapp.net
 win18.cc
 wnisyi.libre
 wnjeomqu.cc
+wocomfx.com
 woods-cf.com
 wss.f8ddcc.com
 wt-whatsapp.com
@@ -665,6 +687,7 @@ www.wc-fg.com
 www.wcgold.hk
 www.whtasapp.online
 www.wilbysec.com
+www.wocomfx.com
 www.xhgj693.com
 www.xpj360.xyz
 www.yangohk.com
