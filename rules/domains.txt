@@ -137,7 +137,6 @@
 0s.nrxwo2lo.ozvs4y3pnu.cmla.ru
 0s.or3ws5dumvzc4y3pnu.xwerty.ru
 0s.ozvs4y3pnu.nblz.ru
-0.tcp.sa.ngrok.io
 0.tcp.us-cal-1.ngrok.io
 0thydr0.com
 0u098.000webhostapp.com
@@ -282,6 +281,7 @@
 156.uw.to
 1572qz.com
 15852.000webhostapp.com
+159-203-167-57.ipv4.staticdns2.io
 1605hesterglobbrought.com
 161266.iphonexfree.net
 1615616315nlammy16.blob.core.windows.net
@@ -298,6 +298,7 @@
 168hourlifeweek.com
 16ci-bc23a.com
 16.mozillaph.org
+172-105-14-104.ip.linodeusercontent.com
 17263263mastrmind17.blob.core.windows.net
 17275007394.000webhostapp.com
 173-198-245-198.static.as40244.net
@@ -463,6 +464,7 @@
 20na.top
 20porcentodafaturaitau.com
 20sur20.be
+21.157.72.34.bc.googleusercontent.com
 213233333de.000webhostapp.com
 214451564156easy2.blob.core.windows.net
 214d17c9-74e1-4533-bf6c-3f31210e7c6b.htmlpasta.com
@@ -4751,6 +4753,7 @@ androcentric-plate.000webhostapp.com
 androecial-evacuati.000webhostapp.com
 androidapponline.com
 androidappsapk.co
+android.l3harris.pro
 androidliyiz.net
 androidrepublica.website
 androidsamsnung.com
@@ -10392,6 +10395,7 @@ bolaotop.com.br
 boldbeautyhair.com
 boldbossbitch.com
 boldbru.com
+bold-clarke.104-168-102-175.plesk.page
 bolderfuture.com
 boldtopics.com
 boleii.com
@@ -10971,6 +10975,7 @@ brookewaterllc.com
 brookfallgroup.com
 brookfieldproperti.com
 brooklynbounz.co.za
+brookselectrics.com
 broomy-ropes.000webhostapp.com
 broozmobile.ir
 brosurtasarlama.com
@@ -12490,7 +12495,6 @@ cdn1.apadana.fr
 cdn-1.stat-track.com
 cdn-delivery.net
 cdn.glitch.com
-cdns.casacam.net
 cdn.shoplightspeed.com
 cdn.via.com
 cdolitterus.ru
@@ -13900,6 +13904,7 @@ client.hr.cns.com.vu
 client.mondes-electriques.fr
 clientmppservice.fr
 client-particuliers-brpanbas-fr.webspace.rocks
+clients5.g-a.fun
 client-satisfaction.com
 clients.briechilders.com
 clients.devtux.com
@@ -14996,6 +15001,7 @@ contentarab.com
 content.deenpel.com
 content.ebody.com
 contented-folder.000webhostapp.com
+content.g-a.fun
 contentsavvy.com.au
 contentsvibe.com
 content.tilpost.com
@@ -20169,18 +20175,20 @@ ec2-107-23-38-171.compute-1.amazonaws.com
 ec2-13-235-248-157.ap-south-1.compute.amazonaws.com
 ec2-13-235-8-98.ap-south-1.compute.amazonaws.com
 ec2-13-36-225-33.eu-west-3.compute.amazonaws.com
-ec2-15-206-164-202.ap-south-1.compute.amazonaws.com
 ec2-15-206-174-2.ap-south-1.compute.amazonaws.com
 ec2-175-41-143-87.ap-southeast-1.compute.amazonaws.com
 ec2-18-134-234-207.eu-west-2.compute.amazonaws.com
+ec2-18-153-179-54.eu-central-1.compute.amazonaws.com
 ec2-18-223-122-56.us-east-2.compute.amazonaws.com
 ec2-18-228-195-133.sa-east-1.compute.amazonaws.com
 ec2-3-140-197-75.us-east-2.compute.amazonaws.com
 ec2-3-208-95-157.compute-1.amazonaws.com
 ec2-3-210-242-78.compute-1.amazonaws.com
 ec2-3-22-66-152.us-east-2.compute.amazonaws.com
+ec2-3-79-194-172.eu-central-1.compute.amazonaws.com
 ec2-44-196-101-127.compute-1.amazonaws.com
 ec2-52-10-45-89.us-west-2.compute.amazonaws.com
+ec2-52-200-22-116.compute-1.amazonaws.com
 ec2-52-3-173-99.compute-1.amazonaws.com
 ec2-52-76-234-184.ap-southeast-1.compute.amazonaws.com
 ec2-54-207-78-160.sa-east-1.compute.amazonaws.com
@@ -21125,7 +21133,6 @@ emkarhome.com
 emkayenggworks.com
 emkayline.com
 emkaylogistic.com
-emkd.ru
 emlakwebtasarim.com
 emlg-help.com.pl
 emma-aj.000webhostapp.com
@@ -23525,6 +23532,7 @@ fincasbaluard.com
 fincen-gov.org
 finchguppy.co.kr
 find4hi.info
+findajobforme.linkedin.loginfor.me
 findam.com.ng
 findanne.com
 findanumber.online
@@ -23998,6 +24006,7 @@ fontesgestao.com.br
 font-makeupe.web.app
 fontsbonne.org
 fonts.deenpel.com
+fonts.g-a.fun
 fontyschina.com
 foodandbeverageshow.live
 foodaroundyou.com
@@ -25057,6 +25066,7 @@ gardenersite.com
 gardenguardians.us
 gardenlegno.it
 gardenoftrust.com
+gardenplaid.com
 gardenplazahotel.com
 gardensbygrace.com
 gardensfamilydentistry.com
@@ -25604,6 +25614,7 @@ giasondulux.net
 giban.net
 gibbardfamily.com
 gibbose-hierarchy.000webhostapp.com
+gibbselectrics.com
 gibelalde.com
 gicano.co
 gicksa1.com
@@ -25626,6 +25637,7 @@ gift-card3234.000webhostapp.com
 giftcardserrors.gitlab.io
 giftdecor.co.za
 giftedewha.or.kr
+gifted-khayyam.104-168-102-175.plesk.page
 giftedomo1770.com
 gifterso.eu
 giftforyou.world
@@ -25930,6 +25942,7 @@ glorydespite.co.kr
 gloryes.online
 gloryschools.ps
 glotool.co.za
+gloverstech.com
 glo-webdro.firebaseapp.com
 glowelectrical.com.au
 glowiecyberstar.thats.im
@@ -27492,6 +27505,7 @@ healthlike.in
 healthnaija.com.ng
 healthnewsbugle.com
 healthopenenrollment.com
+healthpips.com
 healthplusja.com
 healthsourceofftwaynenw.com
 healthtechengineers.com
@@ -30790,6 +30804,7 @@ inversionesmultimedia.com
 inversionesruth.com
 inverted-reality.com
 invest.diggingonline.net
+investechnical.com
 investexperience.co
 investidortrader.com
 investigazioni-milano.eu
@@ -33504,6 +33519,7 @@ keystone.pk
 keystoneproject.net
 keytolifeblog.com
 keytrade-bank.com
+keywordslive.com
 keyxgame.com
 kfaalarabiasa.com
 kfashionapparel.ca
@@ -36702,6 +36718,7 @@ lucentgenomics.com
 lucernebaptist.org
 lucialigure.top
 lucicolor.com
+lucid-albattani.104-168-102-175.plesk.page
 lucid-twilight-seaside-996.com
 luciemarketing.com
 lucitrip.com
@@ -37309,6 +37326,7 @@ maiinav.com
 maik10.000webhostapp.com
 maikeki.com
 mail01.tinyletterapp.com
+mail.161-35-239-147.cprapid.com
 mail.194-233-74-255.cprapid.com
 mail--2019.ucoz.net
 mail.23-26-55-9.cprapid.com
@@ -39740,6 +39758,7 @@ merchantsavingsco.com
 merchantslogistics.com
 merchwareapp.com
 mercian-dams.000webhostapp.com
+merckllc.top
 mercogliano.com
 mercolinvestment.com
 mercurial-basis.000webhostapp.com
@@ -40090,6 +40109,7 @@ micnxeir.pp.ua
 miconsultorweb.com
 micr0s0ft0utlookwebapp2018.editor.multiscreensite.com
 micrasoft-395office.com
+microbanafler.com
 microbuurst.com.pl
 microclinique.info
 microcosmic-ratings.000webhostapp.com
@@ -41145,6 +41165,7 @@ mony-quarts.000webhostapp.com
 moo-cone.firebaseapp.com
 moodbazar.com
 moodiest-buckets.000webhostapp.com
+moodle1.feja111.de
 moodle.irtk.ru
 moodle.ncirl.ie
 moodmx.com
@@ -41474,6 +41495,7 @@ m-scape.com
 mscxec.com
 msdmessaging.com
 msdmessagings.com
+msdn1357.centralus.cloudapp.azure.com
 m.security.igobinn.org
 mseedcounselling.com
 msetup.pro
@@ -41519,6 +41541,7 @@ mstdam.tk
 mstickers.ru
 mstripandtravels.com
 msub.facebook.com-8639560659.alexabloom.com
+msupdate.brazilsouth.cloudapp.azure.com
 msupdate.net
 msupei.com
 msvp.org.in
@@ -44168,6 +44191,7 @@ notification-account-pp.com
 notificationdevotrecompte.com
 notification-fb-2019.000webhostapp.com
 notification-fb-help.000webhostapp.com
+notifications.deenpel.com
 notificationsnewme.com
 notificationsupportonlinealertcomcastresetcustomerdas286.000webhostapp.com
 notifidhlmail.pcex.cn
@@ -45124,7 +45148,6 @@ okinawa-sensyoku-ken.com
 oki.si
 okkahome.com
 okkuwait.com
-okled.cc
 okmum.com
 okna164.ru
 oknadelta.ru
@@ -46713,7 +46736,6 @@ panificiopagnani.it
 panika.ir
 paninaro.in
 panirdam.com
-panitor.xyz
 panjiwadi.com
 pankajsthombre.com
 pankook.com
@@ -48080,6 +48102,7 @@ pension-kahren.de
 pensionplanninguk.co.uk
 pensionsanchay.org.in
 pensiuneastudio.ro
+pensive-brattain.104-168-102-175.plesk.page
 pensive-shamir.45-134-26-33.plesk.page
 penstock.vn
 pentagonal-lesson.000webhostapp.com
@@ -48439,6 +48462,7 @@ photographysofly.com
 photoinkplus.com
 photonuriacastilla.com
 photo.owenmerry.com
+photopoiskvk.pro
 photoqueen.gr
 photoshareinsta.000webhostapp.com
 photoshoppingtips.com
@@ -48707,7 +48731,6 @@ pizzillocar.com
 pj18888.com
 pjcm.net
 pjdlandscapeandmgmt.com
-pjnbadfjandkadm3kd.com
 pjnetwebstanderhome.com
 pj.novoacessopessoajuridica.cf
 pjrastreamento.com.br
@@ -50781,6 +50804,7 @@ q6acgs2l.top
 q7j1ne3rfkat.000webhostapp.com
 q8-q8.com
 qa-delete-me-2017-11-22-macgyver-1510531404130.com
+qa-dhs.wavenet-solutions.com
 qalato.com
 qamiliholdingsltd.com
 qarana.000webhostapp.com
@@ -50802,7 +50826,6 @@ qcartridge.com
 qcklezmin4840.co.za
 qck-netn.firebaseapp.com
 qclbjded.ru
-qcpanel.hackcrack.io
 qcremboursementsachat.com
 qcremboursementsachat.info
 qc-securiter.net
@@ -53502,7 +53525,6 @@ rspco.co.uk
 rspindia.net
 rsreklam.com
 rs.ru
-rss-bridge.emkd.ru
 rsteelprojects.com
 rstingenieros.com
 rstrd-c1bc8.com
@@ -53679,6 +53701,7 @@ rvnotebook.com
 rvpass.com
 rvprotectusa.com
 rvsshiandesigner.com
+rw1.dbgblack.com
 rwarex.tk
 rwdf.ddns.net
 rwebf.fpi.teckhead.com
@@ -56291,7 +56314,6 @@ servicattnet.godaddysites.com
 service01-paypal.serveftp.com
 service-02d4f958388.000webhostapp.com
 service-212-addons.blogspot.com
-service-2kefhgzl-1316598603.bj.tencentapigw.com.cn
 service-3dscure-account.mrbasic.com
 s-e-r-v-i-c-e-6325978807900e657b7ba.000webhostapp.com
 servicea.000webhostapp.com
@@ -59619,6 +59641,7 @@ sslc-netflixpay1788.com
 sslc-paysms1088.com
 sslc-paysms1091.com
 ssldadosprocessandobb.club
+ssl.g-a.fun
 sslgatewayidchecknutzersicherung159pruefung.com
 sslgateway-sicherheit-123192-verifizierung-check.com
 ssl-home-portal.com
@@ -59836,6 +59859,7 @@ stateoluxzac.com
 statesmanly-special.000webhostapp.com
 statesofawareness.net
 statewaste-my.sharepoint.com
+static.129.149.13.49.clients.your-server.de
 static3.sendmsg.co.il
 static.5.96.119.168.clients.your-server.de
 statictab-d.statictab.com
@@ -60261,7 +60285,6 @@ strtinweb.fr
 structural-incomes.000webhostapp.com
 strydewealthgroup.top
 strykerprojects.co.za
-sts.drivevvyze.com
 stsgroupbd.com
 sts-tech.tn
 sts-tmobile.com
@@ -65716,6 +65739,7 @@ updata-amazon-success-deta-sender-off.ghkop.com
 updat.atnbangla.tv
 update2018microsoftoutlook.editor.multiscreensite.com
 update2.phonesimupdateit.live
+update37.eastus.cloudapp.azure.com
 update3.phonesimupdateit.live
 update77.sitey.me
 updateaccn-paypal.myvnc.com
@@ -65828,6 +65852,7 @@ updateupdate2017.sitey.me
 updateuserinfopaypal.psoftdevserver.in
 updateusstatus.com
 update-webex.com
+update.westus.cloudapp.azure.com
 update-your-acc.btcpitbullrescue.org
 update-your-account-bank-information-now.thesmswala.com
 update-your-account-contact-information.com
@@ -67806,6 +67831,7 @@ vps.nichetech.co
 vpsserver.in
 vps-zap1065782-2.zap-srv.com
 vps-zap1095765-1.zap-srv.com
+vps-zap449572-1.zap-srv.com
 vpyadav.com
 vqeiqevi.uk
 vqhcv.com
@@ -68431,6 +68457,7 @@ webdesignlocker.com
 webdeveloperpran.cu.ma
 webdev.iyaserver.com
 webdigi.com.br
+webdisk.dnl-l.ooguy.com
 webdisk.forum.runescape.com-f.ru
 webdisk.forums.runescape.com-f.ru
 webdisk.sapkotasunil.com.np
@@ -69680,7 +69707,6 @@ www1-myetherwallet.com
 www1-palypasl-inloogen.fuettertdasnetz.de
 www2.deenpel.com
 www.356142.fun
-www.3psil0n.fr
 www.64-225-100-2.cprapid.com
 www-906.cc
 www-9518777.com
@@ -69705,7 +69731,6 @@ www.controlpanel29.com
 www-dbs.com
 www.deenpel.com
 wwwdesjardins2.com
-www.doobiefly.com
 wwwdr3outllokofficeowa.blob.core.windows.net
 wwwe1.000webhostapp.com
 wwwe2.000webhostapp.com
@@ -69718,6 +69743,7 @@ www-elgiganten-dk.bsa-in.com
 wwwexodus.io
 www-facebook-ars.webcindario.com
 www.frozenk.fr
+www.fucksec.buzz
 wwwgfhcoutlookofficeowa.blob.core.windows.net
 wwwgfiioutlookofficeowa.blob.core.windows.net
 www.gifted-khayyam.104-168-102-175.plesk.page
@@ -69734,6 +69760,7 @@ www-instagram.net
 wwwjajaworldus.com
 wwwjhkyuacoutlookoffice.blob.core.windows.net
 www-jiuhiyr8g7rtv.000webhostapp.com
+www.kitrknis.com
 www-kraken.com
 www-kraken.email
 www-lb.nab-com-au.en-nabupdate.com
@@ -69755,7 +69782,6 @@ www-mytetherwallet.com
 www-mytherewallet.com
 www.mywestpac.com
 www-netflix-org.000webhostapp.com
-www.okled.cc
 www.optimistic-almeida.104-168-102-175.plesk.page
 www.optimistic-rubin.104-168-102-175.plesk.page
 www-orderpaymentservicepaypelsgreenhouseordeo.000webhostapp.com
@@ -69770,6 +69796,7 @@ www-poloniex.com
 www-portal.serveirc.com
 wwwpostfinance.ch
 www.premier-stream.co.uk
+www.priceless-bose.104-168-102-175.plesk.page
 wwwrajamobacom.000webhostapp.com
 www-registers.my1.ru
 www-rnyetherwallet.com
@@ -69827,6 +69854,7 @@ x2kwelmziv1xrhb.000webhostapp.com
 x2neojuly.blogspot.com
 x2neojune.blogspot.com
 x2q36.r.mailjet.com
+x3qc.com
 x61.ch
 x6883.top
 x6885.top
@@ -69903,6 +69931,7 @@ xeligent.com
 xembernaude-orna.firebaseapp.com
 xemotorcaocaomini.com
 xenia-daybydayflorist.com
+xenodochial-austin.142-11-199-59.plesk.page
 xenondika.com
 xe.pw
 xerfiles.godaddysites.com
