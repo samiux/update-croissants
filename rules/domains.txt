@@ -5145,7 +5145,6 @@ apis.deenpel.com
 api.secondstreetapp.com
 api.securedvisit.com
 api.serialized.com
-api.statisticsong.com
 api.tinylik.com
 api.webthumbnail.org
 apkclue.com
@@ -7302,6 +7301,7 @@ awoset.tk
 awrheu6483dyu8.000webhostapp.com
 aws.amazon.com.signin.redirect.uri.new.session.13.thepagemaster.de
 awsamospeaksgladitors.com
+aws-apps.net
 awscoope.wwwaz1-ss23.a2hosted.com
 awsdevopsquiz.com
 awse.atwebpages.com
@@ -11564,6 +11564,7 @@ cabtown.in
 cac-africa.com
 cacatuary.com
 cache928aobwml8y4pwzwmpad.info
+cache.uhorjane.com
 cacianeblogsiniz.com
 cacit.org
 caconnect.app
@@ -12495,7 +12496,9 @@ cdn1.apadana.fr
 cdn-1.stat-track.com
 cdn-delivery.net
 cdn.glitch.com
+cdn-lnk-075.epsonupdate.uk
 cdn.shoplightspeed.com
+cdn-uk.widgetsfordeploy.com
 cdn.via.com
 cdolitterus.ru
 cdowning.com
@@ -13122,6 +13125,7 @@ cheaptexaselectricity.com
 cheapwebhosting.000webhostapp.com
 cheassupp1112.000webhostapp.com
 cheatersmia.com
+check0.judicical.mm
 checkaccess.baking2bless.com
 checkaccess.ddns.net
 checkaccountnow.000webhostapp.com
@@ -13141,6 +13145,7 @@ check-info-service.info
 checking.carolinasyndrome.com
 checking-my-account.mixh.jp
 checkit.com.au
+check.kudicical.ml
 checklistforprepping.top
 checkmailready.000webhostapp.com
 check-maps.com
@@ -14490,7 +14495,6 @@ comet-empire.com
 cometomanitoba.ca
 cometschool.in
 comevn.com
-comewithme.info
 com-ex.ru
 com.f9uk.top
 comfirmation-fb-setting.000webhostapp.com
@@ -14998,7 +15002,6 @@ contempocarpets.co.uk
 contemporarycorporate.com
 contemptible-hazard.000webhostapp.com
 contentarab.com
-content.deenpel.com
 content.ebody.com
 contented-folder.000webhostapp.com
 content.g-a.fun
@@ -16539,6 +16542,7 @@ cuopticians.co.uk
 cuorevegano.com
 cupat.com
 cupcakewrapper.ca
+cupdater.bbtecno.com
 cupidevents.co.uk
 cupidsbbq.centerofthecity.com
 cupidsbbq.com
@@ -18899,8 +18903,14 @@ dnserversl.com
 dnskvls.kl.com.ua
 dns.nateeka.com
 dnsorg.000webhostapp.com
+dns.pwd-reset.net
 dnsroot12.moonfruit.com
 dnsservice-apple.serveirc.com
+dns.sstr.com.br
+dns.startupmartec.net
+dnsswaf.djn.blue
+dns.t0oger.com
+dns.thenewbees.org
 dnxo.icu
 doanphugia.com
 dobe-nica.firebaseapp.com
@@ -20175,13 +20185,11 @@ ec2-107-23-38-171.compute-1.amazonaws.com
 ec2-13-235-248-157.ap-south-1.compute.amazonaws.com
 ec2-13-235-8-98.ap-south-1.compute.amazonaws.com
 ec2-13-36-225-33.eu-west-3.compute.amazonaws.com
-ec2-15-206-174-2.ap-south-1.compute.amazonaws.com
 ec2-175-41-143-87.ap-southeast-1.compute.amazonaws.com
 ec2-18-134-234-207.eu-west-2.compute.amazonaws.com
 ec2-18-153-179-54.eu-central-1.compute.amazonaws.com
 ec2-18-223-122-56.us-east-2.compute.amazonaws.com
 ec2-18-228-195-133.sa-east-1.compute.amazonaws.com
-ec2-3-140-197-75.us-east-2.compute.amazonaws.com
 ec2-3-208-95-157.compute-1.amazonaws.com
 ec2-3-210-242-78.compute-1.amazonaws.com
 ec2-3-22-66-152.us-east-2.compute.amazonaws.com
@@ -20189,11 +20197,9 @@ ec2-3-79-194-172.eu-central-1.compute.amazonaws.com
 ec2-44-196-101-127.compute-1.amazonaws.com
 ec2-52-10-45-89.us-west-2.compute.amazonaws.com
 ec2-52-200-22-116.compute-1.amazonaws.com
-ec2-52-3-173-99.compute-1.amazonaws.com
 ec2-52-76-234-184.ap-southeast-1.compute.amazonaws.com
 ec2-54-207-78-160.sa-east-1.compute.amazonaws.com
 ec2-54-237-138-159.compute-1.amazonaws.com
-ec2-54-89-165-37.compute-1.amazonaws.com
 ec-advisors.eu
 ecare-support.000webhostapp.com
 ecarnetwork.com.au
@@ -33071,7 +33077,7 @@ kameranyamanaboscu.business
 kamieniehurt.pl
 kamilacrosbie.thats.im
 kamilinternational.com
-kami.magication.us
+kami.shopkami.site
 kamk.net
 kamna-ambio.cz
 kamonx.tk
@@ -36974,6 +36980,7 @@ mackayphotoplus.com.au
 mackenzieinwanderlust.com
 maclalivc.com
 macom.info.pl
+maconlineoffice.com
 maconsultor.com
 macos-appleid.com
 macot.live
@@ -42490,7 +42497,6 @@ mywebresource365.cu.ma
 myweb.westnet.com.au
 myweddingday.in
 mywertiozxsdx.com
-mywestpac.com
 mywiinews.com
 mywildhope.com
 mywindowstips.com
@@ -43701,8 +43707,6 @@ nicheitem.com
 nichollsbright.co.nz
 nicht-autorisierte-aktivitaten.konto-wiederherstellen-webapps.com
 nickatlas.com
-nickbaseev1.fvds.ru
-nickbaseev4.fvds.ru
 nickbaseev6.fvds.ru
 nickmitricka.com
 nickmundy.com
@@ -44327,11 +44331,15 @@ nrssm.in
 nrvisionexim.com
 ns1.aldalaal.com
 ns1.aznethosting.net
+ns1.brd1ce.top
 ns1.consultantait.ro
+ns1.dnrdnsdns.onlind
 ns1.kilihost.com
 ns1.sesderma.co.uk
 ns1.verfi.email
+ns2.0-2.pw
 ns2.aldalaal.com
+ns2/dnsdnsdns.onmine
 ns2network.net
 ns2.revendastream.com
 ns2.sesderma.co.uk
@@ -45301,7 +45309,6 @@ omercador.pt
 omgbeautyshop.com
 omgcoool.com
 omgroupindia.co.in
-omgs.asia
 omharitelecom.com
 omiddavaji30.000webhostapp.com
 omissive-shift.000webhostapp.com
@@ -46687,7 +46694,6 @@ pamz3d.com
 panaceaprivate.com
 panafricanbank.net
 pan-african-search.000webhostapp.com
-panal.statisticsong.com
 panamamk.com
 panamdragonboat.org
 panasengpon.com
@@ -46722,13 +46728,11 @@ panelasempromocao26.com
 panelastramontina.com
 panelastramotinasconjunto.com
 panelas-tuda-semana.com
-panelbar.ct8.pl
 panelchat.webcindario.com
 panelfix.net
 panelinsta.com
 panelotomasyon.com.tr
 panelscb.com
-panel.statisticsong.com
 panex.000webhostapp.com
 panfletinhodaregiao.com.br
 panglobalproperty.lk
@@ -54181,6 +54185,7 @@ saindodeviagem.com.br
 sainikudyog.com
 sainted-journey.000webhostapp.com
 saintek.uin-malang.ac.id
+saintelzearlava.com
 saintfrancois.org
 saintorisessystmbt.uk
 saintpatrxick.ru
@@ -56414,6 +56419,7 @@ servicehellp.com
 servicehelpingppl.000webhostapp.com
 servicehmcustoms.servehttp.com
 serviceicann.cmail20.com
+serviceicloud.com
 serviceidreset.sytes.net
 service-impots-particuliers.com
 service-ina.com
@@ -56432,7 +56438,6 @@ service-inl.ddns.net
 service-intl-urgent-alert-pt-com.com
 service-ints.mixh.jp
 servicejacki.com
-service-jnajkkdg-1318687485.gz.apigw.tencentcs.com
 service-kmazxcertt.com
 service-lb.ddns.net
 service-limitations.net
@@ -59865,7 +59870,6 @@ static.5.96.119.168.clients.your-server.de
 statictab-d.statictab.com
 stationeryheaven.net
 stationlibraryjhelum.com
-statisticsong.com
 statoilsrm-my.ekquinor.com
 statontech.com
 statusguru.net
@@ -61646,7 +61650,6 @@ tantum2019.ru
 tanvir.thats.im
 tanxiaowu.com
 tanyatiwari.com
-taobao7737.com
 taobaogle.com
 taobaoperu.com
 taojszxz.com
@@ -61918,7 +61921,6 @@ technicalnewsn.com
 technicalsupporting.com
 technic-owens-indoor.com
 techni-webmiami.com
-technoblade.ddns.net
 technoinstruments.co.in
 technologyexpertise.000webhostapp.com
 technology.fortiddns.com
@@ -63913,6 +63915,7 @@ trandingapk.com
 trangtraitho.com
 trangvangusa.com
 tranhsondaunga.vn
+trans1ategooglecom.com
 transactionachatvente.webou.net
 transactionguru.ru
 transactionpoint.in
@@ -65848,6 +65851,7 @@ updates-kunden.top
 update-source.org.pl
 updates-s-id.club
 updates-s-id.live
+update.theasiagroupai.com
 updateupdate2017.sitey.me
 updateuserinfopaypal.psoftdevserver.in
 updateusstatus.com
@@ -66234,6 +66238,8 @@ v12w.top
 v18.lt
 v1rginmdep0s1t.com
 v2.pedrojuandigital.com
+v2ray1/mmsy.top
+v2ray2.mlsy.top
 v2xdsrc.com
 v3.champssuryonne.com
 v3company.online
@@ -67816,6 +67822,8 @@ vpclda.pt
 vplus.co.th
 vpndude.com
 vpn.intranet.ap.att.com.webapp-ars-webform.login.sribusana.com
+vpn.nsfocus.cn.com
+vpn.nsgocus.cn.com
 vpn-setting132145.890m.com
 vpo-1scq9w.000webhostapp.com
 vppartners2-my.sharepoint.com
@@ -69705,7 +69713,6 @@ www.164-90-169-184.cprapid.com
 www.194-233-74-255.cprapid.com
 www1-myetherwallet.com
 www1-palypasl-inloogen.fuettertdasnetz.de
-www2.deenpel.com
 www.356142.fun
 www.64-225-100-2.cprapid.com
 www-906.cc
@@ -69727,7 +69734,6 @@ www-c32.cc
 www.carolzimmermannrid.com
 www.charming-wright.142-11-199-59.plesk.page
 wwwcontapt.ddns.net
-www.controlpanel29.com
 www-dbs.com
 www.deenpel.com
 wwwdesjardins2.com
@@ -69766,7 +69772,6 @@ www-kraken.email
 www-lb.nab-com-au.en-nabupdate.com
 www-loginprodx-att.com
 www.maksonsab.ru
-www.micros0fti.com
 www.mine-panel.space
 www-mobilislemlerimfinans-com.tk
 www.modest-colden.104-168-102-175.plesk.page
@@ -69787,7 +69792,6 @@ www.optimistic-rubin.104-168-102-175.plesk.page
 www-orderpaymentservicepaypelsgreenhouseordeo.000webhostapp.com
 wwwoutlookowaofficecom.blob.core.windows.net
 wwwoutlookrchauoffice9.blob.core.windows.net
-www.panitor.xyz
 wwwpaparra.com
 www-paypal-com-s.vpn.bua.edu.cn
 www-paypal.info
@@ -70983,7 +70987,6 @@ zbmover.com
 zbnfkarnataka.org
 zbonse.com
 zbookz.com
-z.botnet.rocks
 zb.rtexport.net
 zbyk.drl.pl
 zcal.org
