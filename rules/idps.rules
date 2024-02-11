@@ -212,9 +212,9 @@ drop dns any any -> any any (msg:"DNS Query to Malicious FQDN"; dns.query; datas
 drop http any any -> any any (msg:"Malicious HTTP server hosts"; http.header; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030011; rev:13;)
 drop tls any any -> any any (msg:"Malicious TLS SNI servers"; tls.sni; dataset:isset, domains_iocs, type string, load domains_iocs.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030012; rev:14;)
 # Phishing
-drop dns any any -> any any (msg:"DNS Query to Phishing FQDN"; dns.query; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030020; rev:12;)
-drop http any any -> any any (msg:"Phishing HTTP server hosts"; http.header; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030021; rev:13;)
-drop tls any any -> any any (msg:"Phishing TLS SNI servers"; tls.sni; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030022; rev:14;)
+drop dns any any -> any any (msg:"DNS Query to Phishing or Malicious FQDN"; dns.query; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030020; rev:13;)
+drop http any any -> any any (msg:"Phishing or Malicious HTTP server hosts"; http.header; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030021; rev:14;)
+drop tls any any -> any any (msg:"Phishing or Malicious TLS SNI servers"; tls.sni; dataset:isset, domains_phishing, type string, load domains_phishing.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030022; rev:15;)
 # Bad Referrers
 drop dns any any -> any any (msg:"DNS Query to Bad Referrers"; dns.query; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030030; rev:12;)
 drop http any any -> any any (msg:"Bad Referrers HTTP server hosts"; http.header; dataset:isset, bad-referrers, type string, load bad-referrers.list, memcap 10mb, hashsize 1024; classtype: trojan-activity; priority:1; sid:1030031; rev:13;)
