@@ -262,7 +262,7 @@ drop http $EXTERNAL_NET any -> any any (msg:"Teleport User-Agent"; content:"Tele
 drop http $EXTERNAL_NET any -> any any (msg:"Telesoft User-Agent"; content:"Telesoft"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060252; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"Intraformant User-Agent"; content:"Intraformant"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060253; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"TheNomad User-Agent"; content:"TheNomad"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060254; rev:2;)
-drop http $EXTERNAL_NET any -> any any (msg:"Titan User-Agent"; content:"Titan"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060255; rev:2;)
+alert http $EXTERNAL_NET any -> any any (msg:"Titan User-Agent"; content:"Titan"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060255; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"turingos User-Agent"; content:"turingos"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060256; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"UnwindFetchor User-Agent"; content:"UnwindFetchor"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060257; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"vBSEO User-Agent"; content:"vBSEO"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060258; rev:2;)
