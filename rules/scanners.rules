@@ -25,7 +25,7 @@ drop http $EXTERNAL_NET any -> any any (msg:"Indy User-Agent"; content:"Indy"; n
 drop http $EXTERNAL_NET any -> any any (msg:"ZmEu User-Agent"; content:"ZmEu"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060018; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"social User-Agent"; content:"social"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060019; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"Zollard User-Agent"; content:"Zollard"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060020; rev:3;)
-drop http $EXTERNAL_NET any -> any any (msg:"CLR User-Agent"; content:"CLR"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060021; rev:3;)
+alert http $EXTERNAL_NET any -> any any (msg:"CLR User-Agent"; content:"CLR"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060021; rev:4;)
 drop http $EXTERNAL_NET any -> any any (msg:"Camino User-Agent"; content:"Camino"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060022; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"Nmap User-Agent"; content:"Nmap"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060023; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"Acunetix WVS User-Agent"; content:"WVS"; http_header; classtype:web-application-attack; priority:1; sid:1060024; rev:3;)
