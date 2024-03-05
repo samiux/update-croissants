@@ -723,6 +723,7 @@ ptb-wd3463btrq-uc.a.run.app
 ptm-wd3463btrq-uc.a.run.app
 pto-wd3463btrq-uc.a.run.app
 public-digital.com
+public-digital.net
 pulsboc.com
 pztx.link
 qhedye.oss
