@@ -28,7 +28,7 @@ drop http $EXTERNAL_NET any -> any any (msg:"Zollard User-Agent"; content:"Zolla
 alert http $EXTERNAL_NET any -> any any (msg:"CLR User-Agent"; content:"CLR"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060021; rev:4;)
 drop http $EXTERNAL_NET any -> any any (msg:"Camino User-Agent"; content:"Camino"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060022; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"Nmap User-Agent"; content:"Nmap"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060023; rev:3;)
-drop http $EXTERNAL_NET any -> any any (msg:"Acunetix WVS User-Agent"; content:"WVS"; http_header; classtype:web-application-attack; priority:1; sid:1060024; rev:3;)
+alert http $EXTERNAL_NET any -> any any (msg:"Acunetix WVS User-Agent"; content:"WVS"; http_header; classtype:web-application-attack; priority:1; sid:1060024; rev:4;)
 alert http $EXTERNAL_NET any -> any any (msg:"Python User-Agent"; content:"Python"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060025; rev:4;)
 drop http $EXTERNAL_NET any -> any any (msg:"masscan User-Agent"; content:"masscan"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060026; rev:3;)
 alert http $EXTERNAL_NET any -> any any (msg:"Java User-Agent"; content:"Java"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060027; rev:4;)
