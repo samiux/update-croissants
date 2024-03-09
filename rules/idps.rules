@@ -236,4 +236,7 @@ drop tls $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range TLS SNI ser
 #drop http any any -> any any (msg:"Possible BurpSuite Intruder Detected #1"; http.method; content:"POST"; content:"|C2 A7|"; priority:1; classtype:attempted-recon; sid:1030051; rev: 1;)
 #drop http any any -> any any (msg:"Possible BurpSuite Intruder Detected #2"; http.method; content:"POST"; content:"|C3 82|"; priority:1; classtype:attempted-recon; sid:1030052; rev: 1;)
 
-# next sid:1030053
+# Bad User-Agents
+drop http any any -> any any (msg:"Bad User-Agents"; http.user_agent; dataset:isset, bad-user-agents, type string, load bad-user-agents.list, memcap 10mb, hashsize 1024; classtype: attempted-recon; priority:1; sid:1030053; rev:1;)
+
+# next sid:1030054
