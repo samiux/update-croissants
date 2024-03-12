@@ -227,7 +227,6 @@
 124carterlane.com
 1251215215152152balo12.blob.core.windows.net
 125sites.com
-126.124.141.34.bc.googleusercontent.com
 126341564156deboh12.blob.core.windows.net
 12649.com
 128574894258512-dot-bws-hak-kwu.appspot.com
@@ -292,7 +291,6 @@
 1644124132.mokamarket.ir
 164612.getiphonexhere.com
 164900065546540.16mb.com
-167-71-186-178.ipv4.staticdns2.io
 168.bg
 168hourlifeweek.com
 16ci-bc23a.com
@@ -322,7 +320,6 @@
 19026321632632easy19.blob.core.windows.net
 191gm.com
 19265125621harison19.blob.core.windows.net
-192.lan-vg2-1.static.rozabg.com
 194433.com
 1978gt05655.16mb.com
 198-48-56-50.static.as40244.net
@@ -668,7 +665,6 @@
 31023.8b.io
 31261563231146313lily3.blob.core.windows.net
 313ddd59-592a-44df-90a9-955eb1649d4a.htmlpasta.com
-314.hongdrama.xyz
 31515414854785harrin3.blob.core.windows.net
 3156.bz
 316090394241778-dot-ifile-document.appspot.com
@@ -1971,7 +1967,6 @@ account.apple.com.loginao.org
 account.apple.com.loginso.org
 account-apply-ubs.com
 account-billing.co.uk
-accountcapabilities-pa.accguide.com
 accountchangeds.myvnc.com
 account-chec.ddns.net
 account.cit.com
@@ -2680,7 +2675,6 @@ adoptables.ga
 adoptioncity.com
 adoptoagile.com
 adorablecuteness.top
-adoring-hellman.104-168-102-175.plesk.page
 adosptechnologie.com
 adoulaspromise.com
 adovrwob.co.uk
@@ -4811,7 +4805,6 @@ angloscape.org
 angochagua.gob.ec
 angraumanvuomer.com
 angrybirdz.info
-angry-khorana.104-168-102-175.plesk.page
 anguitagestioninmobiliaria.cl
 angular-way.000webhostapp.com
 angulate-weapons.000webhostapp.com
@@ -5130,6 +5123,7 @@ api.bdisl.com
 api.bestresulttostart.com
 apicolf-milano.it
 apideleter.000webhostapp.com
+apifunctioncall.com
 api.landset.mx
 api.lce9v.com
 apimigor.pt
@@ -6147,7 +6141,6 @@ artisme.com
 artisticflaircrafts.com
 artistignited.top
 artist-orna.com
-artist-shared.gl.at.ply.gg
 artiststhatallow.com
 artius.vn
 artka.pl
@@ -6168,7 +6161,6 @@ artsmiley.com
 artsmooc.org
 artsoflogic.com
 art-sticker.fr
-artstrailreviews.com
 art-stroganoff.ru
 artsurdo.cu.ma
 artsurdo.ml
@@ -6586,6 +6578,7 @@ aswedrfds.cf
 asw-pymntrcrd.onthewifi.com
 asxconstrutora.com.br
 asxzcsz.000webhostapp.com
+asyncawaitapi.com
 asys.net.au
 asystent.ro
 aszcrs.000webhostapp.com
@@ -6926,7 +6919,6 @@ ausen-ocun.firebaseapp.com
 ausg.at.ua
 ausgovenvironment-my.sharepoint.com
 ausmigrate.net.au
-aus.mimico-cooperative.org
 ausphilhaes.com
 auspixpress.org
 ausran-goken.firebaseapp.com
@@ -8589,7 +8581,6 @@ beauandshawna.com
 beaubrey.com
 beaumontrealestateinfo.com
 beautifleurs.com
-beautiful-fermi.104-168-102-175.plesk.page
 beautifulnature.com
 beautifylogons.com
 beautologylaser.com
@@ -9666,7 +9657,6 @@ binodbhandari.com.np
 binodini.com
 binodonbatayon.com
 binohomes.co.ke
-binplat.elementfx.com
 binpromo.net
 binsgroup.com
 binsutrses.art
@@ -10053,6 +10043,7 @@ blkyzamtpo.000webhostapp.com
 bllakpqkr.000webhostapp.com
 blm-aute.firebaseapp.com
 blmus.com
+blm-wiki.com
 blobs.co.il
 blocandroc.com
 block962.t92518.pl
@@ -10633,7 +10624,6 @@ bothostcompsecued.com
 bothotline.webcindario.com
 botnet7.vani.ovh
 botnet.freetube.me
-botnet.vani.ovh
 botox90210.com
 botryoid-semaphore.000webhostapp.com
 botswanaembassy.co.zw
@@ -12371,6 +12361,7 @@ cateringzone.co.uk
 caterpillargiant.com
 catestreetpub.com
 catfishfoundation.com.au
+catgirls.network
 cathayonlineservice.com
 catherine-baw.com
 catherine-conx.com
@@ -14152,7 +14143,6 @@ cncdt.com.au
 cncelpay-accuntmy.ddns.net
 cncel-prchseappstr.onthewifi.com
 cncelpyment-suppacc.ddnsking.com
-cnc.moneymakernation.online
 cnc.pr333.ggm.kr
 cncsgf.com
 cnc.shakeit.biz
@@ -18650,7 +18640,6 @@ dipsound.es
 dipto007.thats.im
 diranak.blogspot.com
 dirane.co.za
-dirapushka.com
 directaarquitetura.com
 direct.data-geektsl.link
 directdeliveryusa.com
@@ -18967,12 +18956,10 @@ dnsanaylticsae.link
 dnserversl.com
 dnskvls.kl.com.ua
 dnsorg.000webhostapp.com
-dns.recentbeelive.com
 dnsroot12.moonfruit.com
 dnsrv.prdcdn.com
 dnsservice-apple.serveirc.com
 dns.startservicefounds.com
-dns.trailcocompany.com
 dnxo.icu
 doanphugia.com
 dobe-nica.firebaseapp.com
@@ -20242,9 +20229,7 @@ ebyz-items.co.uk
 ec1kbb179.urest.org
 ec2-18-223-122-56.us-east-2.compute.amazonaws.com
 ec2-18-228-195-133.sa-east-1.compute.amazonaws.com
-ec2-34-200-37-176.compute-1.amazonaws.com
 ec2-52-10-45-89.us-west-2.compute.amazonaws.com
-ec2-54-169-174-23.ap-southeast-1.compute.amazonaws.com
 ec2-54-207-78-160.sa-east-1.compute.amazonaws.com
 ec-advisors.eu
 ecare-support.000webhostapp.com
@@ -20346,7 +20331,6 @@ ecowasrestaurant.com
 ecozilla.eco.br
 ecqualitycarcare.com
 ecrossmed.com
-ecs-110-41-134-233.compute.hwclouds-dns.com
 ecs.edu.in
 ecsp.com
 ectmichiana.com
@@ -20382,7 +20366,6 @@ edenzil.com
 edeseletcuki.hu
 edeso.gov.co
 edfuminus.000webhostapp.com
-edgarmcneil.autos
 edge-angle.000webhostapp.com
 edgf.000webhostapp.com
 edgu.biz
@@ -20757,7 +20740,6 @@ electric-folds.000webhostapp.com
 electricfrog.co.uk
 electricgolfcarcompany.com
 electricgroups.co
-electric-guest.gl.at.ply.gg
 electrician3.com
 electriciansinahurry.com.au
 electricistaslanzarote.com
@@ -23399,7 +23381,6 @@ fhspeight.co.uk
 fhurterr.000webhostapp.com
 fhuyih.club
 fhxeau.com
-fi119-files.canceltap.online
 fi5dmtk.com
 fiaformulae-cvs.com
 fiaformulae-files.com
@@ -26684,7 +26665,6 @@ grimaldidance.com
 grimmorns.com
 grindental.center
 grinderzs.top
-grinevitchnicolas5.fvds.ru
 grinta-page.com
 gripping-forecastle.000webhostapp.com
 gris.com.gt
@@ -27971,6 +27951,7 @@ hexawara.net
 hexawara.org
 hexel-courtinfo.com
 hexfirering.com
+hex.lumosora.us
 hexoline.com
 heychic.tk
 heyessez.biz
@@ -28522,7 +28503,6 @@ honeymagnolia.org
 honeymoonholiday.in
 honey-wel.com
 hongar.cu.ma
-hongdrama.xyz
 honggam.thats.im
 hongkaqb.com
 hongkaqb.org
@@ -30982,11 +30962,9 @@ ip-104-238-92-74.ip.secureserver.net
 ip-107-180-2-159.ip.secureserver.net
 ip121.ip-54-37-101.eu
 ip-132-148-243-176.ip.secureserver.net
-ip140.ip-51-195-83.eu
 ip-148-72-211-77.ip.secureserver.net
 ip-160-153-246-232.ip.secureserver.net
 ip168.ip-145-239-39.eu
-ip177.ip-51-210-73.eu
 ip-184-168-165-22.ip.secureserver.net
 ip-184-168-166-154.ip.secureserver.net
 ip-192-169-216-53.ip.secureserver.net
@@ -31656,6 +31634,7 @@ janettebendle.com.au
 janetyuen.net
 janganmalasyamek.ml
 jangansoksuci.net
+Jango-pulse.com
 ja-nigeria.org
 janinekavery.com
 janirewer.top
@@ -32336,7 +32315,6 @@ jov340722.me
 jov340722me.net
 jov340722me.org
 jovemaprendiz.art.br
-jovial-ellis.104-168-102-175.plesk.page
 jovialproductions.com
 jovie23400.me
 jovincron.in
@@ -33240,7 +33218,6 @@ kardamom.eu
 kardanexchange.com
 kardec.org.br
 kardeslerteks.com
-kardiocentrumnitra-fingera.com
 kareemfoods.com
 kareemjhagroo.000webhostapp.com
 karenbyars.000webhostapp.com
@@ -40026,7 +40003,6 @@ mes-especial-de-oportunidades.com
 mesformations.org
 mesinagroup.com
 mesinlaundrykitchen.com
-mesixcrypto.com
 meslekigirisimciler.org.tr
 meslunettesetmoi.fr
 mesmerized-trees.000webhostapp.com
@@ -43279,6 +43255,8 @@ nejahedu.ir
 nekar.kz
 nekidraturner.info
 nekochurros.com.br
+nekololis.ovh
+neko.ltd
 nelak.info
 neleroluyo.com
 neli-lockedappstore.viewdns.net
@@ -44505,14 +44483,14 @@ ns1.aldalaal.com
 ns1.aznethosting.net
 ns1.bwork.online
 ns1.consultantait.ro
+ns1.dice1018.top
 ns1.kilihost.com
 ns1.msn-microsoft.co
-ns1.netiapp.org
 ns1.sesderma.co.uk
 ns1.verfi.email
 ns2.aldalaal.com
+ns2.dice1018.top
 ns2.msn-microsoft.co
-ns2.netiapp.org
 ns2network.net
 ns2.revendastream.com
 ns2.sesderma.co.uk
@@ -45550,7 +45528,6 @@ onecs.cl
 onedddr.myftp.biz
 one-dimensional-met.000webhostapp.com
 onedocsb.atwebpages.com
-onedogsclub.com
 onedrivded.wordpress.com
 onedrive01892.shortcm.li
 onedrive1121.000webhostapp.com
@@ -46901,7 +46878,6 @@ panelas-tuda-semana.com
 panelchat.webcindario.com
 panelfix.net
 panelinsta.com
-panel.niggas.icu
 panelotomasyon.com.tr
 panelscb.com
 panex.000webhostapp.com
@@ -49218,7 +49194,6 @@ point-device-curl.000webhostapp.com
 pointeresources.com
 pointersoft.in
 pointfocal.tech
-points-detect.gl.at.ply.gg
 point-shop.co
 points.samuhacreations.com
 points-update.com
@@ -51894,7 +51869,6 @@ receipt-apps.myvnc.com
 receipts-lnvoices.serveftp.com
 receitahoje.com
 recensionivideogiochi.it
-recentbeelive.com
 recentlyhumorist.co.kr
 recenttransactions.000webhostapp.com
 recepcionesbellasuiza.com
@@ -53892,6 +53866,7 @@ rxcmpd.com
 rxdiscountpharmacyky.com
 rx.hu
 rxlawncaresolutions.com
+rx.neko.ltd
 rxsupplies.net
 ry54sdfagsa.appspot.com
 ryadna.ru
@@ -53910,7 +53885,6 @@ ryuoo.net
 rzaadvocacia.com
 rzv-voreifel.de
 s1cherhe1ts-check.top
-s1.devsapi.ru
 s1.radisol.ru
 s202855.gridserver.com
 s2r.cc
@@ -55228,7 +55202,6 @@ sdv.com.sa
 sdwacoverhead.co.kr
 sdwrites.com
 sdyew.net.pl
-se-5.ironhide.su
 seabesky.com
 seabirdshipping.net
 sea-blue.cf
@@ -60357,7 +60330,6 @@ store-trezor.org
 storevolusion.com
 storflix.com
 storiesandideas.in
-stories-boulevard.gl.at.ply.gg
 storing.mijnics.verificatie.zap427445-1.plesk05.zap-webspace.com
 storkbr.com
 storkrubber.com
@@ -64061,8 +64033,6 @@ trafftraff.com
 traficomagnetico.com
 tragisches-dreieck.de
 traigotodo.com
-trailcocompany.com
-trailcosolutions.com
 trailculture.com.au
 trailerbright.com
 trainable-furnace.000webhostapp.com
@@ -65131,7 +65101,6 @@ ubytovaniepodhajska.sk
 ubytovnaoaza.cz
 ubzacg.info
 ucam-one.firebaseapp.com
-ucaresupport.com
 ucarindia.com
 ucd.good-agent.com
 u-c-d.org
@@ -68463,6 +68432,7 @@ w.chez.com
 wchyzxc.000webhostapp.com
 wcipk.com
 wc.istwire.com
+wcjwcj.cn
 wcmbuild.uk
 wcmessenger.com
 wcrhssnkj.com
@@ -69459,7 +69429,6 @@ winzgouphontres.com
 wioed.blv.vieiraecruvinel.com
 wipagioyhese.com
 wipfli.sharefile.com
-wipresolutions.com
 wipshop.fr
 wiraniagatoyotamedan.com
 wireconfirmation68c10a25442a3e13.blogspot.com
@@ -69516,7 +69485,6 @@ wittvolk.com
 wiwlow.000webhostapp.com
 wixaccounting.com
 wiziwork.com
-wiZjqPI1.azureedge.net
 wizxpert.com
 wizzwiq.net
 wjklima.pl
@@ -69923,15 +69891,12 @@ wwwe7.000webhostapp.com
 www-elgiganten-dk.bsa-in.com
 wwwexodus.io
 www-facebook-ars.webcindario.com
-www.festive-euclid.104-168-102-175.plesk.page
-www.fresocialcasinogames.com
 www.fzmovies.space
 wwwgfhcoutlookofficeowa.blob.core.windows.net
 wwwgfiioutlookofficeowa.blob.core.windows.net
 wwwguide.000webhostapp.com
 wwwhbgoutlookofficeowa.blob.core.windows.net
 www-help.at.ua
-www.hg23jh4gk234gjhk2j3g4h2kjh3g4.xyz
 www-htlf.com
 wwwhuaxingcablecom.000webhostapp.com
 www-ib4bradesco.gotdns.ch
@@ -69940,7 +69905,6 @@ www-instagram.net
 wwwjajaworldus.com
 wwwjhkyuacoutlookoffice.blob.core.windows.net
 www-jiuhiyr8g7rtv.000webhostapp.com
-www.jovial-ellis.104-168-102-175.plesk.page
 www-kraken.com
 www-kraken.email
 www-lb.nab-com-au.en-nabupdate.com
@@ -69957,7 +69921,6 @@ www-my-fib-ank-bg.000webhostapp.com
 www-mytetherwallet.com
 www-mytherewallet.com
 www-netflix-org.000webhostapp.com
-www.nice-torvalds.104-168-102-175.plesk.page
 www-orderpaymentservicepaypelsgreenhouseordeo.000webhostapp.com
 wwwoutlookowaofficecom.blob.core.windows.net
 wwwoutlookrchauoffice9.blob.core.windows.net
@@ -69979,7 +69942,6 @@ www-sfr-frcas-up.hostkda.com
 www-smsauth78223.000webhostapp.com
 wwwsmsauth78223-auth.000webhostapp.com
 www-trade-me-app-config-go.azurewebsites.net
-www.ucaresupport.com
 www-unlock-id-apple.com
 www-user730.at.ua
 www-user731.at.ua
@@ -71377,7 +71339,6 @@ z-obmenchik.ru
 zobomssuphers.com
 zoejurgensen15.000webhostapp.com
 zoenka.com.tr
-zofav.aus.mimico-cooperative.org
 zoflin.tripod.com
 zoha3d.com
 zohitaglit.com
