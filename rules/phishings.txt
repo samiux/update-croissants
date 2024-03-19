@@ -345,6 +345,7 @@ captcha-coinbase.com
 carousell.bankway.space
 carousell.fundservice.online
 carousell.orderfrom.shop
+carousell.s-wallet.in
 castechtools.com
 castorkompetanse.no
 cbdgzy.pirate
@@ -621,6 +622,7 @@ jp-ex.io
 jul1usbaer.com
 julisbaer.com
 juliusbaercorporate.com
+juliusbaer-escrow.com
 juliusbaerpb.com
 jullusbarfinace.com
 jwt-app.com
@@ -864,6 +866,9 @@ server694590423.tech
 serviceicloud.com
 session-coinbase.com
 sf-express.fundsway.site
+sf-express-hk.webefx.shop
+sf-express.orderfrom.shop
+sfexpress.s-wallet.in
 sf-express.view247.biz
 sgmtl.com
 sg-pr2024.shop
