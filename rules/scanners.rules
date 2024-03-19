@@ -251,7 +251,7 @@ drop http $EXTERNAL_NET any -> any any (msg:"Site User-Agent"; content:"Site"; n
 drop http $EXTERNAL_NET any -> any any (msg:"Snooper User-Agent"; content:"Snooper"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060241; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"sootle User-Agent"; content:"sootle"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060242; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"spanner User-Agent"; content:"spanner"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060243; rev:2;)
-drop http $EXTERNAL_NET any -> any any (msg:"spy User-Agent"; content:"spy"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060244; rev:2;)
+alert http $EXTERNAL_NET any -> any any (msg:"spy User-Agent"; content:"spy"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060244; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"worm User-Agent"; content:"worm"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060245; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"SuperBot User-Agent"; content:"SuperBot"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060246; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"SuperHTTP User-Agent"; content:"SuperHTTP"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060247; rev:2;)
