@@ -806,6 +806,7 @@ prx9.b36cname.site
 ptb-wd3463btrq-uc.a.run.app
 ptm-wd3463btrq-uc.a.run.app
 pto-wd3463btrq-uc.a.run.app
+ptsan.exeaja.com
 public-digital.com
 public-digital.net
 pulsboc.com
