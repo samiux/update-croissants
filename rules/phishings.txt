@@ -395,6 +395,7 @@ carousell.bankway.space
 carousell.fundservice.online
 carousell-hk.webefx.shop
 carousell.orderfrom.shop
+carousell.orderfrom.today
 carousell.s-wallet.in
 castechtools.com
 castorkompetanse.no
