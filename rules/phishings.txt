@@ -509,6 +509,7 @@ com-fraud.support
 com-help.support
 commonline.space
 compass-visa.myfreesites.net
+compassvisa.myfreesites.net
 com-reset.help
 com-reset.net
 com-ticket.live
@@ -537,6 +538,7 @@ customerservice-pccw.com
 cvxcde.com
 czbrwa.geek
 dahsinfin.com
+dahsingfin.com
 dama6868.site
 dama68.cc
 damacai123.website
