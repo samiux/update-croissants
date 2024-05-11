@@ -200,6 +200,7 @@
 76159869-coinbase.com
 765889.com
 7t.nz
+7-zip.cfd
 81758-coinbase.com
 81920-coinbase.com
 81926-coinbase.com
@@ -252,6 +253,8 @@ advanced-ip-scanerr.com
 advanced-ip-scanerr.net
 advanced-ip-scanir.com
 advanced-ip-scanir.net
+advancedipscannerapp.com
+advanced-ip-scanner.link
 advanced-ip-scanr.com
 advanced-ip-scanr.net
 advanced-ip-scanz.com
@@ -267,6 +270,7 @@ advvanced-ip-scanner.com
 advvanced-ip-scanner.net
 agaogludericilik.com
 aimori.net
+aimp.day
 airstar.bond
 aismexmts.com
 alanize.com
@@ -346,6 +350,9 @@ aricl.net
 arr-wd3463btrq-uc.a.run.app
 arsimonopa.com
 artmodel.com.ua
+asana.pm
+asana.tel
+asana.wf
 asdjjasdhioasdia.online
 asigurari-online.md
 aslead-group.co.jp
@@ -355,6 +362,7 @@ audiovisuals.sbs
 auproject.xyz
 authenticate-gemini.com
 authorize-gmail.com
+autodesk.pm
 avfa-wd3463btrq-uc.a.run.app
 awadfo.com
 axalbb.com
@@ -407,6 +415,8 @@ bitventure.online
 bityard-u.com
 biyokeiei.com
 bjSdg0.pintaexoticfashion.co.in
+blackrock.re
+blackrock.wf
 blltly.com
 blockwizokh.xyz
 blog.lilianpraskova.cz
@@ -459,6 +469,25 @@ cbdgzy.pirate
 cc.amy552.com
 ccbmcn.com
 cd-coinbase.com
+cdn1124.net
+cdn1701.com
+cdn25.space
+cdn27.space
+cdn30.space
+cdn31.space
+cdn32.space
+cdn33.space
+cdn34.space
+cdn35.space
+cdn36.space
+cdn37.space
+cdn38.space
+cdn40.click
+cdn41.space
+cdn42.space
+cdn43.space
+cdn45.space
+cdn46.space
 cfia.or.cr
 cftmol.yknnnid.com
 cglobalw.com
@@ -514,6 +543,9 @@ com-reset.help
 com-reset.net
 com-ticket.live
 com-ticket.support
+concur.pm
+concur.re
+concur.skin
 contact-nexo.com
 contretemps.sbs
 convert-coinbase.com
@@ -614,6 +646,7 @@ eichhorn-gems.com
 eingangfurkunden.digital
 electrictulsa.com
 entrecieletmer.net
+eprst431.boo
 epselectricidad.com.ar
 eriuioklz.com
 ers.zx-daimei.com
@@ -838,6 +871,7 @@ ingressfloor-walker.sbs
 internet-banking.hkdbsib.com
 internett.ofer-banking-dbssg.com
 inuzuka.co.jp
+investing.wf
 iphone.wang
 ipscanneronline.com
 ipscannerprtg.com
@@ -911,6 +945,7 @@ lcunzm.com
 ldinw.com
 lemonimonakio.com
 letsvpn.world
+lexisnexis.day
 lfmtrade.com
 liabilityarrangemenyit.shop
 lightseinsteniki.org
@@ -970,6 +1005,7 @@ m.cbacontrols.com
 mc.commonline.space
 m.dancihu.com
 mediacratia.ru
+meet-go.click
 meetviberapi.com
 messages-coinbase.com
 metbez.gopher
@@ -1128,6 +1164,7 @@ peermangoz.me
 pektbo.libre
 perrputtnomi.sbs
 pfm.kebbistate.gov.ng
+pgadmin.link
 pgweb.online
 p.hashvault.pro
 picfs.com
@@ -1183,6 +1220,7 @@ qiwi.bppsa.com
 qowi.live
 quancionexin.com
 quarrelers.sbs
+quicken-install.com
 quidaxsih.com
 quidaxzat.com
 quitosaludable.gob.ec
@@ -1223,6 +1261,7 @@ safetyfactor.online
 sandakan.top
 sandbox-usa.com
 sands-qaz.com
+sapconcur.pro
 sarkerrentacars.com
 satin1.xyz
 satocl.com
@@ -1489,6 +1528,7 @@ viucol.com
 viuep.com
 viupue.com
 vivito.jp
+vkontakte.in
 vnote-1321786806.cos.ap-hongkong.myqcloud.com
 vnote.fuwenkeji.cn
 vnote.info
@@ -1501,6 +1541,7 @@ vvhatsapp.pw
 vvhatsapp.top
 w8oaa0.mariosolutions.biz.id
 wae4w.mariomanagement.biz.id
+wall-street-journal.link
 wandian666.cc
 wandian888.cc
 wba0s.produtoeletro.my.id
@@ -1513,6 +1554,7 @@ web3m.oss-cn-hongkong.aliyuncs.com
 web3m.s3-websie.ap-east-1.amazonaws.com
 web.bonuscave.com
 web.bostonml.com
+webex-install.com
 web.kbfgv.com
 web.tg-teieram.com
 web-whatsapp.live
@@ -1543,14 +1585,21 @@ wiae5.marioadvisory.my.id
 widgeonhill.com
 win18.cc
 winarkamaps.com
+winscp-install.com
 winupdate.us.to
 wireoneinternet.info
 wnisyi.libre
 wnjeomqu.cc
 wocomfx.com
 woods-cf.com
+workable.uk.com
+workday.pm
 world.roundchiccn.com
 wseshort.io
+wsj.pm
+wsj.re
+wsj.wales
+wsj.wf
 wss.f8ddcc.com
 wt-whatsapp.com
 wu.qwewu.site
@@ -1575,6 +1624,7 @@ www.amazon76580.vip
 www.american-vertex.com
 www.angel-online.vip
 www.anx-albb.com
+www.any-connectcisco.com
 www.arcdtphdtmre.vip
 www.arcdtrlomhpb.ivp
 www.asxhk.site
