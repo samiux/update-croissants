@@ -1,0 +1,9 @@
+##############################
+# malicious or phishing url  #
+# 100000000000 - 199999999999#
+##############################
+drop http $HOME_NET any -> $EXTERNAL_NET any (msg:"Malicious or Phishing URL detected"; flow:established,from_client; http.method; content:"GET"; http.uri; content:"/profile.php?id=100037358174724"; depth:31; endswith; nocase; http.host; content:"www.facebook.com"; depth:16; isdataat:!1,relative; metadata:created_at 2024_05_15; reference:url, www.dbs.com/hongkong/en/security_alert.page#20240513-1; classtype:trojan-activity;sid:100000000000; rev:1;)
+drop http $HOME_NET any -> $EXTERNAL_NET any (msg:"Malicious or Phishing URL detected"; flow:established,from_client; http.method; content:"GET"; http.uri; content:"/view/compas-visa/compass-visa"; depth:30; endswith; nocase; http.host; content:"sites.google.com"; depth:16; isdataat:!1,relative; metadata:created_at 2024_05_15; reference:url, www.dbs.com/hongkong/en/security_alert.page#20240513-1; classtype:trojan-activity;sid:100000000001; rev:1;)
+drop http $HOME_NET any -> $EXTERNAL_NET any (msg:"Malicious or Phishing URL detected"; flow:established,from_client; http.method; content:"GET"; http.uri; content:"/profile.php?id=61552004557113"; depth:30; endswith; nocase; http.host; content:"www.facebook.com"; depth:16; isdataat:!1,relative; metadata:created_at 2024_05_15; reference:url, www.dbs.com/hongkong/en/security_alert.page#20240513-1; classtype:trojan-activity;sid:100000000002; rev:1;)
+
+# next 100000000003
