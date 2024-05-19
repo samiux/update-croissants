@@ -168,6 +168,7 @@
 2r-coinbase.com
 2s-coinbase.com
 2sv-coinbase.com
+2x5.xyz
 352134951-coinbase.com
 38468-coinbase.com
 388503.xyz
@@ -275,6 +276,7 @@ aimori.net
 aimp.day
 airstar.bond
 aismexmts.com
+aks.ugho.com
 alanize.com
 albbthq902.xyz
 aleviusr.com
@@ -617,6 +619,7 @@ deny-coinbase.com
 desmoinesreg.com
 dev-clientservice.com
 dex-ys.net
+dfizm.com
 dflfmgsdokasdcpl.com
 dfvzfvd.help
 difx.hk787878.com
@@ -656,6 +659,7 @@ e0aonr.creativeplus.my.id
 e1awq1lp.commonline.space
 ebay-global.publicvm.com
 ebill-hk.com
+ecom.dfizm.com
 ecowasnatghana.com
 edgesync.net
 edhec.com
@@ -723,6 +727,7 @@ fraktomaam.com
 fraudulent-coinbase.com
 freamingrafttwoway.sbs
 frotneels.shop
+ft.2x5.xyz
 ft-us.com
 fuckmy.site
 fuckmy.store
@@ -796,6 +801,7 @@ guard-apple.com
 guardian-coinbase.com
 guard-icloud.com
 guide-gemini.com
+guilty-patricia-connecticut-pulled.trycloudflare.com
 gycltda.cl
 gymnasium-essen-werden.de
 h1hrapp.com
@@ -1178,6 +1184,7 @@ onekliglx.xyz
 oneklixpuk.xyz
 onlinedietslimm.xyz
 onualituyrs.org
+oo-advances-computers-interests.trycloudflare.com
 oopscokir.com
 operatida.com
 opewu.homes
@@ -1307,6 +1314,7 @@ rslimess.xyz
 r.smatome.top
 rvpconstruction.net
 rwziag.pirate
+s.2x5.xyz
 safetyfactor.online
 sameera.gq
 sandakan.top
@@ -1419,6 +1427,7 @@ stocks.canamc-pro.com
 stocks.jtwstock-app.com
 stocks.principal.apps.com
 stratimasesstr.com
+strengthening-memories-reports-restoration.trycloudflare.com
 stualialuyastrelia.net
 subextensibleness.sbs
 suite-trezor.io
@@ -1450,6 +1459,7 @@ taisetsu.or.jp
 taishanlaw.com
 talagrem.com
 talented-friendly-price.glitch.me
+taobc.tv
 tapouttv28.com
 taurusr.com
 tav-nestevalute.com
@@ -1532,6 +1542,7 @@ trade.u-i-group.com
 transferusee.com
 trasenanoyr.best
 triangleseasonbenchwj.shop
+trycloudflare.com
 tsx-com.co.jp
 ttincoming.traveltraffic.cc
 tucker-group.slack.com
