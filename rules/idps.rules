@@ -239,4 +239,8 @@ drop tls $HOME_NET any -> any any (msg:"SN NRD Phishing 30 day range TLS SNI ser
 # Bad User-Agents
 ##drop http any any -> any any (msg:"Bad User-Agents"; http.user_agent; dataset:isset, bad-user-agents, type string, load bad-user-agents.list, memcap 10mb, hashsize 1024; classtype: attempted-recon; priority:1; sid:1030053; rev:1;)
 
-# next sid:1030054
+# SolarMarker
+# https://go.recordedfuture.com/hubfs/reports/cta-2024-0513.pdf
+drop tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"Juypter / SolarMarker Stealer Outbound C2 Communication"; flow:established,to_server; content:"POST|20 2f 20|HTTP|2f|1|2e|1|0d 0a|Host|3a 20|"; fast_pattern; depth:23; content:"Content-Length|3a 20|"; distance:0; content:"Expect|3a 20|100-continue|0d 0a|Connection|3a 20|Keep-Alive|0d 0a 0d 0a|"; distance:0; pcre:"/Host\x3a\x20[^\x0d]+\x0d\x0aContent\x2DLength\x3a/"; sid:1030054; reference:url,"https://tria.ge/240220-28414agg46/behavioral2"; metadata: date 2024-03-19; metadata: author JGROSFELT;)
+
+# next sid:1030055
