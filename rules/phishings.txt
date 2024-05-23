@@ -275,6 +275,7 @@ agony.compress.to
 aimori.net
 aimp.day
 airstar.bond
+airst.giize.com
 aismexmts.com
 aks.ugho.com
 alanize.com
@@ -297,6 +298,8 @@ anguilliform.sbs
 ank-alibb.com
 anmeldeseiten.de
 annuelertimes.sbs
+api.bitdefenderupdate.org
+api.simpletra.com
 api.wqebew.com
 apkcombo.com
 apkflash.com
@@ -368,6 +371,7 @@ assistcoltd.com
 auberdine.etowns.net
 audiovisuals.sbs
 auproject.xyz
+auth.bitdefenderupdate.com
 authenticate-gemini.com
 authorize-gmail.com
 autodesk.pm
@@ -409,9 +413,11 @@ biltongpumpsiecrumrod.sbs
 binance-okta.com
 binenec.com
 biondocenere.com
+bitdefenderupdate.org
 bitextec.com
 bitgetvn.com
 bitiiiiiii.cc
+bit.kozow.com
 bitoptdl.com
 bitopt-ex.com
 bit-optiver.com
@@ -506,6 +512,7 @@ cdn42.space
 cdn43.space
 cdn45.space
 cdn46.space
+cdn.g8z.net
 celestyna.tk
 centralizebd.com
 cfe.mx
@@ -639,6 +646,8 @@ discussiowardder.website
 dixito.ml
 diyigongyiing.com
 dl.sneakerhost.com
+dns.g8z.net
+dns-log.d-n-s.org.uk
 dns.transferusee.com
 doc-0s-44-docstext.googleusercontent.com
 doc-10-44-docstext.googleusercontent.com
@@ -681,6 +690,7 @@ eichhorn-gems.com
 eingangfurkunden.digital
 electrictulsa.com
 elizabi.tk
+employee.mywire.org
 entrecieletmer.net
 eprst431.boo
 epselectricidad.com.ar
@@ -717,6 +727,7 @@ familyshpto.com
 fancli.com
 fawzpp.indy
 fb-gj.top
+fc.adswt.com
 fcc-okta.com
 fdgh67ifghw4.xyz
 febnk.cn
@@ -839,6 +850,7 @@ hbakun.geek
 hd-calm.com
 help-bitfinex.com
 helpdesk-apple.com
+helpdesk.fxnxs.com
 helpdesk-gemini.com
 helpdesk-icloud.com
 help-shakepay.com
@@ -918,6 +930,7 @@ igcotd.top
 ig-exp.yz
 ig-papers.com
 iina-app.lat
+images.emldn.com
 images.kiidcloud.com
 images.markplay.net
 imgfil.com
@@ -1011,8 +1024,10 @@ liabilityarrangemenyit.shop
 lightpillar.lat
 lightseinsteniki.org
 lindaztert.net
+linklab.blinklab.com
 linkr.bio
 linksammosupply.com
+link.theworkguyoo.com
 lintant.top
 litterbolo.com
 liuliuoumumy.org
@@ -1033,8 +1048,13 @@ m.965825.vip
 macbartender.lat
 maconlineoffice.com
 magiraptoy.com
+mail.adswt.com
+mail.bomloginset.com
 mail.c-5.ne.jp
 mailchimp-addons.com
+mail.pcygphil.com
+mail.simpletra.com
+mail.theworkguyoo.com
 m.airequipment.net
 makeyourpay.com
 mammaterijekasumy.sbs
@@ -1044,6 +1064,7 @@ managengines.com
 managengines.net
 managengins.com
 managengins.net
+manags.twilightparadox.com
 maramaravilha.com
 markplay.net
 marukiseikaten.com
@@ -1071,6 +1092,7 @@ m.dancihu.com
 mediacratia.ru
 meet-go.click
 meetviberapi.com
+message.ooguy.com
 messages-coinbase.com
 metbez.gopher
 meter-u.com
@@ -1152,8 +1174,10 @@ newpc-hk.com
 newprogrms.xyz
 news.beneffit.top
 news.comsnews.com
+news.nevuer.com
 new.xsdelx.top
 newyan-1e09d.appspot.com
+newy.hifiliving.com
 ngfdho.com
 nhdata.s3-us-west-2.amazonaws.com
 niaah.org
@@ -1227,6 +1251,7 @@ passatempobasico.com.br
 password-app.pro
 patricammote.com
 patrikbob100.fvds.ru
+payroll.mywire.org
 pazg-app.com
 p.bramco.net
 pccw-hkt.online
@@ -1272,6 +1297,7 @@ protect-apple.com
 protect-coinbase.com
 protect-gmail.com
 protect-kraken.com
+provider.giize.com
 prtgscan.com
 prx10.b36cname.site
 prx11.b36cname.site
@@ -1329,6 +1355,7 @@ renaissance-sapp.com
 reset-okta.com
 restohalto.site
 restore-coinbase.com
+rest.redirectme.net
 return-coinbase.com
 reverts-coinbase.com
 rewroiz.com
@@ -1445,6 +1472,8 @@ sokingscrosshotel.com
 solshirecap.com
 solucionesgeofisicas.slack.com
 soneservice.shop
+sopho.kozow.com
+spcg.lunaticfridge.com
 spendthriftiness.sbs
 _spf.microsoft.com
 spf.microsoft.com
@@ -1625,6 +1654,7 @@ upd7.com
 upd9.com
 update.centos-yum.com
 update.transferusee.com
+upupdate.ooguy.com
 urlca.com
 urlcod.com
 urlgoal.com
@@ -1720,6 +1750,7 @@ wnisyi.libre
 wnjeomqu.cc
 wocomfx.com
 woods-cf.com
+word.emldn.com
 workable.uk.com
 workday.pm
 world.roundchiccn.com
