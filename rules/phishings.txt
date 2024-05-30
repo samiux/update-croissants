@@ -933,6 +933,7 @@ icbcs.primarybonds.com
 iconicec.ca
 id434039.xyz
 identification-coinbase.com
+identitynetwork.top
 id-swiss-ch.ink
 igcotd.cc
 igcotd.top
@@ -1316,6 +1317,7 @@ protect-coinbase.com
 protect-gmail.com
 protect-kraken.com
 provider.giize.com
+proxies.identitynetwork.top
 prtgscan.com
 prx10.b36cname.site
 prx11.b36cname.site
