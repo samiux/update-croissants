@@ -527,6 +527,7 @@ carousell-hk.webefx.shop
 carousell.orderfrom.shop
 carousell.orderfrom.today
 carousell.s-wallet.in
+carousell.trafferwallet.shop
 castechtools.com
 castorkompetanse.no
 cbank.pages.dev
@@ -1741,6 +1742,7 @@ teiegramn.org
 teiegramr.com
 teiegram-yz.com
 teiegramz.com
+teiegtm.com
 teiergman.com
 teiergom.com
 telagram-yz.com
@@ -1827,6 +1829,7 @@ trader.forexgsg.com
 trader.graysfx.com
 trader.gsforex.net
 trade.u-i-group.com
+trafferwallet.shop
 transferusee.com
 trasenanoyr.best
 trentandcastle.com
