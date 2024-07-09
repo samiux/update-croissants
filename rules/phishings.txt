@@ -420,6 +420,7 @@ auproject.xyz
 auth.bitdefenderupdate.com
 authenticate-gemini.com
 authorize-gmail.com
+auto.c3pool.org
 autodesk.pm
 availitond.com
 avast-securedownload.com
@@ -460,6 +461,7 @@ beacon.net.eu.org
 bedrost.com
 bellevuelimited.com
 bellevuetrade.com
+berrystore.me
 bgnpro.com
 b.guterman.net
 bhex888.com
