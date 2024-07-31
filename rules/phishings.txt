@@ -805,6 +805,7 @@ deutschbank.es-infos.su
 deutschland-zahlung.eu
 dev-clientservice.com
 dex-ys.net
+de.ztec.store
 dfizm.com
 dflfmgsdokasdcpl.com
 dfvzfvd.help
