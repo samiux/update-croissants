@@ -188,7 +188,7 @@ drop http $EXTERNAL_NET any -> any any (msg:"LinkScan User-Agent"; content:"Link
 drop http $EXTERNAL_NET any -> any any (msg:"Link User-Agent"; content:"Link"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060178; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"Scan User-Agent"; content:"Scan"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060179; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"trivial User-Agent"; content:"trivial"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060180; rev:2;)
-drop http $EXTERNAL_NET any -> any any (msg:"Mass User-Agent"; content:"Mass"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060181; rev:2;)
+#alert http $EXTERNAL_NET any -> any any (msg:"Mass User-Agent"; content:"Mass"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060181; rev:3;)
 #alert http $EXTERNAL_NET any -> any any (msg:"Download User-Agent"; content:"Download"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060182; rev:3;)
 drop http $EXTERNAL_NET any -> any any (msg:"Mata User-Agent"; content:"Mata"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060183; rev:2;)
 drop http $EXTERNAL_NET any -> any any (msg:"Hari User-Agent"; content:"Hari"; nocase; http_user_agent; classtype:web-application-attack; priority:1; sid:1060184; rev:2;)
