@@ -423,6 +423,7 @@ aslead-group.co.jp
 aspiringmatch.com
 assets.work-for.top
 assistcoltd.com
+atlantic.census.shodan.io
 auberdine.etowns.net
 audiovisuals.sbs
 au-lives.su
@@ -649,6 +650,17 @@ cdn46.space
 cdn.g8z.net
 cdn-inform.com
 celestyna.tk
+census10.shodan.io
+census11.shodan.io
+census12.shodan.io
+census1.shodan.io
+census2.shodan.io 
+census3.shodan.io
+census4.shodan.io
+census6.shodan.io
+census7.shodan.io
+census8.shodan.io
+census9.shodan.io
 centralizebd.com
 cfe.mx
 cfia.or.cr
@@ -1380,6 +1392,7 @@ lts-bochk.com
 lucashnancy.com
 lumiapps.io
 lwafa.actiongroup.my.id
+m247.ro.shodan.io
 m.57977.top
 m.965825.vip
 m.9-9-11.com
@@ -1670,6 +1683,7 @@ outpacein.xyz
 ownerbuffersuperw.pw
 oy.ottos.fun
 p2oaviwt39ui.com
+pacific.census.shodan.io
 paesslers.com
 panel.api-bo.my.id
 panel-host.clannesia.com
@@ -1839,6 +1853,7 @@ ricinus-cb.ru
 ricinus-cc.ru
 ricinus.ru
 ricinus.su
+rim.census.shodan.io
 ripnoticebook.com
 ritacot.com
 riverhasus.com
