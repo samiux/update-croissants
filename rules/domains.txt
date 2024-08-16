@@ -34,12 +34,10 @@ ama.industrystats.store
 ama.itresources.lol
 ama.newtech.lol
 ama.resourcegate.lol
-anachyyyyy.duckdns.org
 api.garageserviceoperation.com
 asp1.demos.schoolofsoftware.com
 aton.b0t.me
 bameboohr.com
-barelytherejewels.com
 bassizcellskz.shop
 beeoann.hackcrack.io
 bhdadhire.pknews.site
@@ -81,7 +79,6 @@ dns.skypeinc.com
 doggygangers.com
 dowmload.co
 drsmarinegroup.com
-drvenomjh.duckdns.org
 eadzagba1.duckdns.org
 ec2-175-41-154-10.ap-southeast-1.compute.amazonaws.com
 ec2-18-191-219-171.us-east-2.compute.amazonaws.com
@@ -113,7 +110,6 @@ fmprc-gov-cn.dowmload.co
 forlost.dev.tokeroed.io
 fredfom.ddnsfree.com
 fy.dzkjqd.com
-ghdsasync.duckdns.org
 gho0kgklj.watermellon.site
 ghost.foodiecorner.rest
 google-inc.ltd
@@ -135,6 +131,7 @@ js.t00ls.top
 k1gkl25as.top
 kasperskye.com
 kerrerf.com
+kirklareliliste.cfd
 konggaard.dev.tokeroed.io
 kworker.net
 languagedscie.shop
@@ -153,7 +150,6 @@ mofa-gov-bd.dowmload.co
 mofa-gov-pk.dowmload.co
 moittadvisory.pmd-offc.info
 muyijun.top
-ncmomenthv.duckdns.org
 nexus.repo.update.0o0.foo
 nj3100.duckdns.org
 nutrasupplier.com
@@ -192,7 +188,6 @@ robotics.dev.tokeroed.io
 rothaky.com
 s7.canada.wiretun.com
 safety-subcommittee.gl.at.ply.gg
-sentry-cxso.onrender.com
 simple-updatereport.com
 since-searching.gl.at.ply.gg
 skorstensfejer.dev.tokeroed.io
@@ -224,8 +219,8 @@ video.pknews.site
 viewifydocs.com
 vitaminer.com
 vmregoqghekdxdbsearch.fy.dzkjqd.com
-vxsrwrm.duckdns.org
 webdisk.reviews-sec.com
+wedominatelawsuits.top
 writerospzm.shop
 wuauserv.site
 www.120ym.com
@@ -242,6 +237,5 @@ www.ritcophysiotherapy.com.au
 www.songge-ai.com
 www.vitaminer.com
 www.ynxa520.com
-xoowill56.duckdns.org
 yanzu.top
 zghgseitu.cloudns.be
