@@ -760,6 +760,7 @@ carousell.b3zad.top
 carousell.bankway.space
 carousell.dh79.top
 carousell.fpsasia.shop
+carousell-fps.e-fps.digital
 carousell-fps.efps.shop
 carousell.fundservice.online
 carousell.gf39.top
@@ -1675,6 +1676,7 @@ juliusbaercorporate.com
 juliusbaer.dimensionselite.vip
 juliusbaer-escrow.com
 juliusbaerpb.com
+juliusbaerusd.com
 juliusbar.asia
 juliusbar.in
 juliusbar.live
