@@ -815,6 +815,7 @@ carousell-fps.webfps.shop
 carousell-fps.webfps.top
 carousell.fundservice.online
 carousell.gateway-asia.icu
+carousell.gateway-market.icu
 carousell.gf39.top
 carousell.h1ide.top
 carousell-hk.bhetq.shop
@@ -1429,6 +1430,7 @@ gamascript.com
 gameservicesplay.com
 gasgas-wd3463btrq-uc.a.run.app
 gateway-asia.icu
+gateway-market.icu
 gayionsd.com
 gbfefw.com
 gbionet.com
@@ -1815,6 +1817,7 @@ julusbaer.com
 juniorstwosometogt.sbs
 justbigso.com
 justifycanddidatewd.shop
+jutiusbaer.com
 jwt-app.com
 jx-krrdbo6imq-uc.a.run.app
 jxz.gbfefw.com
