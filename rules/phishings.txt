@@ -815,6 +815,7 @@ carousell.dh79.top
 carousell.e-wallet.world
 carousell.fps-asia.icu
 carousell.fpsasia.shop
+carousell.fpsbank.icu
 carousell-fps.confirm-order.today
 carousell-fps.easyfps.shop
 carousell-fps.e-fps.digital
@@ -870,6 +871,7 @@ carousell-hk.tukiks.shop
 carousell-hk.tutarjeta.shop
 carousell-hk.vebokl.shop
 carousell-hk.webefx.shop
+carousell-hk.wopiyu.shop
 carousell.l6t3.xyz
 carousell.m51.xyz
 carousell.marketasia.icu
@@ -883,6 +885,7 @@ carousell.transferasia.icu
 carousell.transfer-gateway.icu
 carousell.transhk.shop
 carousell.v1o0.xyz
+carousell.viabank.shop
 carousell.vxc1.top
 carousell.whathfa.top
 carousell.whatjfa.top
@@ -1124,6 +1127,7 @@ datatel.shop
 davilta.tk
 dbdb.addea.workers.dev
 dbeight8pt.top
+dbsbank.cam
 dbs-company.com
 dbsexc.com
 dbs.hk
@@ -1426,6 +1430,7 @@ forikabrof.click
 fps-asia.icu
 fpsasia.icu
 fpsasia.top
+fpsbank.icu
 fps-gateway.shop
 fpsgateway.shop
 fpsget.digital
@@ -3352,6 +3357,7 @@ vendpei.com
 verdascript.com
 veriscroll.com
 vgbgwzmr.com
+viabank.shop
 viafps.icu
 viandelarkishness.sbs
 view.clexp-vip
@@ -3509,6 +3515,7 @@ woaba.com
 wocomfx.com
 wonderstab.com
 woods-cf.com
+wopiyu.shop
 word.emldn.com
 workable.uk.com
 workday.pm
