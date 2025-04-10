@@ -878,6 +878,7 @@ carousell.marketasia.icu
 carousell.orderfrom.shop
 carousell.orderfrom.today
 carousellorder.momentfps.run
+carousell-order.transfer-asia.icu
 carousell.receivefps.digital
 carousell.s-wallet.in
 carousell.trafferwallet.shop
@@ -3214,6 +3215,7 @@ trafferwallet.shop
 transasia.icu
 transasia.shop
 transasia.top
+transfer-asia.icu
 transferasia.icu
 transfer-gateway.icu
 transferusee.com
