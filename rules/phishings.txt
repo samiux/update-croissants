@@ -514,6 +514,7 @@ asia.ccb.top
 asiaccb.top
 asiafps.icu
 asiafps.top
+asiafunds.top
 asia-market.icu
 asiasell.shop
 asia-transfer.icu
@@ -851,6 +852,7 @@ carousell-hk.datatel.shop
 carousell-hk.dgjet.shop
 carousell-hk.dkstation.shop
 carousell-hk.freebux.shop
+carousell-hk.hapikas.shop
 carousell-hk.hefutotu.shop
 carousell-hk.itotoki.shop
 carousell-hk.jetpetir.shop
@@ -875,6 +877,7 @@ carousell-hk.wopiyu.shop
 carousell.l6t3.xyz
 carousell.m51.xyz
 carousell.marketasia.icu
+carousell-order.asiafunds.top
 carousell.orderfrom.shop
 carousell.orderfrom.today
 carousellorder.momentfps.run
@@ -1610,6 +1613,7 @@ hangseng.apply-logon.com
 hangseng.web-hk-logiin.com
 hanseaticbank.su
 hanseaticsbank-da.com
+hapikas.shop
 happytotstoys.com
 hatsapp.net
 hawarnews.com
