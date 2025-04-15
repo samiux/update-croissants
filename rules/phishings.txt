@@ -863,6 +863,7 @@ carousell-hk.kekesp.shop
 carousell-hk.ketotkkij.shop
 carousell-hk.kiksuos.shop
 carousell-hk.kotablau.shop
+carousell-hk.kripiker.shop
 carousell-hk.kstation.shop
 carousell-hk.lifetw.shop
 carousell-hk.linetotyo.shop
@@ -1929,6 +1930,7 @@ krd6.com
 kretic.info
 krgoodapp.top
 krgov24.top
+kripiker.shop
 ks8cb.cc
 ksarpo.parody
 kstation.shop
