@@ -875,6 +875,7 @@ carousell-hk.lifetw.shop
 carousell-hk.linetotyo.shop
 carousell-hk.norgdc.shop
 carousell-hk.orgaoil.shop
+carousell-hk[.]pikalty[.]shop
 carousell-hk.pvpebl.shop
 carousell-hk.solitato.shop
 carousell-hk.tukiks.shop
@@ -2624,6 +2625,7 @@ p.hashvault.pro
 photoshop-adobe.shop
 phperl.com
 picfs.com
+pikalty[.]shop
 pixeldrain.com
 pixelmator.pics
 pixelmator.us
