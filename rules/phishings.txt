@@ -740,6 +740,7 @@ bootedpindusvalenba.sbs
 bootstrapcdn.fun
 bos-bank-of-singapore-limited.en.aptoide.com
 bos-cms.cloudzz.org
+bosen.shop
 bostonxs.com
 bot.hamsterrace.space
 bot.upd-rkn.net
@@ -854,6 +855,7 @@ carousell.gf39.top
 carousell.h1ide.top
 carousell-hk.ataty.shop
 carousell-hk.bhetq.shop
+carousell-hk.bosen.shop
 carousell-hk.bsrtat.shop
 carousell-hk.capebbp.shop
 carousellhk.capebbp.shop
@@ -898,6 +900,7 @@ carousell-order.asiafinance.world
 carousell-order.asiafunds.top
 carousell.orderfrom.shop
 carousell.orderfrom.today
+carousell-order.hk-trade.icu
 carousellorder.momentfps.run
 carousell-order.transfer-asia.icu
 carousell.receivefps.digital
@@ -1709,6 +1712,7 @@ hkpoint.cc
 hkprn.com
 hksfc.pro
 hk-telegram.com
+hk-trade.icu
 hkwanlngasd.vip
 hk.whappxs.com
 hkxgmeigaomei188.com
@@ -2563,6 +2567,7 @@ opodo.onelink.me
 ops.rpm-bin.link
 optiverex.com
 orbitpettystudio.fun
+order-gateway.shop
 order-transaction.digital
 ordertransaction.digital
 orgaoil.shop
@@ -2945,6 +2950,7 @@ sfexpress.fps-in.shop
 sf-express.fundsway.site
 sf-express-hk.webefx.shop
 sf-express.orderfrom.shop
+sfexpress.order-gateway.shop
 sfexpress.s-wallet.in
 sfexpress.viafps.icu
 sf-express.view247.biz
