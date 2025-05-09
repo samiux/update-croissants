@@ -883,6 +883,7 @@ carousell-hk.lifetw.shop
 carousell-hk.linetotyo.shop
 carousell-hk.norgdc.shop
 carousell-hk.orgaoil.shop
+carousell-hk.osker.shop
 carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
 carousell-hk.pvpebl.shop
@@ -890,6 +891,7 @@ carousell-hk.solitato.shop
 carousell-hk.tukiks.shop
 carousell-hk.tutarjeta.shop
 carousell-hk.vebokl.shop
+carousell-hk.vfqske.shop
 carousell-hk.webefx.shop
 carousell-hk.wopiyu.shop
 carousell-hk.xoqfat.shop
@@ -2397,6 +2399,7 @@ newprogrms.xyz
 news.beneffit.top
 news.comsnews.com
 news.nevuer.com
+news.txcbpaw.com
 new.xsdelx.top
 newyan-1e09d.appspot.com
 newy.hifiliving.com
@@ -2575,6 +2578,7 @@ orientflags.com
 original-backend.com
 orkesfm.com
 osiso.com
+osker.shop
 oss.eriakos.com
 oszar.com
 otpdank24.top
@@ -3321,6 +3325,7 @@ tweeat.com
 twmoomoo.com
 two-root.com
 tw.yuantavip.top
+txcbpaw.com
 txkjym.com
 txkjym.xyz
 tyyutj.com
@@ -3428,6 +3433,7 @@ vencentservice.com
 vendpei.com
 verdascript.com
 veriscroll.com
+vfqske.shop
 vgbgwzmr.com
 viabank.shop
 viafps.icu
