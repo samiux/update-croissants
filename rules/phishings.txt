@@ -894,6 +894,7 @@ carousell-hk.osker.shop
 carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
 carousell-hk.pvpebl.shop
+carousell-hk.roalkenkr.shop
 carousell-hk.skechstre.shop
 carousell-hk.solitato.shop
 carousell-hk.tisket.shop
@@ -1128,11 +1129,13 @@ curricular.sbs
 customerservice-coinbase.com
 customerservice-pccw.com
 customsearchbar.me
+cvbedf.com
 cvgeuwo.com
 cvmnomvxm.com
 cvscout.uk
 cvxcde.com
 cxyh.bwnyq.cn
+cxyh.cvbedf.com
 cyrptomaker.info
 czbrwa.geek
 d2h7pt7y3j9pry.cloudfront.net
@@ -2871,6 +2874,7 @@ rls.upd-rkn.net
 rmdtqq.libre
 rmp.gov.bd
 rnjca.com
+roalkenkr.shop
 robot.wikaba.com
 rockamore.co.uk
 rockerstalbertcerate.sbs
