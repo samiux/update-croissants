@@ -901,6 +901,7 @@ carousell-hk.pikalty.shop
 carousell-hk.pvpebl.shop
 carousell-hk.roalkenkr.shop
 carousell-hk.rtlkea.shop
+carousell-hk.shopeeslke.shop
 carousell-hk.skechstre.shop
 carousell-hk.solitato.shop
 carousell-hk.tisket.shop
@@ -3029,6 +3030,7 @@ shipping-policy.info
 shk.hkhfad.com
 shk.hkhfah.com
 shop4.tianscn.com
+shopeeslke.shop
 shortsvelventysjo.shop
 shoxet.com
 shurll.com
