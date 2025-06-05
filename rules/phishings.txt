@@ -897,6 +897,7 @@ carousell-hk.mhtsketch.shop
 carousell-hk.norgdc.shop
 carousell-hk.orgaoil.shop
 carousell-hk.osker.shop
+carousell-hk.palke.shop
 carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
 carousell-hk.pvpebl.shop
@@ -2637,6 +2638,7 @@ paknavy-gov.org
 paknavy-govpk.info
 paknavy-govpk.net
 pakoyayinlari.com
+palke.shop
 panel.api-bo.my.id
 panel-host.clannesia.com
 panel-host.dmdpanel.my.id
