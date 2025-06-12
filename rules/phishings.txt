@@ -354,12 +354,14 @@ ahd.lat
 ahfgg90.xyz
 aimori.net
 aimp.day
+aircoforce.com
 airstar.bond
 airst.giize.com
 aismexmts.com
 ajax.failexpect.biz.id
 aks.ugho.com
 ala-hk.site
+alajami.shop
 alanize.com
 ala-og.site
 albbthq902.xyz
@@ -412,6 +414,7 @@ androidadbserver.com
 androidmetricsasia.com
 androidsdkstream.com
 androidwebkit.com
+android.zyxgapp.com
 angryipscaner.com
 angryipscan.net
 anguilliform.sbs
@@ -868,6 +871,7 @@ carousell.gateway-asia.icu
 carousell.gateway-market.icu
 carousell.gf39.top
 carousell.h1ide.top
+carousell-hk.alajami.shop
 carousell-hk.ataty.shop
 carousell-hk.bdbusket.shop
 carousell-hk.bhetq.shop
@@ -1745,6 +1749,7 @@ hilcfacdigitaelpichipt.norwayeast.cloudapp.azure.com
 hj.66099.shop
 hjfjsd.com
 hj.smratone.vip
+hjxafs.com
 hk-app-telegram.org
 hkawweb.vip
 hkboc.net
@@ -3473,6 +3478,7 @@ unicorn.rpm-bin.link
 unicrebitdank.top
 unicredibank.top
 uninsolvent.sbs
+unionpay.xin
 uniswap4v.com
 uniswapsv4.com
 uniswapv4.ai
@@ -3899,6 +3905,7 @@ www-help-coinbase.com
 www-help-gemini.com
 www.hemispherebit.com
 www.hemispherehit
+www.hjxafs.com
 www.hkchangyuan.com
 www.hkdace.com
 www.hkdbtc.com
@@ -4230,8 +4237,10 @@ zxgj82.com
 zxgj89.com
 zxgj97.com
 zxyhgw.com
+zyhk.aircoforce.com
 zylc-h5.s3-accelerate.amazonaws.com
 zysecurities.com
+zyxgapp.com
 zyzrpvm.xyz
 zziveastnews.com
 創興銀行有限公司.com
