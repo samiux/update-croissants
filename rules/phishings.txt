@@ -909,6 +909,7 @@ carousell-hk.mposlotx.shop
 carousell-hk.norgdc.shop
 carousell-hk.orgaoil.shop
 carousell-hk.osker.shop
+carousell-hk.oumami.shop
 carousell-hk.palke.shop
 carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
@@ -2666,6 +2667,7 @@ osker.shop
 oss.eriakos.com
 oszar.com
 otpdank24.top
+oumami.shop
 outpacein.xyz
 ownerbuffersuperw.pw
 oy.ottos.fun
