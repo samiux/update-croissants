@@ -886,6 +886,7 @@ carousell-hk.dkstation.shop
 carousell-hk.flkeeesoe.shop
 carousell-hk.freebux.shop
 carousell-hk.gjioqjoqz.shop
+carousell-hk.gomamita.shop
 carousell-hk.hapikas.shop
 carousell-hk.hefutotu.shop
 carousell-hk.hoslu.shop
@@ -1623,6 +1624,7 @@ gohhs.com
 goiin.baltez-offic.xyz
 goingupdate.com
 go.link
+gomamita.shop
 good2-led.com
 goodapps.top
 googiedrivers.com
@@ -3416,6 +3418,7 @@ true-bottom.com
 true-lie.com
 trust.setup.mom
 trycloudflare.com
+trygov.sbs
 tsinghua-edu.tech
 tsx-com.co.jp
 ttcyci.com
