@@ -905,6 +905,7 @@ carousell-hk.lfbhoq.shop
 carousell-hk.lifetw.shop
 carousell-hk.linetotyo.shop
 carousell-hk.luklosket.shop
+carousell-hk.mamili.shop
 carousell-hk.mhtsketch.shop
 carousell-hk.mposlotx.shop
 carousell-hk.norgdc.shop
@@ -2204,6 +2205,7 @@ m.airequipment.net
 make69.info
 makeyourpay.com
 malwarebytes.pro
+mamili.shop
 mammaterijekasumy.sbs
 manageeengines.com
 manageeengines.net
