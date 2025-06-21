@@ -948,6 +948,7 @@ carousell.orderfrom.shop
 carousell.orderfrom.today
 carousell-order.hk-trade.icu
 carousellorder.momentfps.run
+carousell-order.onetransferhk.icu
 carousell-order.transfer-asia.icu
 carousell.receivefps.digital
 carousell.s-wallet.in
@@ -2678,6 +2679,7 @@ oneco.ne.jp
 onekliglx.xyz
 oneklixpuk.xyz
 onelink.me
+onetransferhk.icu
 onlinedietslimm.xyz
 online.yrnvtklot.com
 onualituyrs.org
