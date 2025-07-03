@@ -901,6 +901,7 @@ carousell-hk.datatel.shop
 carousell-hk.dgjet.shop
 carousell-hk.dkstation.shop
 carousell-hk.flkeeesoe.shop
+carousell.hk-fps.icu
 carousell-hk.freebux.shop
 carousell-hk.gjioqjoqz.shop
 carousell-hk.gomamita.shop
@@ -1819,6 +1820,7 @@ hkeotc.hk
 hketoll.buzz
 hkexcoin.vip
 hkexgroup.me
+hk-fps.icu
 HK-futu.cfd
 hk-futu.cloud
 HK-Futu.com
