@@ -874,6 +874,7 @@ carousell-fps.fps-gateway.shop
 carousell-fps.fpsgateway.shop
 carousell-fps.fpsget.digital
 carousell-fps.fpsprocess.top
+carousell.fps-hk.cfd
 carousell-fps.my-fps.top
 carousell-fps.order-transaction.digital
 carousell-fps.ordertransaction.digital
@@ -1570,6 +1571,7 @@ fpsbank.icu
 fps-gateway.shop
 fpsgateway.shop
 fpsget.digital
+fps-hk.cfd
 fps-in.shop
 fpsonline.digital
 fpsonline.icu
@@ -2883,6 +2885,7 @@ pmd-office.org
 pocketofpreschool.com
 pokemon.denii.biz.id
 polyideism.sbs
+polysharpinvestmentslimited.com
 pone.iechange.bz
 pone.iexchange.bz
 popfealt.one
@@ -4190,6 +4193,7 @@ www.paradisrt.com
 www.part-stock.com
 www.pjtgoldkh.cc
 www.plaquist-simulator.com
+www.polysharpinvestmentslimited.com
 www.polyxcoit.com
 www.posangfinancial.com
 www.proexi.icu
