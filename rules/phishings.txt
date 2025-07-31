@@ -483,6 +483,7 @@ app.rggdfctvd.com
 app.rjiuiwee.com
 app.rqgdfctvb.com
 apps.apple.com
+app.sksyzs.com
 app.stock-zhthk.com
 app.taxbita.com
 app.taxbitaw.com
@@ -1909,6 +1910,7 @@ hu-alert.online
 huaw268.cn
 huaxue6.com
 huili-valuepartners.online
+huili-webapp.netlify.app
 huionepay.me
 hujunxa.cc
 hukosafaris.com
@@ -3246,6 +3248,7 @@ sjfu-edu.co
 skechstre.shop
 skid.uno
 skinnyjeanso.com
+sksyzs.com
 skyinvestmentbank.com
 skylum.store
 skype-hk.net
