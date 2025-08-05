@@ -945,6 +945,7 @@ carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
 carousell-hk.pvpebl.shop
 carousell-hk.roalkenkr.shop
+carousell-hk.roamin.shop
 carousell-hk.rtlkea.shop
 carousell-hk.shopeeslke.shop
 carousell-hk.skechstre.shop
@@ -3083,6 +3084,7 @@ rmdtqq.libre
 rmp.gov.bd
 rnjca.com
 roalkenkr.shop
+roamin.shop
 robot.wikaba.com
 rockamore.co.uk
 rockerstalbertcerate.sbs
