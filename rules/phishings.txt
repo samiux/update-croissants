@@ -937,6 +937,7 @@ carousell-hk.mamili.shop
 carousell-hk.mhtsketch.shop
 carousell-hk.mposlotx.shop
 carousell-hk.norgdc.shop
+carousell-hk.olhaamiga.shop
 carousell-hk.orgaoil.shop
 carousell-hk.osker.shop
 carousell-hk.oumami.shop
@@ -1818,6 +1819,8 @@ hfm.yrckue.com
 hfoddy.dyn
 hfsdln.com
 hgjawe.com
+hgv.khlvvw.cn
+hgv.otjold.cn
 hhtrez.com
 hide-me.online
 highcolumn.webredirect.org
@@ -2108,6 +2111,7 @@ keys-coinbase.com
 keystore-explore.com
 kggcp.com
 kghx477.cn
+khlvvw.cn
 kiksuos.shop
 kineticwing.com
 kingsman-adv.org
@@ -2750,6 +2754,7 @@ oklm.k3121.com
 okruzihealdsburg.sbs
 oksitepl.site
 oktube999.info
+olhaamiga.shop
 omeindia.com
 omviak.com
 oncloud-analytics.com
@@ -2792,6 +2797,7 @@ osiso.com
 osker.shop
 oss.eriakos.com
 oszar.com
+otjold.cn
 otpdank24.top
 oumami.shop
 outpacein.xyz
@@ -3600,6 +3606,7 @@ txcbpaw.com
 txkjym.com
 txkjym.xyz
 tyyutj.com
+tyyywr.com
 u1x.co
 u6v.cn
 uaa.vvg2rt.top 
