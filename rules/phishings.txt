@@ -907,6 +907,7 @@ carousell-hk.clamin.shop
 carousell-hk.datatel.shop
 carousell-hk.dgjet.shop
 carousell-hk.dkstation.shop
+carousell-hk.dreamic.shop
 carousell-hk.flkeeesoe.shop
 carousell.hk-fps.icu
 carousell-hk.freebux.shop
@@ -1361,6 +1362,7 @@ downsu.com
 dows.bochkk.com
 dpav.cc
 dqwybb.com
+dreamic.shop
 drifajizo.fun
 drjspages.com
 drlashmd.com
