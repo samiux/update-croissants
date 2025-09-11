@@ -936,6 +936,7 @@ carousell-hk.itotoki.shop
 carousell-hk.jaminjos.shop
 carousell-hk.jetpetir.shop
 carousell-hk.jolitm.shop
+carousell-hk.jolleea.shop
 carousell-hk.jolywig.shop
 carousell-hk.joqxjlu.shop
 carousell-hk.kalami.shop
@@ -2091,6 +2092,7 @@ jkwxcc.com
 jlholgado.com
 jmicc.xyz
 jolitm.shop
+jolleea.shop
 jolywig.shop
 joqxjlu.shop
 joshhyoung.icu
