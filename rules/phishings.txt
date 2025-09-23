@@ -933,6 +933,7 @@ carousell-hk.gjioqjoqz.shop
 carousell-hk.gomamita.shop
 carousell-hk.hapikas.shop
 carousell-hk.hefutotu.shop
+carousell-hk.hekko.shop
 carousell-hk.hoslu.shop
 carousell-hk.itotoki.shop
 carousell-hk.jaminjos.shop
@@ -967,6 +968,7 @@ carousell-hk.oumami.shop
 carousell-hk.palke.shop
 carousell.hk-pay.click
 carousell.hk-pay.icu
+carousell.hk-pay.world
 carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
 carousell-hk.prodakalami.shop
@@ -977,6 +979,7 @@ carousell-hk.rtlkea.shop
 carousell-hk.shopeeslke.shop
 carousell-hk.skechstre.shop
 carousell-hk.solitato.shop
+carousell-hk.thekme.shop
 carousell-hk.tisket.shop
 carousell-hk.tukiks.shop
 carousell-hk.tutarjeta.shop
@@ -1834,6 +1837,7 @@ hd-calm.com
 healththebest.com
 hefutotu.shop
 hehpds.com
+hekko.shop
 help-bitfinex.com
 helpbuy10.store
 helpdesk-apple.com
@@ -1903,6 +1907,7 @@ hk.octopusd.cloud
 hk-pay.click
 hk-pay.icu
 hk-pay.shop
+hk-pay.world
 hk.pcetoll.xyz
 hkpoint.cc
 hkprn.com
@@ -3561,6 +3566,7 @@ th-auto.cn
 thecalipsoproject.com
 theguardian.webredirect.org
 theipscanner.com
+thekme.shop
 themesforytextension.com
 themicrosoftnow.com
 theofficialjuliusbaer.com
