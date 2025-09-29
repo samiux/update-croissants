@@ -985,6 +985,7 @@ carousell-hk.oumami.shop
 carousell-hk.palke.shop
 carousell.hk-pay.click
 carousell.hk-pay.icu
+carousell.hk-pay.lol
 carousell.hk-pay.world
 carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
@@ -996,6 +997,7 @@ carousell-hk.rtlkea.shop
 carousell-hk.shopeeslke.shop
 carousell-hk.skechstre.shop
 carousell-hk.solitato.shop
+carousell-hk.tabok.shop
 carousell-hk.thekme.shop
 carousell-hk.tisket.shop
 carousell-hk.tukiks.shop
@@ -1930,6 +1932,7 @@ hk.manming.vip
 hk.octopusd.cloud
 hk-pay.click
 hk-pay.icu
+hk-pay.lol
 hk-pay.shop
 hk-pay.world
 hk.pcetoll.xyz
@@ -3505,6 +3508,7 @@ syzhk.com
 szrmbxzy.ofxxfy.cn
 t0talwar.screenconnect.com
 t8bc.xyz
+tabok.shop
 t-access.jp
 tagderry.org
 tailandia.pa.gov.br
@@ -3980,6 +3984,7 @@ whatsapp-vv.cc
 whatsapp-ws.net
 whatscbapp.com
 whats-center.cfd
+whatscfapp.com
 whats-csc.com
 wheelog.com
 whereverhomebe.com
