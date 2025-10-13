@@ -1094,6 +1094,7 @@ cdn43.space
 cdn45.space
 cdn46.space
 cdn-apple.info
+cdn.discordapp.com
 cdn.g8z.net
 cdn-inform.com
 cdn.phototagx.com
@@ -1404,6 +1405,7 @@ direct-cuentas.com
 directt888.com
 direct-usuario.com
 disconnect-coinbase.com
+discordapp.com
 discord-rat23.000webhostapp.com
 discussiowardder.website
 dispositivo-triodos.com
@@ -1534,6 +1536,7 @@ equitaligaiustizia.it
 eriakos.com
 eriuioklz.com
 ernamiea.shop
+erspce-all.s3.dualstack.ap-southeast-1.amazonaws.com
 ers.zx-daimei.com
 es-accesos.su
 es-acceso.su
@@ -3750,6 +3753,7 @@ trafferwallet.shop
 transasia.icu
 transasia.shop
 transasia.top
+transferai-all.s3.dualstack.ap-southeast-1.amazonaws.com
 transfer-asia.icu
 transferasia.icu
 transfer-gateway.icu
