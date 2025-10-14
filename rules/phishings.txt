@@ -975,6 +975,7 @@ carousell-hk.hoslu.shop
 carousell-hk.itotoki.shop
 carousell-hk.jaminjos.shop
 carousell-hk.jetpetir.shop
+carousell-hk.jolashes.shop
 carousell-hk.jolitm.shop
 carousell-hk.jolleea.shop
 carousell-hk.jolywig.shop
@@ -1015,6 +1016,8 @@ carousell-hk.roalkenkr.shop
 carousell-hk.roamin.shop
 carousell-hk.rtlkea.shop
 carousell-hk.safebumil.shop
+carousell-hk.safelattach.shop
+carousell-hk.safeu.shop
 carousell-hk.shopeeslke.shop
 carousell-hk.skechstre.shop
 carousell-hk.solitato.shop
@@ -2190,6 +2193,7 @@ jinyurl.com
 jkwxcc.com
 jlholgado.com
 jmicc.xyz
+jolashes.shop
 jolitm.shop
 jolleea.shop
 jolywig.shop
@@ -3311,8 +3315,10 @@ rwziag.pirate
 s.2x5.xyz
 sabbonn.com
 safebumil.shop
+safelattach.shop
 safesearcheng.com
 safetyfactor.online
+safeu.shop
 sainnguatc.com
 sameera.gq
 samsungcdn.com
