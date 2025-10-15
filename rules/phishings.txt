@@ -1993,6 +1993,7 @@ hk-pay.shop
 hk-pay.world
 hk.pcetoll.xyz
 hkpoint.cc
+hkpois.com
 hkprn.com
 hksfc.pro
 hk-telegram.com
