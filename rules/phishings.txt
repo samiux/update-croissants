@@ -1013,6 +1013,7 @@ carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
 carousell-hk.prodakalami.shop
 carousell-hk.pvpebl.shop
+carousell-hk.riyadsafe.shop
 carousell-hk.roalkenkr.shop
 carousell-hk.roamin.shop
 carousell-hk.rtlkea.shop
@@ -3289,6 +3290,7 @@ ripnoticebook.com
 ritacot.com
 rivercapitalhk.com
 riverhasus.com
+riyadsafe.shop
 rize.lat
 rkejtgfd.com
 rls.upd-rkn.net
@@ -3953,6 +3955,7 @@ vefogy.cf
 vencentser.com
 vencentservice.com
 vendpei.com
+venomill.com
 venusimperativa.online
 verdascript.com
 veriscroll.com
