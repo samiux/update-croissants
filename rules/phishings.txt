@@ -3343,6 +3343,7 @@ root.chkstate.online
 root-head.com
 root.security-update.xyz
 rosm.pro
+rossvip.com
 rp-asset.org
 rpgmagglader.com
 r.sifraco.com
@@ -3594,6 +3595,7 @@ stockslink.en.aptoide.com
 stocks.pgimquantitative.com
 stocks.pgimquantitatives.top
 stocks.principal.apps.com
+stocks.rossvip.com
 stonance.com
 strainriskpropos.store
 stratimasesstr.com
