@@ -933,6 +933,7 @@ carousell-fps.fpsgateway.shop
 carousell-fps.fpsget.digital
 carousell-fps.fpsprocess.top
 carousell.fps-hk.cfd
+carousell.fps-hk.info
 carousell-fps.my-fps.top
 carousell-fps.order-transaction.digital
 carousell-fps.ordertransaction.digital
@@ -1714,6 +1715,7 @@ fps-gateway.shop
 fpsgateway.shop
 fpsget.digital
 fps-hk.cfd
+fps-hk.info
 fps-hk.pro
 fps-in.shop
 fpsonline.digital
