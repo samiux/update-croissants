@@ -556,6 +556,7 @@ asia-fps.icu
 asiafps.icu
 asiafps.top
 asiafunds.top
+asiahcbs.com
 asia-market.icu
 asiasell.shop
 asiatransaction.shop
@@ -974,6 +975,7 @@ carousell-hk.dgjet.shop
 carousell-hk.dkstation.shop
 carousell-hk.dreamic.shop
 carousell-hk.dreamings.shop
+carousell-hk.ebuydirect.shop
 carousell-hk.ernamiea.shop
 carousell-hk.flkeeesoe.shop
 carousell.hk-fps.icu
@@ -1002,6 +1004,7 @@ carousell-hk.kiksuos.shop
 carousell-hk.kotablau.shop
 carousell-hk.kripiker.shop
 carousell-hk.kstation.shop
+carousell-hk.ladirect.shop
 carousell-hk.lamicasa.shop
 carousell-hk.lamiebra.shop
 carousell-hk.lfbhoq.shop
@@ -1527,6 +1530,7 @@ easyfps.shop
 ebay-global.publicvm.com
 ebdc96c9.hk-line-1.com
 ebill-hk.com
+ebuydirect.shop
 ecoethabitation.com
 ecom.dfizm.com
 ecomicrolab.com
@@ -2366,6 +2370,7 @@ laboraikuxta-usuarios.com
 laborakutxa-usuario.com
 laboralkutxa.es-users.com
 laboralkutxa.es-usuarios.online
+ladirect.shop
 lagomarsinocapital.com
 lakify.ml
 lambdagolf.com
