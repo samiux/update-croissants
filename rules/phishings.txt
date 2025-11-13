@@ -983,6 +983,7 @@ carousell-hk.freebux.shop
 carousell-hk.gjioqjoqz.shop
 carousell-hk.gomamita.shop
 carousell-hk.hapikas.shop
+carousell-hk.hasenderi.shop
 carousell-hk.hefutotu.shop
 carousell-hk.heketew.shop
 carousell-hk.hekko.shop
@@ -1040,6 +1041,7 @@ carousell-hk.safelattach.shop
 carousell-hk.safetyvm.shop
 carousell-hk.safeu.shop
 carousell-hk.sendareger.shop
+carousell.hk-shop.click
 carousell-hk.shopeeslke.shop
 carousell-hk.skechstre.shop
 carousell-hk.solitato.shop
@@ -1955,6 +1957,7 @@ hanseaticbank.su
 hanseaticsbank-da.com
 hapikas.shop
 happytotstoys.com
+hasenderi.shop
 hatsapp.net
 hawarnews.com
 hbakun.geek
@@ -2047,6 +2050,7 @@ hkpoint.cc
 hkpois.com
 hkprn.com
 hksfc.pro
+hk-shop.click
 hk-telegram.com
 hktelegrm.info
 hk-trade.icu
