@@ -1010,6 +1010,7 @@ carousell-hk.lamicasa.shop
 carousell-hk.lamiebra.shop
 carousell-hk.lfbhoq.shop
 carousell-hk.lifetw.shop
+carousell-hk.likesendml.shop
 carousell-hk.linetotyo.shop
 carousell-hk.luklosket.shop
 carousell-hk.mamili.shop
@@ -2443,6 +2444,7 @@ lighten.medyamol.com
 lightpillar.lat
 lightseinsteniki.org
 like1902.xyz
+likesendml.shop
 lin.c1oudf1are.com
 lindaztert.net
 linetotyo.shop
