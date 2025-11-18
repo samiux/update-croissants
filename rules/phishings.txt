@@ -1032,6 +1032,7 @@ carousell-hk.pikalla.shop
 carousell-hk.pikalty.shop
 carousell-hk.prodakalami.shop
 carousell-hk.pvpebl.shop
+carousell-hk.reqydsend.shop
 carousell-hk.riyadsafe.shop
 carousell-hk.rksafety.shop
 carousell-hk.roalkenkr.shop
@@ -1042,6 +1043,8 @@ carousell-hk.safelattach.shop
 carousell-hk.safetyvm.shop
 carousell-hk.safeu.shop
 carousell-hk.sendareger.shop
+carousell-hk.sendos.shop
+carousell.hk-shop.cfd
 carousell.hk-shop.click
 carousell-hk.shopeeslke.shop
 carousell-hk.skechstre.shop
@@ -2052,6 +2055,7 @@ hkpoint.cc
 hkpois.com
 hkprn.com
 hksfc.pro
+hk-shop.cfd
 hk-shop.click
 hk-telegram.com
 hktelegrm.info
@@ -2089,6 +2093,7 @@ hotelsitereview.com
 hotspot.accesscam.org
 houseofgemtestweb.com
 hoyolgruop.com
+hqyimin.com
 hrclubphilippines.com
 hsa.govsred.buzz
 hsbcbank.cc
@@ -3330,6 +3335,7 @@ renta4banconet.club
 renta4banconets.club
 rentvillcr.homes
 rentvillcr.online
+reqydsend.shop
 reset-okta.com
 resource.infinityfreeapp.com
 restohalto.site
@@ -3475,6 +3481,7 @@ sendfps.online
 sendgrid.net
 sendinblue.com
 sendmessage.mooo.com
+sendos.shop
 sentosa-1.com
 sentosa-x.com
 serv00.net
